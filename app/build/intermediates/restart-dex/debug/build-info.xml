@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="25"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="38275207261810"
+    token="3809905661585332679"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="36715736060232"
+        verifier="MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="/Users/pash/Desktop/PIKUP/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="37098599873746"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/pash/Desktop/PIKUP/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="38275207261810"
+        verifier="COLD_SWAP_REQUESTED" />
+
+</instant-run>
