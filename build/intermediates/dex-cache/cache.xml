@@ -2,22 +2,13 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.0.2/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/4cf59035b0e297a5e38502c6a458a1a02928950b/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.0.2_7cd1a505f3fbf38c45b97c94876e612ebd1b288e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.2/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.0.2_e7cb619049dd6dca5a84c2989a7b027d86996ad9/classes.dex" />
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_798133393e68674eebaca2da95bbf5082fdd92d2.jar" />
     </item>
     <item
         is-multidex="true"
@@ -25,62 +16,98 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6d02fec36d21bf2a932e9d21197846be84da5a0f">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_dfe8248dc1afb4947357095f8ec4127d6cdbe381/classes.dex" />
+        sha1="527b863e5dbdb50543f380003ca048815a71efe2">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_dfe8248dc1afb4947357095f8ec4127d6cdbe381/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/c4ec0fabddc6019e94ef7d2489c963b6378aabbf/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_ba66ad74eb1b44da4d2e335b8c52d5b24a79d257/classes.dex" />
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_b3ffa389384a3caae6e6de58f598c7db7c4b6f1b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.0.2/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.3.1/4d53b7d6983247af02b8fe7e4228fff555a5e828/firebase-client-jvm-2.3.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.0.2_a528d2d3a87ddb7c6f28bd8f8fbb521b8887b6ef/classes.dex" />
+        sha1="4d53b7d6983247af02b8fe7e4228fff555a5e828">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/firebase-client-jvm-2.3.1_54dffacd29200b3595d0815795ab56db9af503c7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.2_1d1e48e0271760077d9b4db0c6def85b4e071bf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/edecefb571bca5c771f0b2b3cd2d971a5c49f9c6/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_f088c62f81244e9b73e91e88438e0a49c0f6c678/classes.dex" />
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_a783eff99739f82797233c81711e9cfc62a35f06.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/bfd54710747890c627fc94fbe31c934e27525047/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.2.0_2eda3e3a960fb5b667f2b88c743b18576de9563d/classes.dex" />
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_f5fa389302ea5747ea9e7c8d4f738a3277f01d5c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.2_7f5227068c09716e8a2ac7b39d410f679fbcaf22/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/d179b7dc74946a0f035e820c56f47e0ce69c3575/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_678ecc082d805384c8484382806a94700176c032/classes.dex" />
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_cf2878b698460726f8953bb65e1f20615c9d06b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/8ab9f3936b7f4fb39550605cca1eb42d9678c0d1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_4cf337671a45989eecc603e260336b332cddf3ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pash/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_63312073ecf7b32c31c3462b584176a349446b5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/1d58c8f8f420cbc4b5232e71c2aa3bd3f1cd6d70/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_c32e63efd1f75fe942b9cd4bc643e3a1e9408176.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pash/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.3.1/be29b24233711c419ce935aa0a1b12ebc49d1c9a/firebase-client-android-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="be29b24233711c419ce935aa0a1b12ebc49d1c9a">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/firebase-client-android-2.3.1_1209f69ae9e85ea033f87858e8d1e68426dad6e3.jar" />
     </item>
     <item
         is-multidex="true"
@@ -88,197 +115,152 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="87d8386cd09d5a5990551223228ed8779515e169">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9420458a0f59d53c95823de57be9e0bb50cf994f/classes.dex" />
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9420458a0f59d53c95823de57be9e0bb50cf994f/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.0.2/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/7801a927841097d4884f12b1538ccbf4dc751092/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="cd4c7c54e15d9ccbc448384fa2c4684d69ca73f0">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.0.2_1e92acb89c8cc55f69608408f016e31e17ff8b18/classes.dex" />
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_b32f28cad34bb781aced62a99a72f55b664a689b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.0.2/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/ee7cd0618242be337e3c9caeb471ff94321383e6/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.0.2_bd7279e207aaf70a29b1626eac43430015aa12f6/classes.dex" />
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_59529a831ff12bc772cbe73074a481ab72577c98.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_1ce99361d6035b5a45cad93011abff95d49aef69/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.2/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.0.2_aaa2805b26692e085f24609ffef768863441cf5a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_b236593f24396a14cdb4ddc0fbbc745a54d057fb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_b8b0e0248fe35359f334d67d4410bf11686743d4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_38c0d787896f5180edbf1f532d9575a936b0be22/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.2_1b9e55f9bbe39a693b0dd245d1177196fd75384b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_e8931dde0977cab2829c32337c33712a8ce401c1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_0bbe250e5fa75b8b28bba90653a532022ef06f6a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.2.0_970328b6906a3ddc881b968530e45f8adf70d00d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.0.2/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.0.2_034aa1d321d1f991900a4be45ed7ff8b5743a2d3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/pash/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_8158e0870b1f0388d2baef6fa88e8e7e21935d87/classes.dex" />
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_8158e0870b1f0388d2baef6fa88e8e7e21935d87.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.11/d37cb67277928cf59344b4196af8d9cee1f1a27c/tubesock-0.0.11.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_c57fc42ede58bf4e602d39a0934971814ab03541/classes.dex" />
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/tubesock-0.0.11_b5c68035726b05b8d49a2e39a0e3caf5466ec98c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/2bb9815d98589b9daeb67ac3afa5430337588a7e/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.2_eb5bc5768fa29df14dcd134f9cc8de81a3262e6d/classes.dex" />
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_381672e0199a04db74492f2875f24fa77972f7f0.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.0.2/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/e1f673dd7bcfb46526a25c1b1d5f548ed4e5d67b/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="6ff48ef26bc539c78af4aa061cb9bad6abcbf5e8">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.0.2_1a9f431e7ee6ba71aa6c48b3039fc562555caf78/classes.dex" />
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_e0466596f1e15f2a1da6beb179490f57830eeda8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.0.2/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/819efe692f5bd010664cd7dc13fda35cb8585276/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.0.2_a10166f0dd18051647c7ae8b87afcb0e4ae717fe/classes.dex" />
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_01d4f447b08fefc738b3aaefa768209d082bb8bb.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/94cd485455c60988e6c1f6c85ed5d947ff57eb3e/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_0aa5e955bd11a2c0060195c0103e6e29d8c27a54/classes.dex" />
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_510024a13403b99841e03e3be7b55134302cf5be.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.2/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/61a21d36e869c9c765a64cf3c70f90b03ffa0ad0/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.0.2_9b293d0f64bd0d72919755e4975fffb04ca75852/classes.dex" />
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_5660d7bc7642d4da4a78cbd13ef08e77e9b14090.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.2_5d34ff48b3dde295a30f63ff498db8feb06917b3/classes.dex" />
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.2_cb29976c4c738cadd956bb2cd281e85cd82bb1fc.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/pash/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/79000543815e975db86c57600c832620a582b9bf/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_c61c8f46ef054092604eb53dcee9354668ef1c56/classes.dex" />
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_b67af1122a36d5e14987c44d3acbe44230d8674e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/f32e39fc0f8da5be94239acfc9560694cd21e38a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_f101a9cee0d7779cdd44ec343d02823fff35d598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pash/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2_7f7ba9818295f879b2b574ae1e27ea46ce81c04b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_ce7c93ca318ad39f54e4c35f3c10bc26262eaf4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/0dc607abd887d96de77ea3950f8c4a900b62f09e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_b802331c90fe192a45c59fcc446aa722934c3c33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pash/.android/build-cache/3a2ba1c547aa62b4b73342884b00e8ad8ae73e8e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_76fcf3410242ed0ac061d88da7f6956785408197.jar" />
     </item>
 
 </items>

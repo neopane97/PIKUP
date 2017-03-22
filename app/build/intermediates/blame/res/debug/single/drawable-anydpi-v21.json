@@ -1,10 +1,22 @@
 [
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_google.xml",
+        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable-anydpi-v21/ic_google.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_twitter.xml",
+        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable-anydpi-v21/ic_twitter.xml"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "source": "/Users/pash/.android/build-cache/d19dde71fe8152c1ed1f400438b338b4461d0845/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "source": "/Users/pash/.android/build-cache/d19dde71fe8152c1ed1f400438b338b4461d0845/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_facebook.xml",
+        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable-anydpi-v21/ic_facebook.xml"
     }
 ]

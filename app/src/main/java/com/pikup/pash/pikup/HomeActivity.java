@@ -1,14 +1,14 @@
 package com.pikup.pash.pikup;
 
         import android.content.Intent;
-        import android.media.MediaRouter;
-        import android.support.v7.app.AppCompatActivity;
-        import android.os.Bundle;
-        import android.view.View;
-        import android.widget.Button;
-        import android.widget.Toast;
-        import com.google.firebase.auth.FirebaseAuth;
-        import com.google.firebase.auth.FirebaseUser;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -17,7 +17,6 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     private Button logoutButton;
     private Button userProfileButton;
     private FirebaseAuth auth;
-    private Button buttonInfo;
 
 
     @Override
@@ -37,7 +36,6 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         Toast.makeText(getApplicationContext(), "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
 
 
-        buttonInfo = (Button) findViewById(R.id.buttonUserInfo);
         postButton = (Button) findViewById(R.id.buttonPost);
         viewButton = (Button) findViewById(R.id.buttonView);
         logoutButton = (Button) findViewById(R.id.buttonLogout);
@@ -57,12 +55,6 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        buttonInfo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(HomeActivity.this, UserInformationActivity.class));
-            }
-        });
 
         logoutButton.setOnClickListener(this);
     }

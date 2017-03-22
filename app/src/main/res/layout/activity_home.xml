@@ -11,30 +11,39 @@
     tools:context="com.pikup.pash.pikup.HomeActivity">
 
     <Button
-        android:text="View Item"
+        android:text="Post Item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonView"
-        android:layout_alignBaseline="@+id/buttonPost"
-        android:layout_alignBottom="@+id/buttonPost"
+        android:id="@+id/buttonPost"
+        android:layout_marginBottom="121dp"
+        android:layout_above="@+id/buttonLogout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="Post Item"
+        android:id="@+id/buttonView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="197dp"
-        android:id="@+id/buttonPost"
-        android:layout_alignParentTop="true"
+        android:layout_marginBottom="123dp"
+        android:text="View Item"
+        android:layout_above="@+id/buttonPost"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:text="Logout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttonView"
+        android:layout_alignEnd="@+id/buttonView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <Button
-        android:text="Logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/buttonLogout" />
 </RelativeLayout>

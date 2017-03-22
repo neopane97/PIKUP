@@ -31,11 +31,12 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-//        auth = FirebaseAuth.getInstance();
-//        if(auth.getCurrentUser() != null){
-//            startActivity(new Intent(LoginActivity.this, MainActivity.class));
-//            finish();
-//        }
+        auth = FirebaseAuth.getInstance();
+        if(auth.getCurrentUser() != null){
+            finish();
+            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+        }
+
         setContentView(R.layout.activity_login);
 
         userEmail = (EditText) findViewById(R.id.editUserName);
@@ -98,10 +99,8 @@ public class LoginActivity extends AppCompatActivity {
                             }
                         }
                         else {
-                            Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
-//                            Intent intent = new Intent(LoginActivity.this, userInformationActivity.class);
-
-                            startActivity(intent);
+                            finish();
+                            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                             finish();
                         }
                     }
