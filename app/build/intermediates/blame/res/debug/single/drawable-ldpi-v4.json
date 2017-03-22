@@ -1,6 +1,18 @@
 [
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_google.png",
+        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable-ldpi-v4/ic_google.png"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_facebook.png",
+        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable-ldpi-v4/ic_facebook.png"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_twitter.png",
+        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable-ldpi-v4/ic_twitter.png"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
-        "source": "/Users/pash/Desktop/PIKUP/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
+        "source": "/Users/pash/.android/build-cache/cf2845469de9e0a9118c4ab67d878ec2920a448a/output/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
     }
 ]
