@@ -127,11 +127,11 @@ ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:37:13-39:5
 uses-sdk
 INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.firebase:firebase-auth:10.0.1] /Users/pash/.android/build-cache/e1f673dd7bcfb46526a25c1b1d5f548ed4e5d67b/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-database:10.0.1] /Users/pash/.android/build-cache/f32e39fc0f8da5be94239acfc9560694cd21e38a/output/AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-database-connection:10.0.1] /Users/pash/.android/build-cache/ee7cd0618242be337e3c9caeb471ff94321383e6/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-storage:9.0.2] /Users/pash/.android/build-cache/6bc69661bb780ede592cfc3456f1fe480caf195d/output/AndroidManifest.xml:5:5-43
-MERGED from [com.google.firebase:firebase-storage-common:9.0.2] /Users/pash/.android/build-cache/885f5fc0d75b13547cefccf2c647a43573585778/output/AndroidManifest.xml:5:5-43
-MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-storage:10.0.1] /Users/pash/.android/build-cache/0a9005ce70875687a533b4d6544b80361b9bff9c/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:10.0.1] /Users/pash/.android/build-cache/a5f6b99f2c96b282127ffa3f9f969ee856c02070/output/AndroidManifest.xml:3:5-42
 MERGED from [com.android.support:design:25.1.1] /Users/pash/.android/build-cache/d19dde71fe8152c1ed1f400438b338b4461d0845/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/pash/.android/build-cache/d5d3c95b9dea23fc39f57c94f99154282f8ef821/output/AndroidManifest.xml:20:5-44

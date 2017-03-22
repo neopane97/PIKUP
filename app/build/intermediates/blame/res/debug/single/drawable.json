@@ -36,12 +36,12 @@
         "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/com_facebook_button_send_background.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/pash/.android/build-cache/d19dde71fe8152c1ed1f400438b338b4461d0845/output/res/drawable/design_snackbar_background.xml"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/pikup.png",
         "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/pikup.png"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/pash/.android/build-cache/d19dde71fe8152c1ed1f400438b338b4461d0845/output/res/drawable/design_snackbar_background.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/idp_button_background_google.xml",

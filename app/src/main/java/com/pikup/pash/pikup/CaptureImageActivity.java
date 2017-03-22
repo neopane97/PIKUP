@@ -39,7 +39,6 @@ public class CaptureImageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_capture_image);
 
         myStorage = FirebaseStorage.getInstance().getReference();
-//        captureImageView = (ImageView) findViewById(R.id.buttonCaptureImage);
         buttonCaptureImage = (ImageButton) findViewById(R.id.buttonCaptureImage);
         progressBar = (ProgressBar) findViewById(R.id.caputeImageProgressbar);
         progressBar.setVisibility(View.INVISIBLE);

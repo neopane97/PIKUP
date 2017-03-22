@@ -2,6 +2,15 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="/Users/pash/.android/build-cache/0a9005ce70875687a533b4d6544b80361b9bff9c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_14b0b7fc4327a5b1f332e38450e89081ae6152e0/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/pash/.android/build-cache/4cf59035b0e297a5e38502c6a458a1a02928950b/output/jars/classes.jar"
         jumboMode="false"
@@ -216,6 +225,15 @@
         revision="25.0.2"
         sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
         <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/pre-dexed/debug/classes_b67af1122a36d5e14987c44d3acbe44230d8674e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pash/.android/build-cache/a5f6b99f2c96b282127ffa3f9f969ee856c02070/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5827c4bf7c42005895060b8e1acdf2a97756680a/classes.dex" />
     </item>
     <item
         is-multidex="false"

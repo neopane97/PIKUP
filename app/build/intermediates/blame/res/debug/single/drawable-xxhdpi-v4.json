@@ -60,12 +60,12 @@
         "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_plus_signin_btn_text_light_normal.9.png",
-        "source": "/Users/pash/.android/build-cache/cf2845469de9e0a9118c4ab67d878ec2920a448a/output/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
         "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/Users/pash/.android/build-cache/cf2845469de9e0a9118c4ab67d878ec2920a448a/output/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
