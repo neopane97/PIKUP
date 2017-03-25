@@ -1,11 +1,11 @@
 [
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_google.xml",
-        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable-anydpi-v21/ic_google.xml"
+        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable-anydpi-v21/ic_google.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_twitter.xml",
-        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable-anydpi-v21/ic_twitter.xml"
+        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable-anydpi-v21/ic_twitter.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
@@ -17,6 +17,6 @@
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_facebook.xml",
-        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable-anydpi-v21/ic_facebook.xml"
+        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable-anydpi-v21/ic_facebook.xml"
     }
 ]

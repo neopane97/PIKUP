@@ -1,6 +1,6 @@
 package com.pikup.pash.pikup;
 
-        import android.content.Intent;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -15,9 +15,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     private Button postButton;
     private Button viewButton;
     private Button logoutButton;
-    private Button userProfileButton;
+    private Button userInfoButton;
     private FirebaseAuth auth;
-
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -35,11 +34,17 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
         Toast.makeText(getApplicationContext(), "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
 
-
         postButton = (Button) findViewById(R.id.buttonPost);
         viewButton = (Button) findViewById(R.id.buttonView);
         logoutButton = (Button) findViewById(R.id.buttonLogout);
+        userInfoButton = (Button) findViewById(R.id.userInfoButton);
 
+        userInfoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity((new Intent(HomeActivity.this, UserInformationActivity.class)));
+            }
+        });
 
         postButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,7 +60,6 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-
         logoutButton.setOnClickListener(this);
     }
     @Override
@@ -67,5 +71,4 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             ));
         }
     }
-
 }

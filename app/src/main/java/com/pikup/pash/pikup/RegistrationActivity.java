@@ -1,17 +1,12 @@
 package com.pikup.pash.pikup;
 
-import android.app.DatePickerDialog;
 import android.content.Intent;
-import android.icu.util.Calendar;
-import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -41,7 +36,6 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
     private DatabaseReference mDatabase;
     private FirebaseAuth authentication;
 
-
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,7 +43,6 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
 
         authentication = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance().getReference().child("Users");
-
 
         if (authentication.getCurrentUser() != null){
             finish();
@@ -81,7 +74,6 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             }
         });
 
-
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -89,8 +81,6 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             }
         });
     }
-
-
 
     private void startRegister() {
         final String firstname = FirstName.getText().toString().trim();
@@ -103,7 +93,6 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
         final String email = Email.getText().toString().trim();
         final String password = PassWord.getText().toString().trim();
         final String repassword = RePassword.getText().toString().trim();
-
 
         if (!TextUtils.isEmpty(firstname) && !TextUtils.isEmpty(lastname) &&
                 !TextUtils.isEmpty(address) && !TextUtils.isEmpty(state) &&
@@ -151,8 +140,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             }if (TextUtils.isEmpty(password)) {
                 Toast.makeText(getApplicationContext(), "Enter First Name", Toast.LENGTH_SHORT).show();
                 return;
-            }
-            if (password.length() < 6) {
+            }if (password.length() < 6) {
                 Toast.makeText(getApplicationContext(), "At-least six characters password Required", Toast.LENGTH_SHORT).show();
                 return;
             }if (TextUtils.isEmpty(repassword)) {
@@ -164,8 +152,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             }if (repassword != password){
                 Toast.makeText(getApplicationContext(), "Please Input Matching Password", Toast.LENGTH_SHORT).show();
                 return;
-            }
-            if (TextUtils.isEmpty(firstname)) {
+            }if (TextUtils.isEmpty(firstname)) {
                 Toast.makeText(getApplicationContext(), "Enter First Name", Toast.LENGTH_SHORT).show();
                 return;
 
@@ -181,7 +168,6 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             }if (TextUtils.isEmpty(city)) {
                 Toast.makeText(getApplicationContext(), "Enter City", Toast.LENGTH_SHORT).show();
                 return;
-
             }if (TextUtils.isEmpty(zipcode)) {
                 Toast.makeText(getApplicationContext(), "Enter Zip-Code", Toast.LENGTH_SHORT).show();
                 return;

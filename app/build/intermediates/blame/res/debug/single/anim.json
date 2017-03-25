@@ -36,6 +36,10 @@
         "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/anim/abc_fade_in.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/anim/slide_left_out.xml",
+        "source": "/Users/pash/.android/build-cache/566082d8e8810030b12d79a1e91c9031942229c4/output/res/anim/slide_left_out.xml"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
         "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/anim/abc_slide_in_bottom.xml"
     },
@@ -58,6 +62,10 @@
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
         "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/anim/slide_left_in.xml",
+        "source": "/Users/pash/.android/build-cache/566082d8e8810030b12d79a1e91c9031942229c4/output/res/anim/slide_left_in.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",

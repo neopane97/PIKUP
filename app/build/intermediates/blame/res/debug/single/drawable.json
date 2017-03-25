@@ -25,7 +25,7 @@
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/idp_button_background_facebook.xml",
-        "source": "/Users/pash/.android/build-cache/95860cbf6777cf8dce3aa00671686af2b5e8c2b7/output/res/drawable/idp_button_background_facebook.xml"
+        "source": "/Users/pash/.android/build-cache/25f12597b65f8fe171c1722d17c67ebd0c846201/output/res/drawable/idp_button_background_facebook.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
@@ -36,20 +36,20 @@
         "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/com_facebook_button_send_background.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/pikup.png",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/pikup.png"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/Users/pash/.android/build-cache/d19dde71fe8152c1ed1f400438b338b4461d0845/output/res/drawable/design_snackbar_background.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/pikup.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/pikup.png"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/idp_button_background_google.xml",
-        "source": "/Users/pash/.android/build-cache/95860cbf6777cf8dce3aa00671686af2b5e8c2b7/output/res/drawable/idp_button_background_google.xml"
+        "source": "/Users/pash/.android/build-cache/25f12597b65f8fe171c1722d17c67ebd0c846201/output/res/drawable/idp_button_background_google.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/google_button.xml",
-        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable/google_button.xml"
+        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable/google_button.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
@@ -121,7 +121,7 @@
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/rounded_button.xml",
-        "source": "/Users/pash/.android/build-cache/95860cbf6777cf8dce3aa00671686af2b5e8c2b7/output/res/drawable/rounded_button.xml"
+        "source": "/Users/pash/.android/build-cache/25f12597b65f8fe171c1722d17c67ebd0c846201/output/res/drawable/rounded_button.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
@@ -133,7 +133,7 @@
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/or_line.xml",
-        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable/or_line.xml"
+        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable/or_line.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
@@ -145,11 +145,11 @@
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/twitter_button.xml",
-        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable/twitter_button.xml"
+        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable/twitter_button.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/password_button.xml",
-        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable/password_button.xml"
+        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable/password_button.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
@@ -177,7 +177,7 @@
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/facebook_button.xml",
-        "source": "/Users/pash/.android/build-cache/cea87ec7047f920579cdcd1abbb6e0ac15431267/output/res/drawable/facebook_button.xml"
+        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable/facebook_button.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
@@ -281,7 +281,7 @@
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/idp_button_background_email.xml",
-        "source": "/Users/pash/.android/build-cache/95860cbf6777cf8dce3aa00671686af2b5e8c2b7/output/res/drawable/idp_button_background_email.xml"
+        "source": "/Users/pash/.android/build-cache/25f12597b65f8fe171c1722d17c67ebd0c846201/output/res/drawable/idp_button_background_email.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",

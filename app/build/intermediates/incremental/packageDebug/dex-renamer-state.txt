@@ -1,4 +1,4 @@
-#Tue Mar 21 21:47:58 EDT 2017
+#Fri Mar 24 21:58:31 EDT 2017
 base.0=/Users/pash/Desktop/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9420458a0f59d53c95823de57be9e0bb50cf994f
 renamed.1=classes.dex
 renamed.0=classes2.dex
