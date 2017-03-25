@@ -1,91 +1,71 @@
 [
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_btn_radio_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_btn_borderless_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
         "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/messenger_button_blue_bg_selector.xml"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
         "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/com_facebook_auth_dialog_header_background.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/idp_button_background_facebook.xml",
-        "source": "/Users/pash/.android/build-cache/25f12597b65f8fe171c1722d17c67ebd0c846201/output/res/drawable/idp_button_background_facebook.xml"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/notification_tile_bg.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/com_facebook_button_send_background.xml"
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/onemanstrash.jpg",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/onemanstrash.jpg"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/pash/.android/build-cache/d19dde71fe8152c1ed1f400438b338b4461d0845/output/res/drawable/design_snackbar_background.xml"
+        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/drawable/design_snackbar_background.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/pikup.png",
         "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/pikup.png"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/idp_button_background_google.xml",
-        "source": "/Users/pash/.android/build-cache/25f12597b65f8fe171c1722d17c67ebd0c846201/output/res/drawable/idp_button_background_google.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/google_button.xml",
-        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable/google_button.xml"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_spinner_textfield_background_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/image.jpg",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/image.jpg"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_ic_search_api_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/notification_bg.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_text_cursor_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_btn_check_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/Users/pash/.android/build-cache/d19dde71fe8152c1ed1f400438b338b4461d0845/output/res/drawable/design_fab_background.xml"
+        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/drawable/design_fab_background.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
-        "source": "/Users/pash/.android/build-cache/cf2845469de9e0a9118c4ab67d878ec2920a448a/output/res/drawable/common_plus_signin_btn_icon_dark.xml"
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_ratingbar_indicator_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/place.jpg",
@@ -93,79 +73,51 @@
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/com_facebook_button_like_background.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_ic_menu_overflow_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_list_selector_holo_light.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/notification_bg_low.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/com_facebook_auth_dialog_background.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/rounded_button.xml",
-        "source": "/Users/pash/.android/build-cache/25f12597b65f8fe171c1722d17c67ebd0c846201/output/res/drawable/rounded_button.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/pash/.android/build-cache/d19dde71fe8152c1ed1f400438b338b4461d0845/output/res/drawable/navigation_empty_icon.xml"
+        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/drawable/navigation_empty_icon.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
         "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/or_line.xml",
-        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable/or_line.xml"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_ic_go_search_api_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/twitter_button.xml",
-        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable/twitter_button.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/password_button.xml",
-        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable/password_button.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
         "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
-        "source": "/Users/pash/.android/build-cache/cf2845469de9e0a9118c4ab67d878ec2920a448a/output/res/drawable/common_plus_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_ratingbar_small_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_ic_ab_back_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
@@ -173,95 +125,71 @@
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/facebook_button.xml",
-        "source": "/Users/pash/.android/build-cache/c5cf4a3d1664b43439bf454926c439a0f41f2cf0/output/res/drawable/facebook_button.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_btn_colored_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_btn_colored_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/messenger_button_white_bg_round.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/com_facebook_send_button_icon.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_textfield_search_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
         "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_vector_test.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_vector_test.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_dialog_material_background.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
         "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/pash/.android/build-cache/d19dde71fe8152c1ed1f400438b338b4461d0845/output/res/drawable/design_password_eye.xml"
+        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/drawable/design_password_eye.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_edit_text_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_seekbar_track_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_cab_background_internal_bg.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/com_facebook_button_icon.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_switch_thumb_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/messenger_button_white_bg_selector.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
@@ -269,50 +197,26 @@
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_cab_background_top_material.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_list_selector_holo_dark.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/idp_button_background_email.xml",
-        "source": "/Users/pash/.android/build-cache/25f12597b65f8fe171c1722d17c67ebd0c846201/output/res/drawable/idp_button_background_email.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/pash/.android/build-cache/d19dde71fe8152c1ed1f400438b338b4461d0845/output/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
-        "source": "/Users/pash/.android/build-cache/cf2845469de9e0a9118c4ab67d878ec2920a448a/output/res/drawable/common_plus_signin_btn_text_light.xml"
+        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
-        "source": "/Users/pash/.android/build-cache/cf2845469de9e0a9118c4ab67d878ec2920a448a/output/res/drawable/common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/messenger_button_blue_bg_round.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/pash/.android/build-cache/31396e5e72d61f51fe5f8b7649eb18b70b9fe984/output/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/com_facebook_button_background.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
-        "source": "/Users/pash/.android/build-cache/b9fbf70c5c29cd8ef0a0bf55d94b897fecfacf92/output/res/drawable/com_facebook_button_login_silver_background.xml"
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_seekbar_thumb_material.xml"
     }
 ]

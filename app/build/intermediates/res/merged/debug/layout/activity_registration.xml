@@ -107,9 +107,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Display Date of Birth"
+            android:hint="Format: mm/dd/yyyy"
             android:inputType="textPersonName"
-            android:textAlignment="center"
+            android:textAlignment="viewStart"
             android:textStyle="bold" />
 
 

@@ -38,7 +38,7 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity android:name=".UserInformationActivity"></activity>
+        <activity android:name=".UserInformationActivity" />
     </application>
 
 </manifest>

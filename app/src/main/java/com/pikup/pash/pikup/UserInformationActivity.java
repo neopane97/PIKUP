@@ -17,20 +17,20 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class UserInformationActivity extends AppCompatActivity {
-    private static final String TAG = "serInformationActivity";
+    private static final String TAG = "UserInformationActivity";
     private FirebaseDatabase firebaseDatabase;
     private FirebaseAuth firebaseAuth;
-  //  private FirebaseAuth.AuthStateListener authStateListener;
+    private FirebaseAuth.AuthStateListener authStateListener;
     private DatabaseReference databaseReference;
     private String userId;
-    private ListView listView;
+    private ListView mListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_information);
 
-        listView = (ListView) findViewById(R.id.ListView);
+        mListView = (ListView) findViewById(R.id.listview);
 
 
         firebaseAuth = FirebaseAuth.getInstance();
@@ -53,17 +53,16 @@ public class UserInformationActivity extends AppCompatActivity {
 
     }
     private void showData(DataSnapshot dataSnapshot){
-        for (DataSnapshot dataSnapshot1 : dataSnapshot.getChildren()){
+        for (DataSnapshot ds : dataSnapshot.getChildren()){
             UserInfo userInfo = new UserInfo();
-
-            userInfo.setFirstName((dataSnapshot1.child(userId).getValue(UserInfo.class).getFirstName()));
-            userInfo.setLastName((dataSnapshot1.child(userId).getValue(UserInfo.class).getLastName()));
-            userInfo.setAddress((dataSnapshot1.child(userId).getValue(UserInfo.class).getAddress()));
-            userInfo.setState((dataSnapshot1.child(userId).getValue(UserInfo.class).getAddress()));
-            userInfo.setState((dataSnapshot1.child(userId).getValue(UserInfo.class).getState()));
-            userInfo.setCity((dataSnapshot1.child(userId).getValue(UserInfo.class).getCity()));
-            userInfo.setZipCode((dataSnapshot1.child(userId).getValue(UserInfo.class).getZipCode()));
-            userInfo.setEmailAddress((dataSnapshot1.child(userId).getValue(UserInfo.class).getEmailAddress()));
+            userInfo.setFirstName(ds.child(userId).getValue(UserInfo.class).getFirstName());
+            userInfo.setLastName(ds.child(userId).getValue(UserInfo.class).getLastName());
+            userInfo.setAddress(ds.child(userId).getValue(UserInfo.class).getAddress());
+            userInfo.setState(ds.child(userId).getValue(UserInfo.class).getState());
+            userInfo.setCity(ds.child(userId).getValue(UserInfo.class).getCity());
+            userInfo.setZipCode(ds.child(userId).getValue(UserInfo.class).getZipCode());
+            userInfo.setEmail(ds.child(userId).getValue(UserInfo.class).getEmail());
+            userInfo.setDateOfBirth(ds.child(userId).getValue(UserInfo.class).getDateOfBirth());
 
             Log.d(TAG, "showData: FirstName: " + userInfo.getFirstName());
             Log.d(TAG, "showData: LastName: " + userInfo.getLastName());
@@ -72,9 +71,9 @@ public class UserInformationActivity extends AppCompatActivity {
             Log.d(TAG, "showData: City: " + userInfo.getCity());
             Log.d(TAG, "showData: ZipCode: " + userInfo.getZipCode());
             Log.d(TAG, "showData: DateOfBirth: " + userInfo.getDateOfBirth());
-            Log.d(TAG, "showData: EmailAddress: " + userInfo.getEmailAddress());
+            Log.d(TAG, "showData: Email: " + userInfo.getEmail());
 
-            ArrayList<String> information = new ArrayList<String>();
+            ArrayList<String> information = new ArrayList<>();
             information.add(userInfo.getFirstName());
             information.add(userInfo.getLastName());
             information.add(userInfo.getAddress());
@@ -82,40 +81,9 @@ public class UserInformationActivity extends AppCompatActivity {
             information.add(userInfo.getCity());
             information.add(userInfo.getZipCode());
             information.add(userInfo.getDateOfBirth());
-            information.add(userInfo.getEmailAddress());
-
-            //ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, information);
-           // listView.setAdapter(adapter);
-
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,information);
-
-            listView.setAdapter(adapter)
-            ;
-           // ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(
-                 //   getListView().getContext(),
-                //    android.R.layout.simple_list_item_1,
-                 //   usernames);
-                    listView.setAdapter(adapter);
-            //setListAdapter(adapter);
-
-
+            information.add(userInfo.getEmail());
+            ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, information);
+            mListView.setAdapter(adapter);
         }
     }
-//    @Override
-//    public void onStart() {
-//        super.onStart();
-//        firebaseAuth.addAuthStateListener(authStateListener);
-//    }
-//
-//    @Override
-//    public void onStop() {
-//        super.onStop();
-//        if (authStateListener != null){
-//            firebaseAuth.removeAuthStateListener(authStateListener);
-//        }
-//    }
-//
-//    private void toastMessage(String message){
-//        Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
-//    }
 }

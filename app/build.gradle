@@ -36,6 +36,7 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+
     // compile 'com.squareup.picasso:picasso:2.5.2'
     // compile 'com.droidninja:filepicker:1.0.0'
     compile 'com.android.support:appcompat-v7:25.1.1'
@@ -50,7 +51,6 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.firebase:firebase-client-android:2.3.1'
     compile 'com.firebaseui:firebase-ui:0.2.0'
-
     compile 'junit:junit:4.12'
 }
 apply plugin: 'com.google.gms.google-services'

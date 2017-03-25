@@ -12,15 +12,7 @@ public class UserInfo {
     private String City;
     private String ZipCode;
     private String DateOfBirth;
-    private String EmailAddress;
-
-    public String getEmailAddress() {
-        return EmailAddress;
-    }
-
-    public void setEmailAddress(String emailAddress) {
-        EmailAddress = emailAddress;
-    }
+    private String Email;
 
     public String getFirstName() {
         return FirstName;
@@ -76,5 +68,13 @@ public class UserInfo {
 
     public void setDateOfBirth(String dateOfBirth) {
         DateOfBirth = dateOfBirth;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setEmail(String email) {
+        Email = email;
     }
 }
