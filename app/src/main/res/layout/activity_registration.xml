@@ -119,11 +119,13 @@
             android:layout_height="wrap_content"
             android:text="Submit"
             android:textStyle="bold" />
-            <Button
-                android:text="Registered?"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/buttonAlreadyRegistered" />
+
+        <Button
+            android:id="@+id/buttonAlreadyRegistered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registered?"
+            android:textStyle="bold" />
             <ProgressBar
                 style="?android:attr/progressBarStyle"
                 android:layout_width="match_parent"

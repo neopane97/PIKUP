@@ -15,23 +15,25 @@
         android:id="@+id/buttonUpload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Upload"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true"
+        android:text="Upload"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonCaptureImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Capture"
         android:layout_above="@+id/buttonUpload"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true"
+        android:text="Capture"
+        android:textStyle="bold" />
 
     <!--<ProgressBar-->
         <!--android:id="@+id/PostProgressBar"-->

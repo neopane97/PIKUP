@@ -33,26 +33,28 @@
         android:id="@+id/ForgetProgressBar" />
 
     <Button
-        android:text="Submit"
+        android:id="@+id/buttonForgetSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonForgetSubmit"
-        android:layout_below="@+id/InputEmail"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/InputEmail"
+        android:text="Submit"
+        android:textStyle="bold" />
 
     <Button
-        android:text="Back"
+        android:id="@+id/buttonForgetBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonForgetBack"
-        android:layout_below="@+id/buttonForgetSubmit"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonForgetSubmit"
+        android:text="Back"
+        android:textStyle="bold" />
 
     <EditText
         android:layout_width="wrap_content"

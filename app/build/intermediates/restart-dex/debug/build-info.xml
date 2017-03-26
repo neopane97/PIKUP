@@ -6,30 +6,26 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490460929519"
+    timestamp="1490482236723"
     token="3809905661585332679"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1733" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="132" />
+        duration="0" />
     <task
         name="verifier"
-        duration="82" />
-
-    <artifact
-        location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1490460676608"
+        timestamp="1490481195558"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -70,11 +66,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1490460929519"
+        timestamp="1490481746870"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1490482236723"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
