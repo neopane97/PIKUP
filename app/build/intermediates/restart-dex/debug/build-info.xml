@@ -1,30 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="25"
     build-mode="FULL"
-    density="xxhdpi"
+    density="560dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490547099709"
+    timestamp="1490650998107"
     token="3809905661585332679"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="4047" />
+        duration="204" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="249" />
     <task
         name="verifier"
-        duration="0" />
+        duration="47" />
 
     <artifact
-        location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/ssants/AS/PIKUP/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
+    <artifact
+        location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
         location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -33,13 +48,10 @@
         location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
         location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
         location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -51,21 +63,57 @@
         location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
         location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/pash/Desktop/PIKUP/app/build/outputs/apk/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1490547099709"
+        timestamp="1490650998107"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/ssants/AS/PIKUP/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -74,13 +122,10 @@
             location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -92,14 +137,35 @@
             location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/pash/Desktop/PIKUP/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/pash/Desktop/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/ssants/AS/PIKUP/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

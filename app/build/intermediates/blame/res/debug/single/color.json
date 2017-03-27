@@ -1,7 +1,11 @@
 [
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/color/design_error.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
@@ -16,18 +20,6 @@
         "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/color/design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_hint_foreground_material_dark.xml"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
         "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_tint_default.xml"
     },
@@ -40,16 +32,24 @@
         "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
         "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/color/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
@@ -60,12 +60,96 @@
         "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
         "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/color/design_tint_password_toggle.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
@@ -76,20 +160,32 @@
         "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_hint_foreground_material_light.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
         "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_tint_spinner.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
         "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/color/abc_tint_edittext.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",

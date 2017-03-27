@@ -1,97 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
-    <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
-    <attr format="integer" name="layout_constraintBaseline_creator"/>
-    <attr format="reference|enum" name="layout_constraintBaseline_toBaselineOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="integer" name="layout_constraintBottom_creator"/>
-    <attr format="reference|enum" name="layout_constraintBottom_toBottomOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintBottom_toTopOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="string" name="layout_constraintDimensionRatio"/>
-    <attr format="reference|enum" name="layout_constraintEnd_toEndOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintEnd_toStartOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="dimension" name="layout_constraintGuide_begin"/>
-    <attr format="dimension" name="layout_constraintGuide_end"/>
-    <attr format="float" name="layout_constraintGuide_percent"/>
-    <attr name="layout_constraintHeight_default">
-        <enum name="spread" value="0"/>
-        <enum name="wrap" value="1"/>
-    </attr>
-    <attr format="dimension" name="layout_constraintHeight_max"/>
-    <attr format="dimension" name="layout_constraintHeight_min"/>
-    <attr format="float" name="layout_constraintHorizontal_bias"/>
-    <attr format="enum" name="layout_constraintHorizontal_chainStyle">
-        <enum name="spread" value="0"/>
-        <enum name="spread_inside" value="1"/>
-        <enum name="packed" value="2"/>
-    </attr>
-    <attr format="float" name="layout_constraintHorizontal_weight"/>
-    <attr format="integer" name="layout_constraintLeft_creator"/>
-    <attr format="reference|enum" name="layout_constraintLeft_toLeftOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintLeft_toRightOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="integer" name="layout_constraintRight_creator"/>
-    <attr format="reference|enum" name="layout_constraintRight_toLeftOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintRight_toRightOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintStart_toEndOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintStart_toStartOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="integer" name="layout_constraintTop_creator"/>
-    <attr format="reference|enum" name="layout_constraintTop_toBottomOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="reference|enum" name="layout_constraintTop_toTopOf">
-        <enum name="parent" value="0"/>
-    </attr>
-    <attr format="float" name="layout_constraintVertical_bias"/>
-    <attr format="enum" name="layout_constraintVertical_chainStyle">
-        <enum name="spread" value="0"/>
-        <enum name="spread_inside" value="1"/>
-        <enum name="packed" value="2"/>
-    </attr>
-    <attr format="float" name="layout_constraintVertical_weight"/>
-    <attr name="layout_constraintWidth_default">
-        <enum name="spread" value="0"/>
-        <enum name="wrap" value="1"/>
-    </attr>
-    <attr format="dimension" name="layout_constraintWidth_max"/>
-    <attr format="dimension" name="layout_constraintWidth_min"/>
-    <attr format="dimension" name="layout_editor_absoluteX"/>
-    <attr format="dimension" name="layout_editor_absoluteY"/>
-    <attr format="dimension" name="layout_goneMarginBottom"/>
-    <attr format="dimension" name="layout_goneMarginEnd"/>
-    <attr format="dimension" name="layout_goneMarginLeft"/>
-    <attr format="dimension" name="layout_goneMarginRight"/>
-    <attr format="dimension" name="layout_goneMarginStart"/>
-    <attr format="dimension" name="layout_goneMarginTop"/>
-    <attr name="layout_optimizationLevel">
-        <flag name="none" value="1"/>
-        <flag name="all" value="2"/>
-        <flag name="basic" value="4"/>
-        <flag name="chains" value="8"/>
-    </attr>
     <attr format="string" name="title"/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_allow_stacked_button_bar">true</bool>
@@ -314,8 +225,6 @@
             
             <enum name="screen" value="15"/>
         </attr></declare-styleable>
-    <declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable>
-    <declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout"><attr format="reference" name="keylines"/><attr format="reference" name="statusBarBackground"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout_Layout"><attr name="android:layout_gravity"/><attr format="string" name="layout_behavior"/><attr format="reference" name="layout_anchor"/><attr format="integer" name="layout_keyline"/><attr name="layout_anchorGravity">
             
@@ -391,7 +300,6 @@
         </attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/></declare-styleable>
     <declare-styleable name="FloatingActionButton_Behavior_Layout"><attr format="boolean" name="behavior_autoHide"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
-    <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers">
             <flag name="none" value="0"/>
             <flag name="beginning" value="1"/>
@@ -739,18 +647,18 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="default_web_client_id" translatable="false">805624988665-7qhpj5bokt8hpmvi8c28obcpb79f3dj4.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://pikup-243f2.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">805624988665</string>
-    <string name="google_api_key" translatable="false">AIzaSyC4Da7TyGg_-VjemuA6eGpJGt5vzWKa9lc</string>
-    <string name="google_app_id" translatable="false">1:805624988665:android:b83a6b04f768de98</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC4Da7TyGg_-VjemuA6eGpJGt5vzWKa9lc</string>
-    <string name="google_storage_bucket" translatable="false">pikup-243f2.appspot.com</string>
+    <string name="default_web_client_id" translatable="false">362573762591-r80m0psvrs1okj1cu5p364je5m4jlk2b.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://pikup-156816.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">362573762591</string>
+    <string name="google_api_key" translatable="false">AIzaSyAPYIJ9Vc4cCElFFAIWRxm34ScW9_k0ZM4</string>
+    <string name="google_app_id" translatable="false">1:362573762591:android:b83a6b04f768de98</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAPYIJ9Vc4cCElFFAIWRxm34ScW9_k0ZM4</string>
+    <string name="google_storage_bucket" translatable="false">pikup-156816.appspot.com</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
-    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
-    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
-    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
-    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_caputer_images">CaputerImages</string>
@@ -762,17 +670,13 @@
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>

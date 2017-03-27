@@ -10,14 +10,14 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        android:fitsSystemWindows="true"
+        app:theme="@style/AppTheme.AppBarOverlay">
 
-        <!--
         <include
             layout="@layout/toolbar"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"/>
-        -->
 
+        <!--
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,9 +34,11 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@android:color/darker_gray"
                 android:clickable="false"
-                android:text="Claim Checked"/>
+                android:text="Claim Checked"
+                android:fitsSystemWindows="true"/>
 
         </LinearLayout>
+        -->
 
     </android.support.design.widget.AppBarLayout>
 

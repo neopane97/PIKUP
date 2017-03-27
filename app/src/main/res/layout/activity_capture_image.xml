@@ -57,7 +57,7 @@
 
 
         <EditText
-            android:id="@+id/item_name"
+            android:id="@+id/post_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
@@ -69,31 +69,31 @@
 
 
         <EditText
-            android:id="@+id/item_descr"
+            android:id="@+id/post_descr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:hint="Short Description"
             android:ems="10"
-            android:layout_below="@id/item_name"
+            android:layout_below="@id/post_name"
             android:layout_centerHorizontal="true"/>
 
 
         <EditText
-            android:id="@+id/item_location"
+            android:id="@+id/post_location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:hint="Location"
             android:ems="10"
-            android:layout_below="@id/item_descr"
+            android:layout_below="@id/post_descr"
             android:layout_centerHorizontal="true"/>
 
         <Button
             android:id="@+id/buttonSubmitItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/item_location"
+            android:layout_below="@id/post_location"
             android:layout_marginTop="15dp"
             android:text="Submit"
             android:textSize="20sp"

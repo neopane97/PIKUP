@@ -1,8 +1,10 @@
 package com.pikup.pash.pikup;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -23,6 +25,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+		toolbar.setTitleTextColor(Color.WHITE);
+		setSupportActionBar(toolbar);
+		getSupportActionBar().setTitle("Home");
         auth = FirebaseAuth.getInstance();
 
         if (auth.getCurrentUser() == null){
@@ -32,7 +38,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
         FirebaseUser user = auth.getCurrentUser();
 
-        Toast.makeText(getApplicationContext(), "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
+		Toast.makeText(getApplicationContext(), "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
 
         postButton = (Button) findViewById(R.id.buttonPost);
         viewButton = (Button) findViewById(R.id.buttonView);
