@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\drawable-v21\\avd_show_password.xml"
-    },
-    {
         "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",

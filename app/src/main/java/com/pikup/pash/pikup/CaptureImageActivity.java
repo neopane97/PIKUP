@@ -141,6 +141,9 @@ public class CaptureImageActivity extends AppCompatActivity {
 		});
 		String key = myDB.child("Posts").push().getKey();
 		image_path = uri.getLastPathSegment();
+        getApplicationContext().revokeUriPermission(uri,
+                        Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
+                        Intent.FLAG_GRANT_READ_URI_PERMISSION);
 		//noinspection ConstantConditions
 		Post p = new Post(
 				postName.getText().toString(),

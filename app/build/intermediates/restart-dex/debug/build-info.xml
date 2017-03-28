@@ -6,23 +6,29 @@
     density="560dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490720140415"
+    timestamp="1490729356498"
     token="3809905661585332679"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="608" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="26" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
+    <artifact
+        location="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Sergi\StudioProjects\PIKUP\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\ssants\AS\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
@@ -102,9 +108,6 @@
         location="C:\Users\ssants\AS\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\ssants\AS\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
@@ -122,14 +125,17 @@
     <artifact
         location="C:\Users\ssants\AS\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\Sergi\StudioProjects\PIKUP\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1490720140415"
+        timestamp="1490729356498"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sergi\StudioProjects\PIKUP\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\ssants\AS\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
@@ -209,9 +215,6 @@
             location="C:\Users\ssants\AS\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\ssants\AS\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
@@ -229,9 +232,6 @@
         <artifact
             location="C:\Users\ssants\AS\PIKUP\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Sergi\StudioProjects\PIKUP\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
