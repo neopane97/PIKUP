@@ -3,336 +3,327 @@
 
     <item
         is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/0f0bd1f0f4a53e175a58813a4476fbb55ddb3b5a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_f2d9338909e65890d7a4bfa3b98bcedf318aaca8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/76beca5bc4ed40123eb5e89f7140af5b933eea98/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_81d3d84a72555220f3b1be7d055fb53e0f4c1011.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/476e2c646385a62fec2eb36817d749204c22fad4/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_a0e37afab69e2e231b6d6de543c9ad9059680486.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/664b80f1ca79caef62c998877b731f8ff2f2cf87/output/jars/classes.jar"
+        jar="C:\Users\Sergi\.android\build-cache\505f113b970d1c7dbea60b633d122db8c726fb24\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_40b95ac169b5c09a244a069862927cde118bde16.jar" />
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_3ab51b88e56de9e1ec5e8e8dabd7cf5611a3e40f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/4033ad0303d1ae80f379925b9a411bb3b53748fd/output/jars/classes.jar"
+        jar="C:\Users\Sergi\.android\build-cache\886ef92750ae38acf3359fcb98a791fe13e6406f\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_da03513af09875c02ee190cb79f6b60457894057.jar" />
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_8f88d06237422c05e4b6858e450172c4c1597e09.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/59cd38322aa24419aba287f626de2f5df75798e9/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_f6344842b004b75a7f1851e567047f13bb042b58.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.3.1/be29b24233711c419ce935aa0a1b12ebc49d1c9a/firebase-client-android-2.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="be29b24233711c419ce935aa0a1b12ebc49d1c9a">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/firebase-client-android-2.3.1_a885bddf1def4f793c9e2027264a29cdc0676d4b.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ssants/AS/PIKUP/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0c618a70b3920bb63767975bd53c9149540bc0ea/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2_8b04340102dd7d1556b9253ee6a5e6d5aed967fa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/95a90fc0189dac7baf2d7db51106b3252ea0c5fd/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_c535c6bfd6f1d6140e864606010c4673626386c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.2_4e756b7b5d740a40c59c3d614d699697cfe24443.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/6ec1c1700113449646c9d59493fe7af0a594d1e2/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_63e2331cc4703f340468077b86798b1b7d612b8f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/325f88f851698fbf14746d2ef8b2c6a9528e98d6/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="98bbbaabe297e06808fc3fcb3bd2eda90335e7e1">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_bd65a4829b79adb7d857db528b34e703ed5baca5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/862591b68c164070ae2fb26fb91c3c847f477044/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_894f1d8243db0afefd5f222b26aa32e0cc529229.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/f33a544de8d1faf1a77b673e1511a99cb934b93d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_665238e06bd1f8900c83529f4427aad2d0d2d20c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/49a9c54e5565f3c20ce2bfea4abe511b0b47107b/output/jars/classes.jar"
+        jar="C:\Users\Sergi\.android\build-cache\7227908a417cefeaa6b40ebf422291a601426556\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_788c9098730dffdd31a8417963a7e8b1528214ef.jar" />
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_c294bd5a42c15164b743048dde28aa4b1973b01b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jar="C:\Users\Sergi\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/hamcrest-core-1.3_7976043ae5ae41fdaf00e00b12f0a54043fe36f3.jar" />
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2_710a8a9ab449da13dd6dd01ad563c53e3e209663.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/2f687b01b091485d539a580fc7abb1c233e808eb/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_342bdc166f9f04c057ddac3c63b44baf262f41af.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/fde8f0777b35437a46fb2d972454cdee9dc6a76c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_4d527a5ea9ec35832bb21f01a4b09313337ceb6c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_78128235b4b6caa2cf5293c3285eb34f2ae3292c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_607e7cf7eaecf58030e1f5c803e8a8f21a51deb9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.11/d37cb67277928cf59344b4196af8d9cee1f1a27c/tubesock-0.0.11.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/tubesock-0.0.11_4c4112e250f7807687b20aeef021b4b5dc7236b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.3.1/4d53b7d6983247af02b8fe7e4228fff555a5e828/firebase-client-jvm-2.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4d53b7d6983247af02b8fe7e4228fff555a5e828">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/firebase-client-jvm-2.3.1_9bfefef5d13c943833734bbc07849fa7e64b49a4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/a5e5da592b0321d6a86a4403f57f00ff84f444a2/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_b3af9e3afec8b307f6ccc2fa97b872a3c51f9b45.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/c5966bc2adc74cec12e5b089bc8ac90f31fc7ee6/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_a244e18c62778b8026725761b860ee80c0b5bf18.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/84b8c145410e75ca07dae24a5c384dff9b22e353/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_864ce7ce22c531a767285ab8140476093ac33fd0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/67c7c576f829eff2f0772a215dca76379a1ee27a/output/jars/classes.jar"
+        jar="C:\Users\Sergi\.android\build-cache\4dfb05a5e71346506dd94cc9f5ce9c330961d296\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_c3e4559dba28e20fd878ad0894002eb7ce0bf753.jar" />
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_68d6109a80cb996ec4e6e64de961a376f542a6c8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/9a6e198db8f8f524f99567b12039baf321c00189/output/jars/classes.jar"
+        jar="C:\Users\Sergi\.android\build-cache\f7de0be70c1917e3117d56c4b4cd6bd182575cd3\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_88106cd96fae651930833b0c0ea1b7b82f70e58d.jar" />
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_0c8bd94b27761212f55b55410067285ef02a5904.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jar="C:\Users\Sergi\.android\build-cache\e5be56002dafea0691006cdaceaad7cfb2ea0af2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98bbbaabe297e06808fc3fcb3bd2eda90335e7e1">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_0d32477fb8d0b836e0733cf56b30bb8053608d84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.2_537e057cec1c8977009accb70f28c99e52f7b05e.jar" />
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2_ac3a6dfd1afd3a7a39ba0949562dbab3408a44ef.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jar="C:\Users\Sergi\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.3.1\4d53b7d6983247af02b8fe7e4228fff555a5e828\firebase-client-jvm-2.3.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_1009b09ff1ccffcfabe92cc636526b6943430272.jar" />
+        sha1="4d53b7d6983247af02b8fe7e4228fff555a5e828">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\firebase-client-jvm-2.3.1_b9f7461b797d7fd404110c622472a483d5b19194.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/jars/classes.jar"
+        jar="C:\Users\Sergi\.android\build-cache\179f05cc3b29cfe802a9c0a0cb5fbf6c32c14e5d\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_4848e06c2af299eea46c13a7d5ee0084aede1027.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ssants/AS/PIKUP/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f4a9ad88f65af75a384d4fa21d8faa3cb32ec5d6">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c559112167fa1baef857b2d9e10f32bca9efb469/classes.dex" />
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_64f7950d45e468538edef0505b303f6a2db062e0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/5bd42bea2d7bff821e2963f2b7b79933ca51f378/output/jars/classes.jar"
+        jar="C:\Users\Sergi\.android\build-cache\57ee1596e62416d33f127f43b038dc035f19ce55\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_89442722d3226e155b29b8313dbbcbb4e7906b5a.jar" />
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_125dbc304ec6b1dee6a0c72564ada6ac14b14de6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/beca27c404ede06414fc467f16c6c52c2c9bae3e/output/jars/classes.jar"
+        jar="C:\Users\Sergi\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.11\d37cb67277928cf59344b4196af8d9cee1f1a27c\tubesock-0.0.11.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_b599443cc9a1e29b2a2424f6b78194f1fad0e047.jar" />
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\tubesock-0.0.11_0fbc882d0f19ac49e356ea73e64aecd52612003f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/junit-4.12_bc3e880765924e3904c0b3457f950eeea098b09f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/d9d368348786f70609ee03dbf53928c4f2036849/output/jars/classes.jar"
+        jar="C:\Users\Sergi\.android\build-cache\7647f70ffe04b7296bdb1049c538933035feffdf\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_e755cb320736bcaac1d177d0eeddd577bf170f22.jar" />
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_072e3db45b9d7fc6ed1c9ba310cb657717728f5f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ssants/.android/build-cache/5208a8b67a6bfa1d9965443191de678e8e08fcdb/output/jars/classes.jar"
+        jar="C:\Users\Sergi\.android\build-cache\a4d4418a8f1e32681847138d3c4a29a819956c4f\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_3d8d439d111645057c9251246cfd3bb9d2edf969.jar" />
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_75587e9e5f196bd02c2ac20493412fb5d030e615.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\junit-4.12_aedb7504367d8f86f7cd03f8f839295027d958c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\80c0fa9766ae6c3b3da15ce32cb256e6f6d064c3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_87779eaa8d9b91625ff60be99f08785b341d371a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\af0dbfb97fa2bf2d839bee537b8f781359736eb9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_afcd9a78428074d559cdee3cde31bfe96730b661.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\b4e4fde740b18fcf41f5cef1967d3160e269256e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_58c3c0ee0f763db394642f02ea4c99f0c1e11208.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\dc4f1e68da404383b7d9932038801595e07d8ded\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_33531db20027693c0eee2f1d9a8d909c10487518.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\3160951e5ae3beac9f90f8efff4354325bc45296\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_e5c9d6a10079745ce0731d299076c052f87cc901.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_db60ae4e339356fbe49b389230ae374387fa5ca2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\a2c0e7207cf4a1b6babefde83b4b77044cfa12ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_a96556c107b8147c33bb7c70ebc45817ede33fab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\30a03feb8ccf31ee0861c8a77d463736148ca604\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_aef8ebb917fd005137f42ce12328bc0afece596c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\hamcrest-core-1.3_62c980279a166b685917dc11897b4c963efaffb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\c58a4ea6f8b5b0cafb11f2307be621bca114d48b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_d092486a1db701a5bfcdb63e709d74a4f2fd392b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_cadefe1b6edfef8dfc9825502038e0a7224f6a58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\8704971417b7db9e1a36257ced47b04b10ed5835\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_fd3f22e74af1fe657263dc2a5c94d030df311cf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\0458cd7f335f2edf2ded2dcd4575828bfc1b932d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_c72e1a4ba77e2034c7f54092ee3e9c0043c39aa9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\ec83e14b5d47413b831a8dc2c766e6cc675b775b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_0666d7ac55e70e47c252e80c62e828e3f6a4688e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\bb402587e042b58da7231cc39c3c8b06a2c5decb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_7adbd91fc083ef0f7edc9adfe6c457d05861c800.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2_72f82ac4331cb0a53c469ae420e3efe2dd9ca423.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\383f418dd58b25828b06b47df0936e2b56689d96\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_bc4c5b5797e6b72d3ee1284ef2cf54db58f05822.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_9352db863d66f965d7a8082ec67024709c09a5b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\276943799c75da796969658b6ed0cc303436056e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_977107274b0a945104e5e0099e9e95052274f0db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.android\build-cache\91cdfff8cddff79d897715fc70cbe4a3d8397517\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\classes_41fa783800eee9c0269da2ab84f312da63816a82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sergi\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.3.1\be29b24233711c419ce935aa0a1b12ebc49d1c9a\firebase-client-android-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="be29b24233711c419ce935aa0a1b12ebc49d1c9a">
+        <dex dex="C:\Users\Sergi\StudioProjects\PIKUP\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.3.1_971a5ab1057b8d1320ff24a187b9708bdea3688c.jar" />
     </item>
 
 </items>
