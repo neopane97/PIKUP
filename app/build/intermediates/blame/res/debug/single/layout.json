@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
         "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
@@ -24,12 +24,12 @@
         "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view2.xml",
         "source": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\src\\main\\res\\layout\\activity_view2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_item_feed.xml",
         "source": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\layout\\fragment_item_feed.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\ssants\\AS\\PIKUP\\app\\src\\main\\res\\layout\\fragment_item_feed.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -156,12 +156,12 @@
         "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forget.xml",
-        "source": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\src\\main\\res\\layout\\activity_forget.xml"
-    },
-    {
         "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forget.xml",
+        "source": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\src\\main\\res\\layout\\activity_forget.xml"
     },
     {
         "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
