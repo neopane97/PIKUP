@@ -32,12 +32,12 @@ import java.util.Map;
 
 import static android.view.View.GONE;
 
-public class CaptureImageActivity extends AppCompatActivity {
+public class UploadActivity extends AppCompatActivity {
     private DatabaseReference myDB;
     private StorageReference myStorage;
     private String image_path;
 
-    private static final int CAMERA_REQUEST_CODE = 1;
+    private static final int GALLERY_INTENT = 2;
 
     private ImageButton buttonCaptureImage;
     private TextView buttonCaptureText;
@@ -50,7 +50,7 @@ public class CaptureImageActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_capture_image);
+        setContentView(R.layout.activity_upload);
 
         myDB = FirebaseDatabase.getInstance().getReference();
         myStorage = FirebaseStorage.getInstance().getReference();
@@ -69,23 +69,34 @@ public class CaptureImageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (postName.getText() == null) {
-                    Toast.makeText(CaptureImageActivity.this, "Please enter a name", Toast.LENGTH_SHORT)
+                    Toast.makeText(UploadActivity.this, "Please enter a name", Toast.LENGTH_SHORT)
                             .show();
                 } else if (postDescr.getText() == null) {
-                    Toast.makeText(CaptureImageActivity.this, "Please enter a description", Toast.LENGTH_SHORT)
+                    Toast.makeText(UploadActivity.this, "Please enter a description", Toast.LENGTH_SHORT)
                             .show();
                 } else if (postLocation.getText() == null) {
-                    Toast.makeText(CaptureImageActivity.this, "Please enter a location", Toast.LENGTH_SHORT)
+                    Toast.makeText(UploadActivity.this, "Please enter a location", Toast.LENGTH_SHORT)
                             .show();
                 } else {
                     uploadThings();
                 }
             }
         });
+
+//        buttonCaptureImage.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Intent.ACTION_PICK);
+//                intent.setType("image/*");
+//                startActivityForResult(intent, GALLERY_INTENT);
+//            }
+//        });
         buttonCaptureImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                Intent intent = new Intent(Intent.ACTION_PICK);
+                intent.setType("image/*");
+
                 File image = null;
                 try {
                     image = createImageFile();
@@ -94,7 +105,7 @@ public class CaptureImageActivity extends AppCompatActivity {
                     finish();
                 }
                 if (image != null) {
-                    uri = FileProvider.getUriForFile(CaptureImageActivity.this,
+                    uri = FileProvider.getUriForFile(UploadActivity.this,
                             "com.example.android.fileprovider",
                             image);
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
@@ -107,7 +118,7 @@ public class CaptureImageActivity extends AppCompatActivity {
                                 Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
                                         Intent.FLAG_GRANT_READ_URI_PERMISSION);
                     }
-                    startActivityForResult(intent, CAMERA_REQUEST_CODE);
+                    startActivityForResult(intent, GALLERY_INTENT);
                 }
             }
         });
@@ -117,7 +128,7 @@ public class CaptureImageActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK){
+        if (requestCode == GALLERY_INTENT && resultCode == RESULT_OK){
             buttonCaptureImage.setImageURI(uri);
             buttonCaptureText.setVisibility(GONE);
             progressBar.setVisibility(View.VISIBLE);
@@ -156,8 +167,8 @@ public class CaptureImageActivity extends AppCompatActivity {
         myDB.child("/Posts/" + key).setValue(pm);
 
 
-        startActivity(new Intent(CaptureImageActivity.this, PostActivity.class));
-        Toast.makeText(CaptureImageActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
+        startActivity(new Intent(UploadActivity.this, PostActivity.class));
+        Toast.makeText(UploadActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -167,3 +178,33 @@ public class CaptureImageActivity extends AppCompatActivity {
     }
 
 }
+
+
+//        uploadButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Intent.ACTION_PICK);
+//                intent.setType("image/*");
+//                startActivityForResult(intent, GALLERY_INTENT);
+//            }
+//        });
+//    }
+//
+//
+//    @Override
+//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        super.onActivityResult(requestCode, resultCode, data);
+//        if (requestCode == GALLERY_INTENT && resultCode == RESULT_OK) {
+//            // progressBar.setVisibility(View.VISIBLE);
+//
+//            Uri uri = data.getData();
+//            StorageReference filepath = myStorage.child("PickUpPhotos").child(uri.getLastPathSegment());
+//            filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+//                @Override
+//                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+//                    Toast.makeText(PostActivity.this, "Thanks For Giving", Toast.LENGTH_LONG).show();
+//                    //   progressBar.setVisibility(View.GONE);
+//                }
+//            });
+//        }
+//    }

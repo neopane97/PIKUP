@@ -54,6 +54,7 @@
         </provider>
 
         <activity android:name="com.pikup.pash.pikup.UserInformationActivity" />
+        <activity android:name="com.pikup.pash.pikup.UploadActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

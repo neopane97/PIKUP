@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
@@ -27,6 +28,7 @@
         <activity android:name=".HomeActivity" />
         <activity android:name=".CaptureImageActivity" />
         <activity android:name=".ViewActivity" />
+        <activity android:name=".ItemDetailActivity" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -39,6 +41,7 @@
         </provider>
 
         <activity android:name=".UserInformationActivity" />
+        <activity android:name=".UploadActivity"></activity>
     </application>
 
 </manifest>
