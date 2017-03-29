@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
-import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
 public class PostActivity extends AppCompatActivity {
@@ -23,14 +22,14 @@ public class PostActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post);
 
-        myStorage = FirebaseStorage.getInstance().getReference();
+      //  myStorage = FirebaseStorage.getInstance().getReference();
         uploadButton = (Button) findViewById(R.id.buttonUpload);
         captureButton = (Button) findViewById(R.id.buttonCaptureImage);
 
         captureButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(PostActivity.this, CaptureImageActivity.class));
+                startActivity(new Intent(PostActivity.this, ChooseCategoryActivity.class));
 
             }
         });
@@ -38,7 +37,7 @@ public class PostActivity extends AppCompatActivity {
         uploadButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(PostActivity.this, UploadActivity.class));
+                startActivity(new Intent(PostActivity.this, UploadImageActivity.class));
             }
         });
     }

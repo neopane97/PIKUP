@@ -32,7 +32,7 @@ import java.util.Map;
 
 import static android.view.View.GONE;
 
-public class UploadActivity extends AppCompatActivity {
+public class UploadImageActivity extends AppCompatActivity {
     private DatabaseReference myDB;
     private StorageReference myStorage;
     private String image_path;
@@ -69,13 +69,13 @@ public class UploadActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (postName.getText() == null) {
-                    Toast.makeText(UploadActivity.this, "Please enter a name", Toast.LENGTH_SHORT)
+                    Toast.makeText(UploadImageActivity.this, "Please enter a name", Toast.LENGTH_SHORT)
                             .show();
                 } else if (postDescr.getText() == null) {
-                    Toast.makeText(UploadActivity.this, "Please enter a description", Toast.LENGTH_SHORT)
+                    Toast.makeText(UploadImageActivity.this, "Please enter a description", Toast.LENGTH_SHORT)
                             .show();
                 } else if (postLocation.getText() == null) {
-                    Toast.makeText(UploadActivity.this, "Please enter a location", Toast.LENGTH_SHORT)
+                    Toast.makeText(UploadImageActivity.this, "Please enter a location", Toast.LENGTH_SHORT)
                             .show();
                 } else {
                     uploadThings();
@@ -105,7 +105,7 @@ public class UploadActivity extends AppCompatActivity {
                     finish();
                 }
                 if (image != null) {
-                    uri = FileProvider.getUriForFile(UploadActivity.this,
+                    uri = FileProvider.getUriForFile(UploadImageActivity.this,
                             "com.example.android.fileprovider",
                             image);
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
@@ -124,6 +124,25 @@ public class UploadActivity extends AppCompatActivity {
         });
 
     }
+
+//        @Override
+//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        super.onActivityResult(requestCode, resultCode, data);
+//        if (requestCode == GALLERY_INTENT && resultCode == RESULT_OK) {
+//            // progressBar.setVisibility(View.VISIBLE);
+//
+//            Uri uri = data.getData();
+//            StorageReference filepath = myStorage.child("PickUpPhotos").child(uri.getLastPathSegment());
+//            filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+//                @Override
+//                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+//                    Toast.makeText(UploadImageActivity.this, "Thanks For Giving", Toast.LENGTH_LONG).show();
+//                    //   progressBar.setVisibility(View.GONE);
+//                }
+//            });
+//        }
+//    }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
@@ -167,8 +186,8 @@ public class UploadActivity extends AppCompatActivity {
         myDB.child("/Posts/" + key).setValue(pm);
 
 
-        startActivity(new Intent(UploadActivity.this, PostActivity.class));
-        Toast.makeText(UploadActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
+        startActivity(new Intent(UploadImageActivity.this, PostActivity.class));
+        Toast.makeText(UploadImageActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
     }
 
     @Override

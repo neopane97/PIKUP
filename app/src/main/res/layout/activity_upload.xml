@@ -6,7 +6,7 @@
     android:id="@+id/activity_capture_image"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pikup.pash.pikup.UploadActivity">
+    tools:context="com.pikup.pash.pikup.UploadImageActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

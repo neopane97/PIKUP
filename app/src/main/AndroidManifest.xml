@@ -41,7 +41,8 @@
         </provider>
 
         <activity android:name=".UserInformationActivity" />
-        <activity android:name=".UploadActivity"></activity>
+        <activity android:name=".UploadImageActivity" />
+        <activity android:name=".ChooseCategoryActivity"></activity>
     </application>
 
 </manifest>
