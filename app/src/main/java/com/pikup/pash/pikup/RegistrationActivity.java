@@ -112,14 +112,26 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                         String userId = authentication.getCurrentUser().getUid();
                         DatabaseReference currentUser = mDatabase.child(userId);
 
-                        currentUser.child("FirstName").setValue(firstname);
-                        currentUser.child("LastName").setValue(lastname);
-                        currentUser.child("Address").setValue(address);
-                        currentUser.child("State").setValue(state);
-                        currentUser.child("City").setValue(city);
-                        currentUser.child("ZipCode").setValue(zipcode);
-                        currentUser.child("DateOfBirth").setValue(dob);
-                        currentUser.child("Email").setValue(email);
+                        UserInfo ui = new UserInfo(
+                                firstname,
+                                lastname,
+                                address,
+                                state,
+                                city,
+                                zipcode,
+                                dob,
+                                email);
+
+                        currentUser.setValue(ui);
+//
+//                        currentUser.child("FirstName").setValue(firstname);
+//                        currentUser.child("LastName").setValue(lastname);
+//                        currentUser.child("Address").setValue(address);
+//                        currentUser.child("State").setValue(state);
+//                        currentUser.child("City").setValue(city);
+//                        currentUser.child("ZipCode").setValue(zipcode);
+//                        currentUser.child("DateOfBirth").setValue(dob);
+//                        currentUser.child("Email").setValue(email);
 
                         progressBar.setVisibility(View.GONE);
                         Intent intent = new Intent(RegistrationActivity.this, LoginActivity.class);

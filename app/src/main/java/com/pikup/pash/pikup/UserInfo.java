@@ -1,9 +1,5 @@
 package com.pikup.pash.pikup;
 
-/**
- * Created by pash on 3/24/17.
- */
-
 public class UserInfo {
     private String FirstName;
     private String LastName;
@@ -13,6 +9,21 @@ public class UserInfo {
     private String ZipCode;
     private String DateOfBirth;
     private String Email;
+
+    public UserInfo() {
+
+    }
+
+    public UserInfo(String firstName, String lastName, String address, String state, String city, String zipCode, String dateOfBirth, String email) {
+        this.FirstName = firstName;
+        this.LastName = lastName;
+        this.Address = address;
+        this.State = state;
+        this.City = city;
+        this.ZipCode = zipCode;
+        this.DateOfBirth = dateOfBirth;
+        this.Email = email;
+    }
 
     public String getFirstName() {
         return FirstName;

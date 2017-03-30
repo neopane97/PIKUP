@@ -21,8 +21,6 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
-import java.util.Map;
-
 import static android.view.View.GONE;
 
 public class UploadImageActivity extends AppCompatActivity {
@@ -171,7 +169,7 @@ public class UploadImageActivity extends AppCompatActivity {
 
 	private void uploadThings() {
 		image_path = createImageFileName();
-		StorageReference filepath = myStorage.child("PickUpPhotos").child(image_path);
+		StorageReference filepath = myStorage.child("PikUpPhotos").child(image_path);
 		filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
 			@Override
 			public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) { /* nothing */}
@@ -187,13 +185,14 @@ public class UploadImageActivity extends AppCompatActivity {
 				postLocation.getText().toString(),
 				image_path,
 				FirebaseAuth.getInstance().getCurrentUser().getUid());
-		Map<String, String> pm = p.toMap();
-		Log.d("POST", pm.toString());
-		myDB.child("/Posts/" + key).setValue(pm);
+		//Map<String, String> pm = p.toMap();
+		//Log.d("POST", pm.toString());
+		myDB.child("/Posts/" + key).setValue(p);
 
 
 		startActivity(new Intent(UploadImageActivity.this, PostActivity.class));
 		Toast.makeText(UploadImageActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
+		finish();
 	}
 
 	@Override

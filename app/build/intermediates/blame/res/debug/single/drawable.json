@@ -41,7 +41,7 @@
     },
     {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
@@ -88,12 +88,20 @@
         "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
         "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_fast.png",
+        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/drawable/ic_fast.png"
     },
     {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/image.jpg",
@@ -140,8 +148,12 @@
         "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
@@ -208,16 +220,20 @@
         "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
@@ -228,8 +244,16 @@
         "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
@@ -241,7 +265,7 @@
     },
     {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
@@ -313,7 +337,7 @@
     },
     {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/res/drawable/common_google_signin_btn_icon_light.xml"
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_claim.png",
@@ -352,6 +376,10 @@
         "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/notification_icon_background.xml"
     },
     {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_btn_borderless_material.xml"
     },
@@ -361,7 +389,7 @@
     },
     {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/place.jpg",

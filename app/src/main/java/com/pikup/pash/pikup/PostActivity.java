@@ -33,7 +33,7 @@ public class PostActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(PostActivity.this, CaptureImageActivity.class));
-
+				finish();
             }
         });
 
@@ -42,6 +42,7 @@ public class PostActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View v) {
 				startActivity(new Intent(PostActivity.this, UploadImageActivity.class));
+				finish();
 			}
 		});
     }
