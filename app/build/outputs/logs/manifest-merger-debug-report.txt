@@ -1,35 +1,35 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:2:1-47:12
 	package
-		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:3:5-35
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:2:11-41
 		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:3:11-69
 	android:versionCode
 		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:5:5-66
 MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ssants/.android/build-cache/5bd42bea2d7bff821e2963f2b7b79933ca51f378/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ssants/.android/build-cache/67c7c576f829eff2f0772a215dca76379a1ee27a/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/ssants/.android/build-cache/59cd38322aa24419aba287f626de2f5df75798e9/output/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:6:5-80
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:6:22-77
 uses-permission#android.permission.CAMERA
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:7:5-65
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:7:5-64
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:7:22-62
 application
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:9:5-43:19
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:9:5-45:19
 MERGED from [com.google.firebase:firebase-auth:10.0.1] /Users/ssants/.android/build-cache/95a90fc0189dac7baf2d7db51106b3252ea0c5fd/output/AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/ssants/.android/build-cache/60850de2168d9639490f6fe4607d45d66c27e3f9/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.android.support:design:25.3.0] /Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/AndroidManifest.xml:29:5-20
@@ -39,6 +39,7 @@ MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/ssants/.
 MERGED from [com.android.support:transition:25.3.0] /Users/ssants/.android/build-cache/84b8c145410e75ca07dae24a5c384dff9b22e353/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ssants/.android/build-cache/6ec1c1700113449646c9d59493fe7af0a594d1e2/output/AndroidManifest.xml:26:5-20
 MERGED from [com.firebaseui:firebase-ui:0.2.0] /Users/ssants/.android/build-cache/325f88f851698fbf14746d2ef8b2c6a9528e98d6/output/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] /Users/ssants/.android/build-cache/01de3dfe26c1702ff83437984496353e241dc0f3/output/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/ssants/.android/build-cache/48d073b53a3dc63f8f7aa1e729e28eb95fdcb322/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ssants/.android/build-cache/5bd42bea2d7bff821e2963f2b7b79933ca51f378/output/AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ssants/.android/build-cache/67c7c576f829eff2f0772a215dca76379a1ee27a/output/AndroidManifest.xml:24:5-28:19
@@ -69,47 +70,47 @@ ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:15:9-21:20
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:17:17-68
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:19:17-76
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:19:27-74
 activity#com.pikup.pash.pikup.LoginActivity
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:22:9-51
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:22:9-50
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:22:19-48
 activity#com.pikup.pash.pikup.RegistrationActivity
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:23:9-58
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:23:9-57
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:23:19-55
 activity#com.pikup.pash.pikup.ForgetActivity
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:24:9-52
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:24:9-51
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:24:19-49
 activity#com.pikup.pash.pikup.PasswordResetActivity
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:25:9-59
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:25:9-58
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:25:19-56
 activity#com.pikup.pash.pikup.PostActivity
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:26:9-50
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:26:9-49
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:26:19-47
 activity#com.pikup.pash.pikup.HomeActivity
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:27:9-50
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:27:9-49
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:27:19-47
 activity#com.pikup.pash.pikup.CaptureImageActivity
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:28:9-58
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:28:9-57
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:28:19-55
 activity#com.pikup.pash.pikup.ViewActivity
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:29:9-50
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:29:9-49
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:29:19-47
 activity#com.pikup.pash.pikup.ItemDetailActivity
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:30:9-56
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:30:9-55
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:30:19-53
 provider#android.support.v4.content.FileProvider
@@ -123,15 +124,19 @@ ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:32:9-40:20
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:33:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:37:13-39:54
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:37:13-39:53
 	android:resource
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:39:17-51
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:38:17-67
 activity#com.pikup.pash.pikup.UserInformationActivity
-ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:42:9-61
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:42:9-60
 	android:name
 		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:42:19-58
+activity#com.pikup.pash.pikup.UploadImageActivity
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:43:9-44:20
+	android:name
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:43:19-54
 uses-sdk
 INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.firebase:firebase-auth:10.0.1] /Users/ssants/.android/build-cache/95a90fc0189dac7baf2d7db51106b3252ea0c5fd/output/AndroidManifest.xml:17:5-42
@@ -148,6 +153,7 @@ MERGED from [com.android.support:transition:25.3.0] /Users/ssants/.android/build
 MERGED from [com.android.support:cardview-v7:25.3.0] /Users/ssants/.android/build-cache/6ec1c1700113449646c9d59493fe7af0a594d1e2/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/ssants/.android/build-cache/f33a544de8d1faf1a77b673e1511a99cb934b93d/output/AndroidManifest.xml:20:5-43
 MERGED from [com.firebaseui:firebase-ui:0.2.0] /Users/ssants/.android/build-cache/325f88f851698fbf14746d2ef8b2c6a9528e98d6/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] /Users/ssants/.android/build-cache/01de3dfe26c1702ff83437984496353e241dc0f3/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/ssants/.android/build-cache/48d073b53a3dc63f8f7aa1e729e28eb95fdcb322/output/AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ssants/.android/build-cache/5bd42bea2d7bff821e2963f2b7b79933ca51f378/output/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ssants/.android/build-cache/67c7c576f829eff2f0772a215dca76379a1ee27a/output/AndroidManifest.xml:17:5-42

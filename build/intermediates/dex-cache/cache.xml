@@ -65,6 +65,15 @@
         <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/firebase-client-android-2.3.1_a885bddf1def4f793c9e2027264a29cdc0676d4b.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/ssants/.android/build-cache/01de3dfe26c1702ff83437984496353e241dc0f3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/classes_e15a6b8d95ace96a9970e34442af68bb0fd9e06a.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/ssants/AS/PIKUP/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
@@ -192,6 +201,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/ssants/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-beta4_42dcdc922fd7ec0ecedf9679cfe1e0a18ce45dbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/ssants/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.11/d37cb67277928cf59344b4196af8d9cee1f1a27c/tubesock-0.0.11.jar"
         jumboMode="false"
         optimize="true"
@@ -286,7 +304,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f4a9ad88f65af75a384d4fa21d8faa3cb32ec5d6">
+        sha1="c8ee6a95a951c51ec8cf8fc57881a9dd384c2590">
         <dex dex="/Users/ssants/AS/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c559112167fa1baef857b2d9e10f32bca9efb469/classes.dex" />
     </item>
     <item

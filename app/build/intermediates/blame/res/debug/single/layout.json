@@ -492,6 +492,10 @@
         "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/layout/activity_upload.xml",
+        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/layout/activity_upload.xml"
+    },
+    {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
         "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/layout/design_layout_snackbar_include.xml"
     },

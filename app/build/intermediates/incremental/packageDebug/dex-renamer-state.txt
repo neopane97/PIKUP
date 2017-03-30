@@ -1,4 +1,7 @@
-#Mon Mar 27 18:06:14 EDT 2017
-base.0=/Users/ssants/AS/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/ssants/AS/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Thu Mar 30 11:32:04 EDT 2017
+base.0=/Users/ssants/AS/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c559112167fa1baef857b2d9e10f32bca9efb469
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/ssants/AS/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0c618a70b3920bb63767975bd53c9149540bc0ea/classes.dex
+base.1=/Users/ssants/AS/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0c618a70b3920bb63767975bd53c9149540bc0ea
+file.0=/Users/ssants/AS/PIKUP/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c559112167fa1baef857b2d9e10f32bca9efb469/classes.dex
