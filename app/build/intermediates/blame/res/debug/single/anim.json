@@ -1,194 +1,258 @@
 [
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/anim/design_fab_out.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/anim/design_snackbar_in.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/anim/design_snackbar_out.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/anim/design_fab_in.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_fab_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_fab_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_fab_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\anim\\abc_popup_enter.xml"
     }
 ]

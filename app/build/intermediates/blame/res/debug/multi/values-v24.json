@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+        "outputFile": "/Users/ssants/AS/PIKUP/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 207
                 },
                 "from": {
-                    "file": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/values-v24/values-v24.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 342
                 },
                 "from": {
-                    "file": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/values-v24/values-v24.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 411
                 },
                 "from": {
-                    "file": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/values-v24/values-v24.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 475
                 },
                 "from": {
-                    "file": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/values-v24/values-v24.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 544
                 },
                 "from": {
-                    "file": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/values-v24/values-v24.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 614
                 },
                 "from": {
-                    "file": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/values-v24/values-v24.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -119,7 +119,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+        "outputFile": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
         "map": [
             {
                 "to": {
@@ -130,7 +130,7 @@
                     "endOffset": 207
                 },
                 "from": {
-                    "file": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -149,7 +149,7 @@
                     "endOffset": 342
                 },
                 "from": {
-                    "file": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -168,7 +168,7 @@
                     "endOffset": 411
                 },
                 "from": {
-                    "file": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -187,7 +187,7 @@
                     "endOffset": 475
                 },
                 "from": {
-                    "file": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -206,7 +206,7 @@
                     "endOffset": 544
                 },
                 "from": {
-                    "file": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -225,7 +225,7 @@
                     "endOffset": 614
                 },
                 "from": {
-                    "file": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -238,7 +238,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+        "outputFile": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
         "map": [
             {
                 "to": {
@@ -249,7 +249,7 @@
                     "endOffset": 207
                 },
                 "from": {
-                    "file": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -268,7 +268,7 @@
                     "endOffset": 342
                 },
                 "from": {
-                    "file": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -287,7 +287,7 @@
                     "endOffset": 411
                 },
                 "from": {
-                    "file": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -306,7 +306,7 @@
                     "endOffset": 475
                 },
                 "from": {
-                    "file": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -325,7 +325,7 @@
                     "endOffset": 544
                 },
                 "from": {
-                    "file": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -344,7 +344,126 @@
                     "endOffset": 614
                 },
                 "from": {
-                    "file": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 549,
+                        "endColumn": 69,
+                        "endOffset": 614
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 156,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 156,
+                        "endOffset": 207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 134,
+                    "endOffset": 342
+                },
+                "from": {
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 134,
+                        "endOffset": 342
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 347,
+                    "endColumn": 68,
+                    "endOffset": 411
+                },
+                "from": {
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 347,
+                        "endColumn": 68,
+                        "endOffset": 411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 416,
+                    "endColumn": 63,
+                    "endOffset": 475
+                },
+                "from": {
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 416,
+                        "endColumn": 63,
+                        "endOffset": 475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 480,
+                    "endColumn": 68,
+                    "endOffset": 544
+                },
+                "from": {
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 480,
+                        "endColumn": 68,
+                        "endOffset": 544
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 549,
+                    "endColumn": 69,
+                    "endOffset": 614
+                },
+                "from": {
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
