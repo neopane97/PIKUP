@@ -1,6 +1,8 @@
 package com.pikup.pash.pikup;
 
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -25,6 +27,7 @@ import com.google.firebase.storage.UploadTask;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 import java.util.Map;
 
 import static android.view.View.GONE;
@@ -87,6 +90,7 @@ public class CaptureImageActivity extends AppCompatActivity {
                 try {
                     image = createImageFile();
                 } catch (IOException e) {
+                    e.printStackTrace();
                     finish();
                 }
                 if (image != null) {
@@ -94,6 +98,15 @@ public class CaptureImageActivity extends AppCompatActivity {
                             "com.example.android.fileprovider",
                             image);
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
+                    List<ResolveInfo> resolveInfos = getApplicationContext()
+                            .getPackageManager()
+                            .queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
+                    for (ResolveInfo ri : resolveInfos) {
+                        String packageName = ri.activityInfo.packageName;
+                        getApplicationContext().grantUriPermission(packageName, uri,
+                                        Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
+                                        Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                    }
                     startActivityForResult(intent, CAMERA_REQUEST_CODE);
                 }
             }
@@ -110,11 +123,7 @@ public class CaptureImageActivity extends AppCompatActivity {
             progressBar.setVisibility(View.VISIBLE);
         }
     }
-    @Override
-    protected void onResume() {
-        super.onResume();
-        progressBar.setVisibility(GONE);
-    }
+
 
     private File createImageFile() throws IOException {
 		String file_name = System.currentTimeMillis() / 1000 + "";
@@ -132,6 +141,9 @@ public class CaptureImageActivity extends AppCompatActivity {
 		});
 		String key = myDB.child("Posts").push().getKey();
 		image_path = uri.getLastPathSegment();
+        getApplicationContext().revokeUriPermission(uri,
+                        Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
+                        Intent.FLAG_GRANT_READ_URI_PERMISSION);
 		//noinspection ConstantConditions
 		Post p = new Post(
 				postName.getText().toString(),
@@ -147,4 +159,11 @@ public class CaptureImageActivity extends AppCompatActivity {
 		startActivity(new Intent(CaptureImageActivity.this, PostActivity.class));
 		Toast.makeText(CaptureImageActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
 	}
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        progressBar.setVisibility(GONE);
+    }
+
 }
