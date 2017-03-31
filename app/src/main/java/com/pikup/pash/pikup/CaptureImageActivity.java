@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -28,7 +27,6 @@ import com.google.firebase.storage.UploadTask;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 import static android.view.View.GONE;
 
@@ -134,7 +132,7 @@ public class CaptureImageActivity extends AppCompatActivity {
 
 
     private void uploadThings() {
-        StorageReference filepath = myStorage.child("PickUpPhotos").child(uri.getLastPathSegment());
+        StorageReference filepath = myStorage.child("PikUpPhotos").child(uri.getLastPathSegment());
         filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
             @Override
             public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) { /* nothing */}
@@ -144,20 +142,19 @@ public class CaptureImageActivity extends AppCompatActivity {
         getApplicationContext().revokeUriPermission(uri,
                 Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
                         Intent.FLAG_GRANT_READ_URI_PERMISSION);
-        //noinspection ConstantConditions
         Post p = new Post(
                 postName.getText().toString(),
                 postDescr.getText().toString(),
                 postLocation.getText().toString(),
                 image_path,
                 FirebaseAuth.getInstance().getCurrentUser().getUid());
-        Map<String, String> pm = p.toMap();
-        Log.d("POST", pm.toString());
-        myDB.child("/Posts/" + key).setValue(pm);
+
+        myDB.child("/Posts/" + key).setValue(p);
 
 
         startActivity(new Intent(CaptureImageActivity.this, PostActivity.class));
         Toast.makeText(CaptureImageActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
+        finish();
     }
 
     @Override

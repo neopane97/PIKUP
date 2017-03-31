@@ -14,12 +14,35 @@ public class UserInfo {
     private String DateOfBirth;
     private String Email;
 
+    public UserInfo(){
+
+    }
+
+    public UserInfo(String firstName, String lastName, String address, String state, String city,
+                    String zipCode, String dateOfBirth, String email){
+        this.FirstName = firstName;
+        this.LastName = lastName;
+        this.Address = address;
+        this.State = state;
+        this.City = city;
+        this.ZipCode = zipCode;
+        this.DateOfBirth = dateOfBirth;
+        this.Email = email;
+    }
     public String getFirstName() {
         return FirstName;
     }
 
     public void setFirstName(String firstName) {
         FirstName = firstName;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String address) {
+        Address = address;
     }
 
     public String getLastName() {
@@ -30,13 +53,6 @@ public class UserInfo {
         LastName = lastName;
     }
 
-    public String getAddress() {
-        return Address;
-    }
-
-    public void setAddress(String address) {
-        Address = address;
-    }
 
     public String getState() {
         return State;
@@ -78,3 +94,5 @@ public class UserInfo {
         Email = email;
     }
 }
+
+

@@ -1,9 +1,9 @@
 package com.pikup.pash.pikup;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -23,7 +23,6 @@ public class LoginActivity extends AppCompatActivity {
     private FirebaseAuth auth;
     private Button buttonLogin;
     private Button buttonForget;
-    private Button buttonResetPassword;
     private Button buttonNotRegistered;
     private ProgressBar progressBar;
 
@@ -33,7 +32,9 @@ public class LoginActivity extends AppCompatActivity {
 
         auth = FirebaseAuth.getInstance();
         if(auth.getCurrentUser() != null){
+
             finish();
+
             startActivity(new Intent(getApplicationContext(), HomeActivity.class));
         }
 
@@ -43,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
         userPassword = (EditText) findViewById(R.id.editPassword);
         buttonLogin = (Button) findViewById(R.id.buttonLogin);
         buttonForget = (Button) findViewById(R.id.buttonForget);
-        buttonResetPassword = (Button) findViewById(R.id.buttonResetPassword);
+       // buttonResetPassword = (Button) findViewById(R.id.buttonResetPassword);
         buttonNotRegistered = (Button) findViewById(R.id.buttonNotRegister);
 
 
@@ -55,12 +56,6 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(LoginActivity.this, RegistrationActivity.class));
-            }
-        });
-        buttonResetPassword.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(LoginActivity.this, PasswordResetActivity.class));
             }
         });
 

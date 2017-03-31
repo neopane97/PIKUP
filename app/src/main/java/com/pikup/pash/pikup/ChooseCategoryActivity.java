@@ -36,28 +36,28 @@ public class ChooseCategoryActivity extends AppCompatActivity
                 //do something
                 if (checked)
                 {
-                    Toast.makeText(ChooseCategoryActivity.this, "You chose electronics", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ChooseCategoryActivity.this, "Electronics", Toast.LENGTH_LONG).show();
                 }
                 break;
             case R.id.furniture_Cat:
                 //do something
                 if (checked)
                 {
-                    Toast.makeText(ChooseCategoryActivity.this, "You chose furniture", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ChooseCategoryActivity.this, "Furniture", Toast.LENGTH_LONG).show();
                 }
                 break;
             case R.id.appliance_Cat:
                 //do somemthing
                 if (checked)
                 {
-                    Toast.makeText(ChooseCategoryActivity.this, "You chose appliances", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ChooseCategoryActivity.this, "Appliance", Toast.LENGTH_LONG).show();
                 }
                 break;
             case R.id.misc_Cat:
                 //do something
                 if (checked)
                 {
-                    Toast.makeText(ChooseCategoryActivity.this, "You chose miscellaneous", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ChooseCategoryActivity.this, "Miscellaneous", Toast.LENGTH_LONG).show();
                 }
                 break;
 

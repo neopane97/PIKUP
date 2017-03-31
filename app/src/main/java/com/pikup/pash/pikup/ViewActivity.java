@@ -28,14 +28,10 @@
 //}
 package com.pikup.pash.pikup;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.app.FragmentManager;
-import android.content.Intent;
-import android.view.View;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
-import android.widget.Toast;
-
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -62,24 +58,24 @@ public class ViewActivity extends AppCompatActivity {
 
         /*********************************************/
 
-        claimed = (Button) findViewById(R.id.claim_checked_btn);
-
-        claimed.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_SEND);
-                i.setType("message/rfc822");
-                i.putExtra(Intent.EXTRA_EMAIL  , new String[]{user.getEmail()});
-                i.putExtra(Intent.EXTRA_SUBJECT, "I would like to come pick up your given (Free) item(s)");
-                i.putExtra(Intent.EXTRA_TEXT   , "Please reply to my email to negotiate a time and place for me to pickup your item." +
-                        " \n"+"\nI look forward hearing back from you\n"+"\nThank You");
-                try {
-                    startActivity(Intent.createChooser(i, "Send mail..."));
-                } catch (android.content.ActivityNotFoundException ex) {
-                    Toast.makeText(ViewActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
+//        claimed = (Button) findViewById(R.id.claim_checked_btn);
+//
+//        claimed.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent i = new Intent(Intent.ACTION_SEND);
+//                i.setType("message/rfc822");
+//                i.putExtra(Intent.EXTRA_EMAIL  , new String[]{user.getEmail()});
+//                i.putExtra(Intent.EXTRA_SUBJECT, "I would like to come pick up your given (Free) item(s)");
+//                i.putExtra(Intent.EXTRA_TEXT   , "Please reply to my email to negotiate a time and place for me to pickup your item." +
+//                        " \n"+"\nI look forward hearing back from you\n"+"\nThank You");
+//                try {
+//                    startActivity(Intent.createChooser(i, "Send mail..."));
+//                } catch (android.content.ActivityNotFoundException ex) {
+//                    Toast.makeText(ViewActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        });
         /***********************************************/
         ItemFeedFragment ilf = (ItemFeedFragment) fm.findFragmentByTag("ilf");
         if (ilf == null) {

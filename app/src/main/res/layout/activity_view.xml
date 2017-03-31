@@ -28,13 +28,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
 
-            <Button
-                android:id="@+id/claim_checked_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@android:color/darker_gray"
-                android:clickable="false"
-                android:text="Claim Checked"/>
+            <!--<Button-->
+                <!--android:id="@+id/claim_checked_btn"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:backgroundTint="@android:color/darker_gray"-->
+                <!--android:clickable="false"-->
+                <!--android:text="Claim Checked"/>-->
 
         </LinearLayout>
 

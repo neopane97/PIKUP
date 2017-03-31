@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_fast"
+        android:icon="@drawable/ic_fast"
+        android:title="Fast"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_claim"
+        android:icon="@drawable/ic_claim"
+        android:title="Claim"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_loc"
+        android:icon="@drawable/ic_loc"
+        android:title="Location"
+        app:showAsAction="ifRoom"/>
+
+</menu>
