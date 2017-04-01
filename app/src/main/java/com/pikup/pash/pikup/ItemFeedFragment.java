@@ -78,8 +78,6 @@ public class ItemFeedFragment extends Fragment {
 		reAdapter = new RecyclerAdapter();
 		reAdapter.initPosts();
 		reView.setAdapter(reAdapter);
-//		DownloadPosts dp = new DownloadPosts(reAdapter);
-//		dp.execute();
 		Log.d("CREATEVIEW", "onCreateView is done");
 		return view;
 	}
@@ -116,25 +114,6 @@ public class ItemFeedFragment extends Fragment {
 		// Check exists
 		if (menu.findItem(R.id.menu_claim) == null)
 			inflater.inflate(R.menu.reycc_menu, menu);
-
-        /*claimed = (Button) findViewById(R.id.claim_checked_btn);
-        claimed.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_SEND);
-                i.setType("message/rfc822");
-                i.putExtra(Intent.EXTRA_EMAIL  , new String[]{user.getEmail()});
-                i.putExtra(Intent.EXTRA_SUBJECT, "I would like to come pick up your given (Free) item(s)");
-                i.putExtra(Intent.EXTRA_TEXT   , "Please reply to my email to negotiate a time and place for me to pickup your item." +
-                        " \n"+"\nI look forward hearing back from you\n"+"\nThank You");
-                try {
-                    startActivity(Intent.createChooser(i, "Send mail..."));
-                } catch (android.content.ActivityNotFoundException ex) {
-                    Toast.makeText(ViewActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
-        */
 	}
 
 	@Override
@@ -267,12 +246,6 @@ public class ItemFeedFragment extends Fragment {
 			Toast.makeText(context, "Realtime Database", Toast.LENGTH_SHORT)
 					.show();
 		}
-//
-//		public void setPosts(ArrayList<Post> posts) {
-//			int k = posts.size();
-//			this.posts = posts;
-//			notifyItemRangeInserted(k, posts.size());
-//		}
 
 	}
 

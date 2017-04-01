@@ -44,7 +44,6 @@ public class LoginActivity extends AppCompatActivity {
         userPassword = (EditText) findViewById(R.id.editPassword);
         buttonLogin = (Button) findViewById(R.id.buttonLogin);
         buttonForget = (Button) findViewById(R.id.buttonForget);
-       // buttonResetPassword = (Button) findViewById(R.id.buttonResetPassword);
         buttonNotRegistered = (Button) findViewById(R.id.buttonNotRegister);
 
 

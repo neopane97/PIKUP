@@ -139,13 +139,10 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                 Toast.makeText(getApplicationContext(), "At-least six characters password Required", Toast.LENGTH_SHORT).show();
                 return;
             }if (TextUtils.isEmpty(repassword)) {
-                Toast.makeText(getApplicationContext(), "Re-Enter First Name", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Re-Enter password", Toast.LENGTH_SHORT).show();
                 return;
             }if (password.length() < 6) {
                 Toast.makeText(getApplicationContext(), "At-least six characters password Required", Toast.LENGTH_SHORT).show();
-                return;
-            }if (repassword != password){
-                Toast.makeText(getApplicationContext(), "Please Input Matching Password", Toast.LENGTH_SHORT).show();
                 return;
             }if (TextUtils.isEmpty(firstname)) {
                 Toast.makeText(getApplicationContext(), "Enter First Name", Toast.LENGTH_SHORT).show();

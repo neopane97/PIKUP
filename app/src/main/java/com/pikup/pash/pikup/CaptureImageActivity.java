@@ -29,11 +29,13 @@ import java.io.IOException;
 import java.util.List;
 
 import static android.view.View.GONE;
+import static com.pikup.pash.pikup.ChooseCategoryActivity.KEY_CATEGORY;
 
 public class CaptureImageActivity extends AppCompatActivity {
     private DatabaseReference myDB;
     private StorageReference myStorage;
     private String image_path;
+    private String itemCategory;
 
     private static final int CAMERA_REQUEST_CODE = 1;
 
@@ -49,7 +51,15 @@ public class CaptureImageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_capture_image);
+/**/
+        Intent intent = getIntent();
+        if (null != intent) {
+            itemCategory = intent.getStringExtra(KEY_CATEGORY);
+            //Toast.makeText(CaptureImageActivity.this, itemCategory, Toast.LENGTH_LONG).show();
 
+        }//end if
+
+/**/
         myDB = FirebaseDatabase.getInstance().getReference();
         myStorage = FirebaseStorage.getInstance().getReference();
 
@@ -75,7 +85,7 @@ public class CaptureImageActivity extends AppCompatActivity {
                 } else if (postLocation.getText() == null) {
                     Toast.makeText(CaptureImageActivity.this, "Please enter a location", Toast.LENGTH_SHORT)
                             .show();
-                } else {
+                } else{
                     uploadThings();
                 }
             }
@@ -113,9 +123,9 @@ public class CaptureImageActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK){
+        if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {
             buttonCaptureImage.setImageURI(uri);
             buttonCaptureText.setVisibility(GONE);
             progressBar.setVisibility(View.VISIBLE);
@@ -142,20 +152,25 @@ public class CaptureImageActivity extends AppCompatActivity {
         getApplicationContext().revokeUriPermission(uri,
                 Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
                         Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        Toast.makeText(CaptureImageActivity.this, itemCategory, Toast.LENGTH_LONG).show();
+
         Post p = new Post(
                 postName.getText().toString(),
                 postDescr.getText().toString(),
                 postLocation.getText().toString(),
                 image_path,
+                itemCategory,
                 FirebaseAuth.getInstance().getCurrentUser().getUid());
 
         myDB.child("/Posts/" + key).setValue(p);
 
-
-        startActivity(new Intent(CaptureImageActivity.this, PostActivity.class));
+        startActivity(new Intent(CaptureImageActivity.this,PostActivity.class));
         Toast.makeText(CaptureImageActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
         finish();
     }
+
+    public String getItemCategory()
+    {return itemCategory;}
 
     @Override
     protected void onResume() {

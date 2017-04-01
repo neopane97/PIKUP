@@ -8,16 +8,17 @@ public class Post {
     private String descr;
     private String location;
     private String image_path;
+    private String pcat;
     private String uid;
-    //private PostCat pcat;
 
     public Post() { /* nothing */}
 
-    public Post(String title, String descr, String location, String image_path, String uid) {
+    public Post(String title, String descr, String location, String image_path, String pcat, String uid) {
         this.title = title;
         this.descr = descr;
         this.location = location;
         this.image_path = image_path;
+        this.pcat = pcat;
         this.uid = uid;
     }
 
@@ -27,6 +28,7 @@ public class Post {
         res.put("descr", descr);
         res.put("location", location);
         res.put("image", image_path);
+        res.put("category", pcat);
         res.put("uid", uid);
         return res;
     }
@@ -62,6 +64,10 @@ public class Post {
     public void setImage_path(String image_path) {
         this.image_path = image_path;
     }
+
+    public void setPcat(String pcat) {this.pcat = pcat;}
+
+    public String getPcat() {return pcat;}
 
     public String getUid() {
         return uid;

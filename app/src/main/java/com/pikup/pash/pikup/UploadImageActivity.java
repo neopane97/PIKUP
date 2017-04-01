@@ -27,6 +27,7 @@ public class UploadImageActivity extends AppCompatActivity {
     private DatabaseReference myDB;
     private StorageReference myStorage;
     private String image_path;
+    private String itemCategory;
 
     private static final int GALLERY_INTENT = 2;
 
@@ -121,8 +122,9 @@ public class UploadImageActivity extends AppCompatActivity {
                 postDescr.getText().toString(),
                 postLocation.getText().toString(),
                 image_path,
+                itemCategory,
                 FirebaseAuth.getInstance().getCurrentUser().getUid());
-                myDB.child("/Posts/" + key).setValue(p);
+        myDB.child("/Posts/" + key).setValue(p);
 
 
         startActivity(new Intent(UploadImageActivity.this, PostActivity.class));
