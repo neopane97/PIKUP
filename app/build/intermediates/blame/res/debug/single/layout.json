@@ -12,20 +12,20 @@
         "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/layout/activity_upload.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
-        "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/layout/notification_action_tombstone.xml"
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/layout/design_layout_snackbar_include.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/activity_post.xml",
         "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/layout/activity_post.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/layout/design_layout_snackbar_include.xml"
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
@@ -212,8 +212,16 @@
         "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/layout/activity_choose_category.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/activity_delete_aggrement.xml",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/layout/activity_delete_aggrement.xml"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/activity_delete_account.xml",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/layout/activity_delete_account.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",

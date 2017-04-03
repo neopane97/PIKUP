@@ -23,7 +23,7 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".ForgetActivity" />
-        <activity android:name=".PasswordResetActivity" />
+        <!-- //  <activity android:name=".PasswordResetActivity" /> -->
         <activity android:name=".PostActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".CaptureImageActivity" />
@@ -42,7 +42,9 @@
 
         <activity android:name=".UserInformationActivity" />
         <activity android:name=".UploadImageActivity" />
-        <activity android:name=".ChooseCategoryActivity"></activity>
+        <activity android:name=".ChooseCategoryActivity" />
+        <activity android:name=".DeleteAccountActivity" />
+        <activity android:name=".DeleteAggrement"></activity>
     </application>
 
 </manifest>

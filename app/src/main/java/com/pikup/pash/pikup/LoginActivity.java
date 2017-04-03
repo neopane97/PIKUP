@@ -31,10 +31,9 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         auth = FirebaseAuth.getInstance();
+
         if(auth.getCurrentUser() != null){
-
             finish();
-
             startActivity(new Intent(getApplicationContext(), HomeActivity.class));
         }
 
@@ -82,23 +81,23 @@ public class LoginActivity extends AppCompatActivity {
                 progressBar.setVisibility(View.VISIBLE);
                 auth.signInWithEmailAndPassword(editEmail, editPassword)
                         .addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        progressBar.setVisibility(View.GONE);
-                        if(!task.isSuccessful()) {
-                            if (editPassword.length() < 6) {
-                                userPassword.setError("Input password greater then six character");
-                            } else {
-                                Toast.makeText(LoginActivity.this, ("Authentication Failed"), Toast.LENGTH_LONG).show();
+                            @Override
+                            public void onComplete(@NonNull Task<AuthResult> task) {
+                                progressBar.setVisibility(View.GONE);
+                                if(!task.isSuccessful()) {
+                                    if (editPassword.length() < 6) {
+                                        userPassword.setError("Input password greater then six character");
+                                    } else {
+                                        Toast.makeText(LoginActivity.this, ("Authentication Failed"), Toast.LENGTH_LONG).show();
+                                    }
+                                }
+                                else {
+                                    finish();
+                                    startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+                                    finish();
+                                }
                             }
-                        }
-                        else {
-                            finish();
-                            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
-                            finish();
-                        }
-                    }
-                });
+                        });
             }
         });
     }

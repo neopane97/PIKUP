@@ -112,8 +112,26 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                         String userId = authentication.getCurrentUser().getUid();
                         DatabaseReference currentUser = mDatabase.child(userId);
 
-                    UserInfo userInfo = new UserInfo(firstname, lastname, address, state, city, zipcode, dob, email);
-                        currentUser.setValue(userInfo);
+                        UserInfo ui = new UserInfo(
+                                firstname,
+                                lastname,
+                                address,
+                                state,
+                                city,
+                                zipcode,
+                                dob,
+                                email);
+
+                        currentUser.setValue(ui);
+//
+//                        currentUser.child("FirstName").setValue(firstname);
+//                        currentUser.child("LastName").setValue(lastname);
+//                        currentUser.child("Address").setValue(address);
+//                        currentUser.child("State").setValue(state);
+//                        currentUser.child("City").setValue(city);
+//                        currentUser.child("ZipCode").setValue(zipcode);
+//                        currentUser.child("DateOfBirth").setValue(dob);
+//                        currentUser.child("Email").setValue(email);
 
                         progressBar.setVisibility(View.GONE);
                         Intent intent = new Intent(RegistrationActivity.this, LoginActivity.class);
@@ -124,7 +142,6 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                         Toast.makeText(RegistrationActivity.this, "Authentication Failed",
                                 Toast.LENGTH_SHORT).show();
                     }
-
                 }
             });
         }
@@ -139,10 +156,13 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                 Toast.makeText(getApplicationContext(), "At-least six characters password Required", Toast.LENGTH_SHORT).show();
                 return;
             }if (TextUtils.isEmpty(repassword)) {
-                Toast.makeText(getApplicationContext(), "Re-Enter password", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Re-Enter First Name", Toast.LENGTH_SHORT).show();
                 return;
             }if (password.length() < 6) {
                 Toast.makeText(getApplicationContext(), "At-least six characters password Required", Toast.LENGTH_SHORT).show();
+                return;
+            }if (repassword != password){
+                Toast.makeText(getApplicationContext(), "Please Input Matching Password", Toast.LENGTH_SHORT).show();
                 return;
             }if (TextUtils.isEmpty(firstname)) {
                 Toast.makeText(getApplicationContext(), "Enter First Name", Toast.LENGTH_SHORT).show();
@@ -172,6 +192,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             }
         }
     }
+
     @Override
     public void onClick(View view){
         if (view == btnSubmit){

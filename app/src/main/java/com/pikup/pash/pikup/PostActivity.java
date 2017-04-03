@@ -78,6 +78,7 @@ public class PostActivity extends AppCompatActivity {
         captureButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 startActivity(new Intent(PostActivity.this, ChooseCategoryActivity.class));
 
             }

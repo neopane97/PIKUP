@@ -24,12 +24,12 @@
         "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/onemanstrash.jpg"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/pikup.png",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/pikup.png"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/pikup.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/pikup.png"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
@@ -46,6 +46,10 @@
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_searchbar.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/ic_searchbar.png"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
