@@ -43,16 +43,12 @@ public class ItemFeedFragment extends Fragment {
 	FirebaseAuth auth;
 	FirebaseUser user;
 
-
 	View view;
 	LinearLayoutManager llm;
 	RecyclerAdapter reAdapter;
 	RecyclerView reView;
 
-
-
 	@Override
-
 	public void onAttach(Context context) {
 		super.onAttach(context);
 		this.context = context;
@@ -78,8 +74,6 @@ public class ItemFeedFragment extends Fragment {
 		reAdapter = new RecyclerAdapter();
 		reAdapter.initPosts();
 		reView.setAdapter(reAdapter);
-//		DownloadPosts dp = new DownloadPosts(reAdapter);
-//		dp.execute();
 		Log.d("CREATEVIEW", "onCreateView is done");
 		return view;
 	}

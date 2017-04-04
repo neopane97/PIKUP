@@ -1,13 +1,11 @@
 package com.pikup.pash.pikup;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Post {
 	private String title;
 	private String descr;
 	private String location;
 	private String image_path;
+	private boolean claimd;
 	private String uid;
 	//private PostCat pcat;
 
@@ -18,19 +16,9 @@ public class Post {
 		this.descr = descr;
 		this.location = location;
 		this.image_path = image_path;
+		this.claimd = false;
 		this.uid = uid;
 	}
-
-	public Map<String, String> toMap() {
-		HashMap<String, String> res = new HashMap<>();
-		res.put("title", title);
-		res.put("descr", descr);
-		res.put("location", location);
-		res.put("image", image_path);
-		res.put("uid", uid);
-		return res;
-	}
-
 
 	public String getTitle() {
 		return title;
@@ -70,5 +58,13 @@ public class Post {
 
 	public void setUid(String uid) {
 		this.uid = uid;
+	}
+
+	public boolean isClaimd() {
+		return claimd;
+	}
+
+	public void setClaimd(boolean claimd) {
+		this.claimd = claimd;
 	}
 }

@@ -36,12 +36,12 @@
         "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/image.jpg",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/image.jpg"
-    },
-    {
         "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
         "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/image.jpg",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/image.jpg"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
