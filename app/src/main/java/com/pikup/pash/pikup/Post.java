@@ -2,7 +2,7 @@ package com.pikup.pash.pikup;
 
 public class Post {
 	private String title;
-	private String descr;
+	//private String descr;
 	private String location;
 	private String image_path;
 	private boolean claimd;
@@ -11,12 +11,19 @@ public class Post {
 
 	public Post() { /* nothing */}
 
-	public Post(String title, String descr, String location, String image_path, String uid) {
+	public Post(String title, /*String descr,*/ String location, String image_path, String uid) {
 		this.title = title;
-		this.descr = descr;
-		this.location = location;
+		//this.descr = descr;
+		//this.location = location;
 		this.image_path = image_path;
 		this.claimd = false;
+		this.uid = uid;
+	}
+
+	public Post(String title, String image_path, boolean claimd, String uid) {
+		this.title = title;
+		this.image_path = image_path;
+		this.claimd = claimd;
 		this.uid = uid;
 	}
 
@@ -27,22 +34,22 @@ public class Post {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-
-	public String getDescr() {
-		return descr;
-	}
-
-	public void setDescr(String descr) {
-		this.descr = descr;
-	}
-
-	public String getLocation() {
-		return location;
-	}
-
-	public void setLocation(String location) {
-		this.location = location;
-	}
+//
+//	public String getDescr() {
+//		return descr;
+//	}
+//
+//	public void setDescr(String descr) {
+//		this.descr = descr;
+//	}
+//
+//	public String getLocation() {
+//		return location;
+//	}
+//
+//	public void setLocation(String location) {
+//		this.location = location;
+//	}
 
 	public String getImage_path() {
 		return image_path;

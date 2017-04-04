@@ -1,5 +1,9 @@
 package com.pikup.pash.pikup;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class UserInfo {
     private String FirstName;
     private String LastName;
@@ -10,11 +14,13 @@ public class UserInfo {
     private String DateOfBirth;
     private String Email;
 
-    public UserInfo() {
 
-    }
+    private Map posts;
 
-    public UserInfo(String firstName, String lastName, String address, String state, String city, String zipCode, String dateOfBirth, String email) {
+    public UserInfo() {}
+
+    public UserInfo(String firstName, String lastName, String address, String state, String city,
+                    String zipCode, String dateOfBirth, String email) {
         this.FirstName = firstName;
         this.LastName = lastName;
         this.Address = address;
@@ -23,6 +29,7 @@ public class UserInfo {
         this.ZipCode = zipCode;
         this.DateOfBirth = dateOfBirth;
         this.Email = email;
+        this.posts = new HashMap();
     }
 
     public String getFirstName() {
@@ -87,5 +94,13 @@ public class UserInfo {
 
     public void setEmail(String email) {
         Email = email;
+    }
+
+    public Map getPosts() {
+        return posts;
+    }
+
+    public void setPosts(Map posts) {
+        this.posts = posts;
     }
 }

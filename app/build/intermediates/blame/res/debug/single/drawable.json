@@ -1,478 +1,734 @@
 [
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pikup.png",
+        "source": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\src\\main\\res\\drawable\\pikup.png"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/drawable/design_bottom_navigation_item_background.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\place.jpg",
+        "source": "C:\\Users\\ssants\\AS\\PIKUP\\app\\src\\main\\res\\drawable\\place.jpg"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_text_light.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_btn_radio_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_loc.png",
+        "source": "C:\\Users\\ssants\\AS\\PIKUP\\app\\src\\main\\res\\drawable\\ic_loc.png"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/drawable/design_snackbar_background.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_textfield_search_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/image.jpg",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/image.jpg"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_search_api_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\6356147c778e14a7f43c817b02a0686422373bd6\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_seekbar_track_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_btn_check_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_clear_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/drawable/design_fab_background.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ic_menu_overflow_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ic_voice_search_api_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ratingbar_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ic_search_api_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_claim.png",
+        "source": "C:\\Users\\ssants\\AS\\PIKUP\\app\\src\\main\\res\\drawable\\ic_claim.png"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_fast.png",
-        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/drawable/ic_fast.png"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/image.jpg",
-        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/drawable/image.jpg"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\place.jpg",
+        "source": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\src\\main\\res\\drawable\\place.jpg"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ic_ab_back_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_edit_text_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ratingbar_indicator_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\onemanstrash.jpg",
+        "source": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\drawable\\onemanstrash.jpg"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_vector_test.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\6356147c778e14a7f43c817b02a0686422373bd6\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_dialog_material_background.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ic_clear_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\place.jpg",
+        "source": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\drawable\\place.jpg"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/drawable/design_password_eye.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_edit_text_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/onemanstrash.jpg",
-        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/drawable/onemanstrash.jpg"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_loc.png",
-        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/drawable/ic_loc.png"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\onemanstrash.jpg",
+        "source": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\src\\main\\res\\drawable\\onemanstrash.jpg"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/drawable/navigation_empty_icon.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ic_go_search_api_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image.jpg",
+        "source": "C:\\Users\\ssants\\AS\\PIKUP\\app\\src\\main\\res\\drawable\\image.jpg"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_claim.png",
+        "source": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\drawable\\ic_claim.png"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_disabled.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_light.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/drawable/design_bottom_navigation_item_background.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_btn_radio_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/notification_tile_bg.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/drawable/design_password_eye.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/onemanstrash.jpg",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/onemanstrash.jpg"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_list_selector_holo_dark.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_btn_check_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\6356147c778e14a7f43c817b02a0686422373bd6\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/pikup.png",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/pikup.png"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\onemanstrash.jpg",
+        "source": "C:\\Users\\ssants\\AS\\PIKUP\\app\\src\\main\\res\\drawable\\onemanstrash.jpg"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_vector_test.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/notification_bg.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_text_cursor_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/drawable/design_fab_background.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ratingbar_indicator_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/place.jpg",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/place.jpg"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_menu_overflow_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/notification_bg_low.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\6356147c778e14a7f43c817b02a0686422373bd6\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_light.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_claim.png",
-        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/drawable/ic_claim.png"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_seekbar_thumb_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pikup.png",
+        "source": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\drawable\\pikup.png"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/pash/.android/build-cache/a0be4e133b95cc2be7bb3c9312ec9f76a05dd689/output/res/drawable/navigation_empty_icon.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/notification_bg_low.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_go_search_api_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/notification_bg.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ratingbar_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/notification_icon_background.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_ab_back_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image.jpg",
+        "source": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\src\\main\\res\\drawable\\image.jpg"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/place.jpg",
-        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/drawable/place.jpg"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_textfield_search_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_seekbar_track_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/pikup.png",
-        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/drawable/pikup.png"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/pash/.android/build-cache/6356147c778e14a7f43c817b02a0686422373bd6/output/res/drawable/common_google_signin_btn_icon_light.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_list_selector_holo_dark.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/notification_icon_background.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_text_cursor_material.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_ic_voice_search_api_material.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_fast.png",
+        "source": "C:\\Users\\ssants\\AS\\PIKUP\\app\\src\\main\\res\\drawable\\ic_fast.png"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/abc_dialog_material_background.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/pash/.android/build-cache/a951e683342df9a57d4e289e5ff5d1f9976bfbee/output/res/drawable/abc_seekbar_thumb_material.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/drawable/design_snackbar_background.xml"
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\6356147c778e14a7f43c817b02a0686422373bd6\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/ssants/.android/build-cache/9c8ea46e2324911cb642e1f867b95d1b9a3b615c/output/res/drawable/notification_tile_bg.xml"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\6356147c778e14a7f43c817b02a0686422373bd6\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_loc.png",
+        "source": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\drawable\\ic_loc.png"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image.jpg",
+        "source": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\drawable\\image.jpg"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\6356147c778e14a7f43c817b02a0686422373bd6\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_fast.png",
+        "source": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\drawable\\ic_fast.png"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pikup.png",
+        "source": "C:\\Users\\ssants\\AS\\PIKUP\\app\\src\\main\\res\\drawable\\pikup.png"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\b126c2a351b8b67372001dbff25959b3b6b161f4\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\276943799c75da796969658b6ed0cc303436056e\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\a951e683342df9a57d4e289e5ff5d1f9976bfbee\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\60db28dd580f94b5406e4b19959eab835d4eb216\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\pash\\.android\\build-cache\\6356147c778e14a7f43c817b02a0686422373bd6\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\ssants\\.android\\build-cache\\9c8ea46e2324911cb642e1f867b95d1b9a3b615c\\output\\res\\drawable\\abc_btn_colored_material.xml"
     }
 ]

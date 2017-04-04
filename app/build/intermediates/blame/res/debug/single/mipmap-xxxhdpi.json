@@ -1,18 +1,22 @@
 [
     {
-        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ssants\\AS\\PIKUP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\pash\\Desktop\\PIKUP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\pash\\Desktop\\PIKUP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\ssants\\AS\\PIKUP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]
