@@ -20,24 +20,20 @@
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/onemanstrash.jpg",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/onemanstrash.jpg"
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/main.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/main.png"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/drawable/design_snackbar_background.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/pikup.png",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/pikup.png"
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/login.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/login.png"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/image.jpg",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/image.jpg"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
@@ -48,8 +44,8 @@
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_searchbar.png",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/ic_searchbar.png"
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/pk.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/pk.png"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
@@ -78,6 +74,10 @@
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/upload.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/upload.png"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
@@ -110,6 +110,10 @@
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
         "source": "/Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/forgot.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/forgot.png"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
@@ -156,6 +160,10 @@
         "source": "/Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_home.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/ic_home.png"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
         "source": "/Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
@@ -176,16 +184,24 @@
         "source": "/Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_fast.png",
-        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/ic_fast.png"
-    },
-    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
         "source": "/Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_fast.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/ic_fast.png"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_filter.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/ic_filter.png"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
         "source": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/box.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/box.png"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
@@ -220,6 +236,10 @@
         "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/ic_claim.png"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/background.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/background.png"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/drawable/abc_switch_thumb_material.xml"
     },
@@ -244,8 +264,16 @@
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/drawable/notification_icon_background.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/boxb.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/boxb.png"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
         "source": "/Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_delete.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/ic_delete.png"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",

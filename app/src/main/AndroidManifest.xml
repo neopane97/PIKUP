@@ -24,7 +24,6 @@
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".ForgetActivity" />
         <!-- //  <activity android:name=".PasswordResetActivity" /> -->
-        <activity android:name=".PostActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".CaptureImageActivity" />
         <activity android:name=".ViewActivity" />
@@ -44,7 +43,8 @@
         <activity android:name=".UploadImageActivity" />
         <activity android:name=".ChooseCategoryActivity" />
         <activity android:name=".DeleteAccountActivity" />
-        <activity android:name=".DeleteAggrement"></activity>
+        <activity android:name=".DeleteAggrement" />
+        <activity android:name=".FilterCategoryActivity"></activity>
     </application>
 
 </manifest>

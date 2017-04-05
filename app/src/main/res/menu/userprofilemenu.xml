@@ -3,7 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/menu_delete"
-        android:icon="@drawable/ic_fast"
+        android:icon="@drawable/ic_delete"
+        android:title="Fast"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
         android:title="Fast"
         app:showAsAction="ifRoom"/>
 </menu>

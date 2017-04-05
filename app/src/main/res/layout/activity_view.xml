@@ -12,11 +12,9 @@
         android:layout_height="wrap_content"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <!--
         <include
             layout="@layout/toolbar"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"/>
-        -->
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -39,7 +39,6 @@
         <activity android:name="com.pikup.pash.pikup.RegistrationActivity" />
         <activity android:name="com.pikup.pash.pikup.ForgetActivity" />
         <!-- //  <activity android:name=".PasswordResetActivity" /> -->
-        <activity android:name="com.pikup.pash.pikup.PostActivity" />
         <activity android:name="com.pikup.pash.pikup.HomeActivity" />
         <activity android:name="com.pikup.pash.pikup.CaptureImageActivity" />
         <activity android:name="com.pikup.pash.pikup.ViewActivity" />
@@ -60,6 +59,7 @@
         <activity android:name="com.pikup.pash.pikup.ChooseCategoryActivity" />
         <activity android:name="com.pikup.pash.pikup.DeleteAccountActivity" />
         <activity android:name="com.pikup.pash.pikup.DeleteAggrement" />
+        <activity android:name="com.pikup.pash.pikup.FilterCategoryActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

@@ -7305,7 +7305,7 @@
                     "startOffset": 66293,
                     "endLine": 769,
                     "endColumn": 12,
-                    "endOffset": 66607
+                    "endOffset": 66605
                 },
                 "from": {
                     "file": "/Users/pash/Desktop/PIKUP/app/src/main/res/values/styles.xml",
@@ -7315,7 +7315,7 @@
                         "startOffset": 54,
                         "endLine": 8,
                         "endColumn": 12,
-                        "endOffset": 368
+                        "endOffset": 366
                     }
                 }
             },
@@ -7323,18 +7323,18 @@
                 "to": {
                     "startLine": 770,
                     "startColumn": 4,
-                    "startOffset": 66612,
+                    "startOffset": 66610,
                     "endColumn": 89,
-                    "endOffset": 66697
+                    "endOffset": 66695
                 },
                 "from": {
                     "file": "/Users/pash/Desktop/PIKUP/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 525,
+                        "startOffset": 523,
                         "endColumn": 90,
-                        "endOffset": 611
+                        "endOffset": 609
                     }
                 }
             },
@@ -7342,20 +7342,20 @@
                 "to": {
                     "startLine": 771,
                     "startColumn": 4,
-                    "startOffset": 66702,
+                    "startOffset": 66700,
                     "endLine": 774,
                     "endColumn": 12,
-                    "endOffset": 66847
+                    "endOffset": 66845
                 },
                 "from": {
                     "file": "/Users/pash/Desktop/PIKUP/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 374,
+                        "startOffset": 372,
                         "endLine": 13,
                         "endColumn": 12,
-                        "endOffset": 519
+                        "endOffset": 517
                     }
                 }
             },
@@ -7363,18 +7363,18 @@
                 "to": {
                     "startLine": 775,
                     "startColumn": 4,
-                    "startOffset": 66852,
+                    "startOffset": 66850,
                     "endColumn": 79,
-                    "endOffset": 66927
+                    "endOffset": 66925
                 },
                 "from": {
                     "file": "/Users/pash/Desktop/PIKUP/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 617,
+                        "startOffset": 615,
                         "endColumn": 80,
-                        "endOffset": 693
+                        "endOffset": 691
                     }
                 }
             },
@@ -7382,10 +7382,10 @@
                 "to": {
                     "startLine": 776,
                     "startColumn": 4,
-                    "startOffset": 66932,
+                    "startOffset": 66930,
                     "endLine": 782,
                     "endColumn": 12,
-                    "endOffset": 67428
+                    "endOffset": 67426
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7403,9 +7403,9 @@
                 "to": {
                     "startLine": 783,
                     "startColumn": 4,
-                    "startOffset": 67433,
+                    "startOffset": 67431,
                     "endColumn": 88,
-                    "endOffset": 67517
+                    "endOffset": 67515
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7422,10 +7422,10 @@
                 "to": {
                     "startLine": 784,
                     "startColumn": 4,
-                    "startOffset": 67522,
+                    "startOffset": 67520,
                     "endLine": 787,
                     "endColumn": 12,
-                    "endOffset": 67764
+                    "endOffset": 67762
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7443,10 +7443,10 @@
                 "to": {
                     "startLine": 788,
                     "startColumn": 4,
-                    "startOffset": 67769,
+                    "startOffset": 67767,
                     "endLine": 791,
                     "endColumn": 12,
-                    "endOffset": 68045
+                    "endOffset": 68043
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7464,10 +7464,10 @@
                 "to": {
                     "startLine": 792,
                     "startColumn": 4,
-                    "startOffset": 68050,
+                    "startOffset": 68048,
                     "endLine": 798,
                     "endColumn": 12,
-                    "endOffset": 68459
+                    "endOffset": 68457
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/09548970c209ae9f02ace2b1bb27f50109b6a676/output/res/values/values.xml",
@@ -7485,10 +7485,10 @@
                 "to": {
                     "startLine": 799,
                     "startColumn": 4,
-                    "startOffset": 68464,
+                    "startOffset": 68462,
                     "endLine": 803,
                     "endColumn": 12,
-                    "endOffset": 68744
+                    "endOffset": 68742
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7506,10 +7506,10 @@
                 "to": {
                     "startLine": 804,
                     "startColumn": 4,
-                    "startOffset": 68749,
+                    "startOffset": 68747,
                     "endLine": 809,
                     "endColumn": 12,
-                    "endOffset": 69137
+                    "endOffset": 69135
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7527,10 +7527,10 @@
                 "to": {
                     "startLine": 810,
                     "startColumn": 4,
-                    "startOffset": 69142,
+                    "startOffset": 69140,
                     "endLine": 816,
                     "endColumn": 12,
-                    "endOffset": 69614
+                    "endOffset": 69612
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7548,10 +7548,10 @@
                 "to": {
                     "startLine": 817,
                     "startColumn": 4,
-                    "startOffset": 69619,
+                    "startOffset": 69617,
                     "endLine": 820,
                     "endColumn": 12,
-                    "endOffset": 69836
+                    "endOffset": 69834
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7569,10 +7569,10 @@
                 "to": {
                     "startLine": 821,
                     "startColumn": 4,
-                    "startOffset": 69841,
+                    "startOffset": 69839,
                     "endLine": 824,
                     "endColumn": 12,
-                    "endOffset": 70058
+                    "endOffset": 70056
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7590,10 +7590,10 @@
                 "to": {
                     "startLine": 825,
                     "startColumn": 4,
-                    "startOffset": 70063,
+                    "startOffset": 70061,
                     "endLine": 829,
                     "endColumn": 12,
-                    "endOffset": 70326
+                    "endOffset": 70324
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7611,10 +7611,10 @@
                 "to": {
                     "startLine": 830,
                     "startColumn": 4,
-                    "startOffset": 70331,
+                    "startOffset": 70329,
                     "endLine": 833,
                     "endColumn": 12,
-                    "endOffset": 70553
+                    "endOffset": 70551
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7632,10 +7632,10 @@
                 "to": {
                     "startLine": 834,
                     "startColumn": 4,
-                    "startOffset": 70558,
+                    "startOffset": 70556,
                     "endLine": 837,
                     "endColumn": 12,
-                    "endOffset": 70783
+                    "endOffset": 70781
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7653,10 +7653,10 @@
                 "to": {
                     "startLine": 838,
                     "startColumn": 4,
-                    "startOffset": 70788,
+                    "startOffset": 70786,
                     "endLine": 841,
                     "endColumn": 12,
-                    "endOffset": 71013
+                    "endOffset": 71011
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7674,10 +7674,10 @@
                 "to": {
                     "startLine": 842,
                     "startColumn": 4,
-                    "startOffset": 71018,
+                    "startOffset": 71016,
                     "endLine": 845,
                     "endColumn": 12,
-                    "endOffset": 71243
+                    "endOffset": 71241
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7695,10 +7695,10 @@
                 "to": {
                     "startLine": 846,
                     "startColumn": 4,
-                    "startOffset": 71248,
+                    "startOffset": 71246,
                     "endLine": 849,
                     "endColumn": 12,
-                    "endOffset": 71473
+                    "endOffset": 71471
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7716,10 +7716,10 @@
                 "to": {
                     "startLine": 850,
                     "startColumn": 4,
-                    "startOffset": 71478,
+                    "startOffset": 71476,
                     "endLine": 853,
                     "endColumn": 12,
-                    "endOffset": 71700
+                    "endOffset": 71698
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7737,10 +7737,10 @@
                 "to": {
                     "startLine": 854,
                     "startColumn": 4,
-                    "startOffset": 71705,
+                    "startOffset": 71703,
                     "endLine": 857,
                     "endColumn": 12,
-                    "endOffset": 71939
+                    "endOffset": 71937
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7758,10 +7758,10 @@
                 "to": {
                     "startLine": 858,
                     "startColumn": 4,
-                    "startOffset": 71944,
+                    "startOffset": 71942,
                     "endLine": 861,
                     "endColumn": 12,
-                    "endOffset": 72165
+                    "endOffset": 72163
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7779,10 +7779,10 @@
                 "to": {
                     "startLine": 862,
                     "startColumn": 4,
-                    "startOffset": 72170,
+                    "startOffset": 72168,
                     "endLine": 865,
                     "endColumn": 12,
-                    "endOffset": 72410
+                    "endOffset": 72408
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7800,10 +7800,10 @@
                 "to": {
                     "startLine": 866,
                     "startColumn": 4,
-                    "startOffset": 72415,
+                    "startOffset": 72413,
                     "endLine": 869,
                     "endColumn": 12,
-                    "endOffset": 72640
+                    "endOffset": 72638
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7821,10 +7821,10 @@
                 "to": {
                     "startLine": 870,
                     "startColumn": 4,
-                    "startOffset": 72645,
+                    "startOffset": 72643,
                     "endLine": 873,
                     "endColumn": 12,
-                    "endOffset": 72888
+                    "endOffset": 72886
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7842,10 +7842,10 @@
                 "to": {
                     "startLine": 874,
                     "startColumn": 4,
-                    "startOffset": 72893,
+                    "startOffset": 72891,
                     "endLine": 877,
                     "endColumn": 12,
-                    "endOffset": 73107
+                    "endOffset": 73105
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7863,10 +7863,10 @@
                 "to": {
                     "startLine": 878,
                     "startColumn": 4,
-                    "startOffset": 73112,
+                    "startOffset": 73110,
                     "endLine": 882,
                     "endColumn": 12,
-                    "endOffset": 73390
+                    "endOffset": 73388
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7884,10 +7884,10 @@
                 "to": {
                     "startLine": 883,
                     "startColumn": 4,
-                    "startOffset": 73395,
+                    "startOffset": 73393,
                     "endLine": 886,
                     "endColumn": 12,
-                    "endOffset": 73598
+                    "endOffset": 73596
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7905,10 +7905,10 @@
                 "to": {
                     "startLine": 887,
                     "startColumn": 4,
-                    "startOffset": 73603,
+                    "startOffset": 73601,
                     "endLine": 889,
                     "endColumn": 12,
-                    "endOffset": 73729
+                    "endOffset": 73727
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7926,10 +7926,10 @@
                 "to": {
                     "startLine": 890,
                     "startColumn": 4,
-                    "startOffset": 73734,
+                    "startOffset": 73732,
                     "endLine": 893,
                     "endColumn": 12,
-                    "endOffset": 73956
+                    "endOffset": 73954
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7947,10 +7947,10 @@
                 "to": {
                     "startLine": 894,
                     "startColumn": 4,
-                    "startOffset": 73961,
+                    "startOffset": 73959,
                     "endLine": 897,
                     "endColumn": 12,
-                    "endOffset": 74202
+                    "endOffset": 74200
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7968,10 +7968,10 @@
                 "to": {
                     "startLine": 898,
                     "startColumn": 4,
-                    "startOffset": 74207,
+                    "startOffset": 74205,
                     "endLine": 901,
                     "endColumn": 12,
-                    "endOffset": 74427
+                    "endOffset": 74425
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -7989,10 +7989,10 @@
                 "to": {
                     "startLine": 902,
                     "startColumn": 4,
-                    "startOffset": 74432,
+                    "startOffset": 74430,
                     "endLine": 905,
                     "endColumn": 12,
-                    "endOffset": 74674
+                    "endOffset": 74672
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8010,10 +8010,10 @@
                 "to": {
                     "startLine": 906,
                     "startColumn": 4,
-                    "startOffset": 74679,
+                    "startOffset": 74677,
                     "endLine": 909,
                     "endColumn": 12,
-                    "endOffset": 74895
+                    "endOffset": 74893
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8031,10 +8031,10 @@
                 "to": {
                     "startLine": 910,
                     "startColumn": 4,
-                    "startOffset": 74900,
+                    "startOffset": 74898,
                     "endLine": 913,
                     "endColumn": 12,
-                    "endOffset": 75140
+                    "endOffset": 75138
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8052,10 +8052,10 @@
                 "to": {
                     "startLine": 914,
                     "startColumn": 4,
-                    "startOffset": 75145,
+                    "startOffset": 75143,
                     "endLine": 917,
                     "endColumn": 12,
-                    "endOffset": 75416
+                    "endOffset": 75414
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8073,10 +8073,10 @@
                 "to": {
                     "startLine": 918,
                     "startColumn": 4,
-                    "startOffset": 75421,
+                    "startOffset": 75419,
                     "endLine": 921,
                     "endColumn": 12,
-                    "endOffset": 75717
+                    "endOffset": 75715
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8094,10 +8094,10 @@
                 "to": {
                     "startLine": 922,
                     "startColumn": 4,
-                    "startOffset": 75722,
+                    "startOffset": 75720,
                     "endLine": 925,
                     "endColumn": 12,
-                    "endOffset": 76041
+                    "endOffset": 76039
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8115,10 +8115,10 @@
                 "to": {
                     "startLine": 926,
                     "startColumn": 4,
-                    "startOffset": 76046,
+                    "startOffset": 76044,
                     "endLine": 929,
                     "endColumn": 12,
-                    "endOffset": 76332
+                    "endOffset": 76330
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8136,10 +8136,10 @@
                 "to": {
                     "startLine": 930,
                     "startColumn": 4,
-                    "startOffset": 76337,
+                    "startOffset": 76335,
                     "endLine": 933,
                     "endColumn": 12,
-                    "endOffset": 76646
+                    "endOffset": 76644
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8157,9 +8157,9 @@
                 "to": {
                     "startLine": 934,
                     "startColumn": 4,
-                    "startOffset": 76651,
+                    "startOffset": 76649,
                     "endColumn": 136,
-                    "endOffset": 76783
+                    "endOffset": 76781
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8176,9 +8176,9 @@
                 "to": {
                     "startLine": 935,
                     "startColumn": 4,
-                    "startOffset": 76788,
+                    "startOffset": 76786,
                     "endColumn": 130,
-                    "endOffset": 76914
+                    "endOffset": 76912
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8195,9 +8195,9 @@
                 "to": {
                     "startLine": 936,
                     "startColumn": 4,
-                    "startOffset": 76919,
+                    "startOffset": 76917,
                     "endColumn": 104,
-                    "endOffset": 77019
+                    "endOffset": 77017
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8214,10 +8214,10 @@
                 "to": {
                     "startLine": 937,
                     "startColumn": 4,
-                    "startOffset": 77024,
+                    "startOffset": 77022,
                     "endLine": 939,
                     "endColumn": 12,
-                    "endOffset": 77261
+                    "endOffset": 77259
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8235,10 +8235,10 @@
                 "to": {
                     "startLine": 940,
                     "startColumn": 4,
-                    "startOffset": 77266,
+                    "startOffset": 77264,
                     "endLine": 942,
                     "endColumn": 12,
-                    "endOffset": 77428
+                    "endOffset": 77426
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8256,10 +8256,10 @@
                 "to": {
                     "startLine": 943,
                     "startColumn": 4,
-                    "startOffset": 77433,
+                    "startOffset": 77431,
                     "endLine": 945,
                     "endColumn": 12,
-                    "endOffset": 77632
+                    "endOffset": 77630
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8277,10 +8277,10 @@
                 "to": {
                     "startLine": 946,
                     "startColumn": 4,
-                    "startOffset": 77637,
+                    "startOffset": 77635,
                     "endLine": 948,
                     "endColumn": 12,
-                    "endOffset": 77840
+                    "endOffset": 77838
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8298,10 +8298,10 @@
                 "to": {
                     "startLine": 949,
                     "startColumn": 4,
-                    "startOffset": 77845,
+                    "startOffset": 77843,
                     "endLine": 952,
                     "endColumn": 12,
-                    "endOffset": 78111
+                    "endOffset": 78109
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8319,9 +8319,9 @@
                 "to": {
                     "startLine": 953,
                     "startColumn": 4,
-                    "startOffset": 78116,
+                    "startOffset": 78114,
                     "endColumn": 111,
-                    "endOffset": 78223
+                    "endOffset": 78221
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8338,9 +8338,9 @@
                 "to": {
                     "startLine": 954,
                     "startColumn": 4,
-                    "startOffset": 78228,
+                    "startOffset": 78226,
                     "endColumn": 111,
-                    "endOffset": 78335
+                    "endOffset": 78333
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8357,9 +8357,9 @@
                 "to": {
                     "startLine": 955,
                     "startColumn": 4,
-                    "startOffset": 78340,
+                    "startOffset": 78338,
                     "endColumn": 104,
-                    "endOffset": 78440
+                    "endOffset": 78438
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8376,9 +8376,9 @@
                 "to": {
                     "startLine": 956,
                     "startColumn": 4,
-                    "startOffset": 78445,
+                    "startOffset": 78443,
                     "endColumn": 116,
-                    "endOffset": 78557
+                    "endOffset": 78555
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8395,10 +8395,10 @@
                 "to": {
                     "startLine": 957,
                     "startColumn": 4,
-                    "startOffset": 78562,
+                    "startOffset": 78560,
                     "endLine": 959,
                     "endColumn": 12,
-                    "endOffset": 78771
+                    "endOffset": 78769
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8416,10 +8416,10 @@
                 "to": {
                     "startLine": 960,
                     "startColumn": 4,
-                    "startOffset": 78776,
+                    "startOffset": 78774,
                     "endLine": 961,
                     "endColumn": 12,
-                    "endOffset": 78917
+                    "endOffset": 78915
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8437,10 +8437,10 @@
                 "to": {
                     "startLine": 962,
                     "startColumn": 4,
-                    "startOffset": 78922,
+                    "startOffset": 78920,
                     "endLine": 963,
                     "endColumn": 12,
-                    "endOffset": 79057
+                    "endOffset": 79055
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8458,10 +8458,10 @@
                 "to": {
                     "startLine": 964,
                     "startColumn": 4,
-                    "startOffset": 79062,
+                    "startOffset": 79060,
                     "endLine": 965,
                     "endColumn": 12,
-                    "endOffset": 79143
+                    "endOffset": 79141
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8479,10 +8479,10 @@
                 "to": {
                     "startLine": 966,
                     "startColumn": 4,
-                    "startOffset": 79148,
+                    "startOffset": 79146,
                     "endLine": 970,
                     "endColumn": 12,
-                    "endOffset": 79491
+                    "endOffset": 79489
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8500,9 +8500,9 @@
                 "to": {
                     "startLine": 971,
                     "startColumn": 4,
-                    "startOffset": 79496,
+                    "startOffset": 79494,
                     "endColumn": 87,
-                    "endOffset": 79579
+                    "endOffset": 79577
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8519,10 +8519,10 @@
                 "to": {
                     "startLine": 972,
                     "startColumn": 4,
-                    "startOffset": 79584,
+                    "startOffset": 79582,
                     "endLine": 975,
                     "endColumn": 12,
-                    "endOffset": 79809
+                    "endOffset": 79807
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8540,10 +8540,10 @@
                 "to": {
                     "startLine": 976,
                     "startColumn": 4,
-                    "startOffset": 79814,
+                    "startOffset": 79812,
                     "endLine": 981,
                     "endColumn": 12,
-                    "endOffset": 80227
+                    "endOffset": 80225
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8561,10 +8561,10 @@
                 "to": {
                     "startLine": 982,
                     "startColumn": 4,
-                    "startOffset": 80232,
+                    "startOffset": 80230,
                     "endLine": 985,
                     "endColumn": 12,
-                    "endOffset": 80460
+                    "endOffset": 80458
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8582,9 +8582,9 @@
                 "to": {
                     "startLine": 986,
                     "startColumn": 4,
-                    "startOffset": 80465,
+                    "startOffset": 80463,
                     "endColumn": 81,
-                    "endOffset": 80542
+                    "endOffset": 80540
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8601,10 +8601,10 @@
                 "to": {
                     "startLine": 987,
                     "startColumn": 4,
-                    "startOffset": 80547,
+                    "startOffset": 80545,
                     "endLine": 988,
                     "endColumn": 12,
-                    "endOffset": 80640
+                    "endOffset": 80638
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8622,10 +8622,10 @@
                 "to": {
                     "startLine": 989,
                     "startColumn": 4,
-                    "startOffset": 80645,
+                    "startOffset": 80643,
                     "endLine": 999,
                     "endColumn": 12,
-                    "endOffset": 81257
+                    "endOffset": 81255
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8643,9 +8643,9 @@
                 "to": {
                     "startLine": 1000,
                     "startColumn": 4,
-                    "startOffset": 81262,
+                    "startOffset": 81260,
                     "endColumn": 99,
-                    "endOffset": 81357
+                    "endOffset": 81355
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8662,10 +8662,10 @@
                 "to": {
                     "startLine": 1001,
                     "startColumn": 4,
-                    "startOffset": 81362,
+                    "startOffset": 81360,
                     "endLine": 1004,
                     "endColumn": 12,
-                    "endOffset": 81593
+                    "endOffset": 81591
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8683,10 +8683,10 @@
                 "to": {
                     "startLine": 1005,
                     "startColumn": 4,
-                    "startOffset": 81598,
+                    "startOffset": 81596,
                     "endLine": 1010,
                     "endColumn": 12,
-                    "endOffset": 82017
+                    "endOffset": 82015
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8704,10 +8704,10 @@
                 "to": {
                     "startLine": 1011,
                     "startColumn": 4,
-                    "startOffset": 82022,
+                    "startOffset": 82020,
                     "endLine": 1014,
                     "endColumn": 12,
-                    "endOffset": 82256
+                    "endOffset": 82254
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8725,9 +8725,9 @@
                 "to": {
                     "startLine": 1015,
                     "startColumn": 4,
-                    "startOffset": 82261,
+                    "startOffset": 82259,
                     "endColumn": 93,
-                    "endOffset": 82350
+                    "endOffset": 82348
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8744,9 +8744,9 @@
                 "to": {
                     "startLine": 1016,
                     "startColumn": 4,
-                    "startOffset": 82355,
+                    "startOffset": 82353,
                     "endColumn": 88,
-                    "endOffset": 82439
+                    "endOffset": 82437
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8763,10 +8763,10 @@
                 "to": {
                     "startLine": 1017,
                     "startColumn": 4,
-                    "startOffset": 82444,
+                    "startOffset": 82442,
                     "endLine": 1020,
                     "endColumn": 12,
-                    "endOffset": 82676
+                    "endOffset": 82674
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8784,10 +8784,10 @@
                 "to": {
                     "startLine": 1021,
                     "startColumn": 4,
-                    "startOffset": 82681,
+                    "startOffset": 82679,
                     "endLine": 1047,
                     "endColumn": 12,
-                    "endOffset": 84728
+                    "endOffset": 84726
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8805,10 +8805,10 @@
                 "to": {
                     "startLine": 1048,
                     "startColumn": 4,
-                    "startOffset": 84733,
+                    "startOffset": 84731,
                     "endLine": 1051,
                     "endColumn": 12,
-                    "endOffset": 84970
+                    "endOffset": 84968
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8826,9 +8826,9 @@
                 "to": {
                     "startLine": 1052,
                     "startColumn": 4,
-                    "startOffset": 84975,
+                    "startOffset": 84973,
                     "endColumn": 101,
-                    "endOffset": 85072
+                    "endOffset": 85070
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8845,10 +8845,10 @@
                 "to": {
                     "startLine": 1053,
                     "startColumn": 4,
-                    "startOffset": 85077,
+                    "startOffset": 85075,
                     "endLine": 1056,
                     "endColumn": 12,
-                    "endOffset": 85309
+                    "endOffset": 85307
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8866,10 +8866,10 @@
                 "to": {
                     "startLine": 1057,
                     "startColumn": 4,
-                    "startOffset": 85314,
+                    "startOffset": 85312,
                     "endLine": 1084,
                     "endColumn": 12,
-                    "endOffset": 87493
+                    "endOffset": 87491
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8887,10 +8887,10 @@
                 "to": {
                     "startLine": 1085,
                     "startColumn": 4,
-                    "startOffset": 87498,
+                    "startOffset": 87496,
                     "endLine": 1243,
                     "endColumn": 12,
-                    "endOffset": 97662
+                    "endOffset": 97660
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8908,10 +8908,10 @@
                 "to": {
                     "startLine": 1244,
                     "startColumn": 4,
-                    "startOffset": 97667,
+                    "startOffset": 97665,
                     "endLine": 1265,
                     "endColumn": 12,
-                    "endOffset": 98913
+                    "endOffset": 98911
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8929,10 +8929,10 @@
                 "to": {
                     "startLine": 1266,
                     "startColumn": 4,
-                    "startOffset": 98918,
+                    "startOffset": 98916,
                     "endLine": 1424,
                     "endColumn": 12,
-                    "endOffset": 109181
+                    "endOffset": 109179
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8950,10 +8950,10 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 109186,
+                    "startOffset": 109184,
                     "endLine": 1446,
                     "endColumn": 12,
-                    "endOffset": 110444
+                    "endOffset": 110442
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8971,10 +8971,10 @@
                 "to": {
                     "startLine": 1447,
                     "startColumn": 4,
-                    "startOffset": 110449,
+                    "startOffset": 110447,
                     "endLine": 1473,
                     "endColumn": 12,
-                    "endOffset": 111936
+                    "endOffset": 111934
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -8992,10 +8992,10 @@
                 "to": {
                     "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 111941,
+                    "startOffset": 111939,
                     "endLine": 1480,
                     "endColumn": 12,
-                    "endOffset": 112472
+                    "endOffset": 112470
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9013,10 +9013,10 @@
                 "to": {
                     "startLine": 1481,
                     "startColumn": 4,
-                    "startOffset": 112477,
+                    "startOffset": 112475,
                     "endLine": 1485,
                     "endColumn": 12,
-                    "endOffset": 112802
+                    "endOffset": 112800
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9034,10 +9034,10 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 112807,
+                    "startOffset": 112805,
                     "endLine": 1507,
                     "endColumn": 12,
-                    "endOffset": 114067
+                    "endOffset": 114065
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9055,10 +9055,10 @@
                 "to": {
                     "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 114072,
+                    "startOffset": 114070,
                     "endLine": 1512,
                     "endColumn": 12,
-                    "endOffset": 114323
+                    "endOffset": 114321
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9076,10 +9076,10 @@
                 "to": {
                     "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 114328,
+                    "startOffset": 114326,
                     "endLine": 1517,
                     "endColumn": 12,
-                    "endOffset": 114559
+                    "endOffset": 114557
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9097,10 +9097,10 @@
                 "to": {
                     "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 114564,
+                    "startOffset": 114562,
                     "endLine": 1527,
                     "endColumn": 12,
-                    "endOffset": 115106
+                    "endOffset": 115104
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9118,10 +9118,10 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 115111,
+                    "startOffset": 115109,
                     "endLine": 1536,
                     "endColumn": 12,
-                    "endOffset": 115600
+                    "endOffset": 115598
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9139,10 +9139,10 @@
                 "to": {
                     "startLine": 1537,
                     "startColumn": 4,
-                    "startOffset": 115605,
+                    "startOffset": 115603,
                     "endLine": 1545,
                     "endColumn": 12,
-                    "endOffset": 116205
+                    "endOffset": 116203
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9160,10 +9160,10 @@
                 "to": {
                     "startLine": 1546,
                     "startColumn": 4,
-                    "startOffset": 116210,
+                    "startOffset": 116208,
                     "endLine": 1549,
                     "endColumn": 12,
-                    "endOffset": 116403
+                    "endOffset": 116401
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9181,10 +9181,10 @@
                 "to": {
                     "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 116408,
+                    "startOffset": 116406,
                     "endLine": 1556,
                     "endColumn": 12,
-                    "endOffset": 116983
+                    "endOffset": 116981
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9202,10 +9202,10 @@
                 "to": {
                     "startLine": 1557,
                     "startColumn": 4,
-                    "startOffset": 116988,
+                    "startOffset": 116986,
                     "endLine": 1564,
                     "endColumn": 12,
-                    "endOffset": 117547
+                    "endOffset": 117545
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9223,10 +9223,10 @@
                 "to": {
                     "startLine": 1565,
                     "startColumn": 4,
-                    "startOffset": 117552,
+                    "startOffset": 117550,
                     "endLine": 1571,
                     "endColumn": 12,
-                    "endOffset": 117922
+                    "endOffset": 117920
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9244,9 +9244,9 @@
                 "to": {
                     "startLine": 1572,
                     "startColumn": 4,
-                    "startOffset": 117927,
+                    "startOffset": 117925,
                     "endColumn": 117,
-                    "endOffset": 118040
+                    "endOffset": 118038
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9263,10 +9263,10 @@
                 "to": {
                     "startLine": 1573,
                     "startColumn": 4,
-                    "startOffset": 118045,
+                    "startOffset": 118043,
                     "endLine": 1581,
                     "endColumn": 12,
-                    "endOffset": 118578
+                    "endOffset": 118576
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9284,10 +9284,10 @@
                 "to": {
                     "startLine": 1582,
                     "startColumn": 4,
-                    "startOffset": 118583,
+                    "startOffset": 118581,
                     "endLine": 1584,
                     "endColumn": 12,
-                    "endOffset": 118735
+                    "endOffset": 118733
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9305,10 +9305,10 @@
                 "to": {
                     "startLine": 1585,
                     "startColumn": 4,
-                    "startOffset": 118740,
+                    "startOffset": 118738,
                     "endLine": 1587,
                     "endColumn": 12,
-                    "endOffset": 118931
+                    "endOffset": 118929
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9326,10 +9326,10 @@
                 "to": {
                     "startLine": 1588,
                     "startColumn": 4,
-                    "startOffset": 118936,
+                    "startOffset": 118934,
                     "endLine": 1591,
                     "endColumn": 12,
-                    "endOffset": 119204
+                    "endOffset": 119202
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9347,10 +9347,10 @@
                 "to": {
                     "startLine": 1592,
                     "startColumn": 4,
-                    "startOffset": 119209,
+                    "startOffset": 119207,
                     "endLine": 1595,
                     "endColumn": 12,
-                    "endOffset": 119460
+                    "endOffset": 119458
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9368,10 +9368,10 @@
                 "to": {
                     "startLine": 1596,
                     "startColumn": 4,
-                    "startOffset": 119465,
+                    "startOffset": 119463,
                     "endLine": 1599,
                     "endColumn": 12,
-                    "endOffset": 119630
+                    "endOffset": 119628
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9389,10 +9389,10 @@
                 "to": {
                     "startLine": 1600,
                     "startColumn": 4,
-                    "startOffset": 119635,
+                    "startOffset": 119633,
                     "endLine": 1602,
                     "endColumn": 12,
-                    "endOffset": 119771
+                    "endOffset": 119769
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9410,9 +9410,9 @@
                 "to": {
                     "startLine": 1603,
                     "startColumn": 4,
-                    "startOffset": 119776,
+                    "startOffset": 119774,
                     "endColumn": 63,
-                    "endOffset": 119835
+                    "endOffset": 119833
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9429,10 +9429,10 @@
                 "to": {
                     "startLine": 1604,
                     "startColumn": 4,
-                    "startOffset": 119840,
+                    "startOffset": 119838,
                     "endLine": 1607,
                     "endColumn": 12,
-                    "endOffset": 120117
+                    "endOffset": 120115
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9450,10 +9450,10 @@
                 "to": {
                     "startLine": 1608,
                     "startColumn": 4,
-                    "startOffset": 120122,
+                    "startOffset": 120120,
                     "endLine": 1611,
                     "endColumn": 12,
-                    "endOffset": 120403
+                    "endOffset": 120401
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9471,10 +9471,10 @@
                 "to": {
                     "startLine": 1612,
                     "startColumn": 4,
-                    "startOffset": 120408,
+                    "startOffset": 120406,
                     "endLine": 1621,
                     "endColumn": 12,
-                    "endOffset": 121079
+                    "endOffset": 121077
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9492,10 +9492,10 @@
                 "to": {
                     "startLine": 1622,
                     "startColumn": 4,
-                    "startOffset": 121084,
+                    "startOffset": 121082,
                     "endLine": 1626,
                     "endColumn": 12,
-                    "endOffset": 121343
+                    "endOffset": 121341
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9513,10 +9513,10 @@
                 "to": {
                     "startLine": 1627,
                     "startColumn": 4,
-                    "startOffset": 121348,
+                    "startOffset": 121346,
                     "endLine": 1633,
                     "endColumn": 12,
-                    "endOffset": 121681
+                    "endOffset": 121679
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9534,10 +9534,10 @@
                 "to": {
                     "startLine": 1634,
                     "startColumn": 4,
-                    "startOffset": 121686,
+                    "startOffset": 121684,
                     "endLine": 1639,
                     "endColumn": 12,
-                    "endOffset": 122034
+                    "endOffset": 122032
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9555,9 +9555,9 @@
                 "to": {
                     "startLine": 1640,
                     "startColumn": 4,
-                    "startOffset": 122039,
+                    "startOffset": 122037,
                     "endColumn": 93,
-                    "endOffset": 122128
+                    "endOffset": 122126
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9574,10 +9574,10 @@
                 "to": {
                     "startLine": 1641,
                     "startColumn": 4,
-                    "startOffset": 122133,
+                    "startOffset": 122131,
                     "endLine": 1643,
                     "endColumn": 12,
-                    "endOffset": 122314
+                    "endOffset": 122312
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9595,10 +9595,10 @@
                 "to": {
                     "startLine": 1644,
                     "startColumn": 4,
-                    "startOffset": 122319,
+                    "startOffset": 122317,
                     "endLine": 1647,
                     "endColumn": 12,
-                    "endOffset": 122620
+                    "endOffset": 122618
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9616,10 +9616,10 @@
                 "to": {
                     "startLine": 1648,
                     "startColumn": 4,
-                    "startOffset": 122625,
+                    "startOffset": 122623,
                     "endLine": 1652,
                     "endColumn": 12,
-                    "endOffset": 122882
+                    "endOffset": 122880
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9637,10 +9637,10 @@
                 "to": {
                     "startLine": 1653,
                     "startColumn": 4,
-                    "startOffset": 122887,
+                    "startOffset": 122885,
                     "endLine": 1654,
                     "endColumn": 12,
-                    "endOffset": 123007
+                    "endOffset": 123005
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9658,10 +9658,10 @@
                 "to": {
                     "startLine": 1655,
                     "startColumn": 4,
-                    "startOffset": 123012,
+                    "startOffset": 123010,
                     "endLine": 1656,
                     "endColumn": 12,
-                    "endOffset": 123134
+                    "endOffset": 123132
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9679,10 +9679,10 @@
                 "to": {
                     "startLine": 1657,
                     "startColumn": 4,
-                    "startOffset": 123139,
+                    "startOffset": 123137,
                     "endLine": 1659,
                     "endColumn": 12,
-                    "endOffset": 123373
+                    "endOffset": 123371
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9700,10 +9700,10 @@
                 "to": {
                     "startLine": 1660,
                     "startColumn": 4,
-                    "startOffset": 123378,
+                    "startOffset": 123376,
                     "endLine": 1662,
                     "endColumn": 12,
-                    "endOffset": 123584
+                    "endOffset": 123582
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9721,10 +9721,10 @@
                 "to": {
                     "startLine": 1663,
                     "startColumn": 4,
-                    "startOffset": 123589,
+                    "startOffset": 123587,
                     "endLine": 1664,
                     "endColumn": 12,
-                    "endOffset": 123703
+                    "endOffset": 123701
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9742,10 +9742,10 @@
                 "to": {
                     "startLine": 1665,
                     "startColumn": 4,
-                    "startOffset": 123708,
+                    "startOffset": 123706,
                     "endLine": 1668,
                     "endColumn": 12,
-                    "endOffset": 123896
+                    "endOffset": 123894
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9763,10 +9763,10 @@
                 "to": {
                     "startLine": 1669,
                     "startColumn": 4,
-                    "startOffset": 123901,
+                    "startOffset": 123899,
                     "endLine": 1671,
                     "endColumn": 12,
-                    "endOffset": 124073
+                    "endOffset": 124071
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9784,10 +9784,10 @@
                 "to": {
                     "startLine": 1672,
                     "startColumn": 4,
-                    "startOffset": 124078,
+                    "startOffset": 124076,
                     "endLine": 1678,
                     "endColumn": 12,
-                    "endOffset": 124528
+                    "endOffset": 124526
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9805,10 +9805,10 @@
                 "to": {
                     "startLine": 1679,
                     "startColumn": 4,
-                    "startOffset": 124533,
+                    "startOffset": 124531,
                     "endLine": 1681,
                     "endColumn": 12,
-                    "endOffset": 124709
+                    "endOffset": 124707
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9826,10 +9826,10 @@
                 "to": {
                     "startLine": 1682,
                     "startColumn": 4,
-                    "startOffset": 124714,
+                    "startOffset": 124712,
                     "endLine": 1684,
                     "endColumn": 12,
-                    "endOffset": 124831
+                    "endOffset": 124829
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9847,10 +9847,10 @@
                 "to": {
                     "startLine": 1685,
                     "startColumn": 4,
-                    "startOffset": 124836,
+                    "startOffset": 124834,
                     "endLine": 1688,
                     "endColumn": 12,
-                    "endOffset": 125090
+                    "endOffset": 125088
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9868,10 +9868,10 @@
                 "to": {
                     "startLine": 1689,
                     "startColumn": 4,
-                    "startOffset": 125095,
+                    "startOffset": 125093,
                     "endLine": 1690,
                     "endColumn": 12,
-                    "endOffset": 125203
+                    "endOffset": 125201
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9889,10 +9889,10 @@
                 "to": {
                     "startLine": 1691,
                     "startColumn": 4,
-                    "startOffset": 125208,
+                    "startOffset": 125206,
                     "endLine": 1694,
                     "endColumn": 12,
-                    "endOffset": 125390
+                    "endOffset": 125388
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9910,10 +9910,10 @@
                 "to": {
                     "startLine": 1695,
                     "startColumn": 4,
-                    "startOffset": 125395,
+                    "startOffset": 125393,
                     "endLine": 1696,
                     "endColumn": 12,
-                    "endOffset": 125492
+                    "endOffset": 125490
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9931,10 +9931,10 @@
                 "to": {
                     "startLine": 1697,
                     "startColumn": 4,
-                    "startOffset": 125497,
+                    "startOffset": 125495,
                     "endLine": 1702,
                     "endColumn": 12,
-                    "endOffset": 125936
+                    "endOffset": 125934
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9952,10 +9952,10 @@
                 "to": {
                     "startLine": 1703,
                     "startColumn": 4,
-                    "startOffset": 125941,
+                    "startOffset": 125939,
                     "endLine": 1704,
                     "endColumn": 12,
-                    "endOffset": 126060
+                    "endOffset": 126058
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9973,10 +9973,10 @@
                 "to": {
                     "startLine": 1705,
                     "startColumn": 4,
-                    "startOffset": 126065,
+                    "startOffset": 126063,
                     "endLine": 1708,
                     "endColumn": 12,
-                    "endOffset": 126335
+                    "endOffset": 126333
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -9994,10 +9994,10 @@
                 "to": {
                     "startLine": 1709,
                     "startColumn": 4,
-                    "startOffset": 126340,
+                    "startOffset": 126338,
                     "endLine": 1716,
                     "endColumn": 12,
-                    "endOffset": 126843
+                    "endOffset": 126841
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10015,10 +10015,10 @@
                 "to": {
                     "startLine": 1717,
                     "startColumn": 4,
-                    "startOffset": 126848,
+                    "startOffset": 126846,
                     "endLine": 1724,
                     "endColumn": 12,
-                    "endOffset": 127339
+                    "endOffset": 127337
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10036,10 +10036,10 @@
                 "to": {
                     "startLine": 1725,
                     "startColumn": 4,
-                    "startOffset": 127344,
+                    "startOffset": 127342,
                     "endLine": 1736,
                     "endColumn": 12,
-                    "endOffset": 128216
+                    "endOffset": 128214
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10057,10 +10057,10 @@
                 "to": {
                     "startLine": 1737,
                     "startColumn": 4,
-                    "startOffset": 128221,
+                    "startOffset": 128219,
                     "endLine": 1742,
                     "endColumn": 12,
-                    "endOffset": 128510
+                    "endOffset": 128508
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10078,10 +10078,10 @@
                 "to": {
                     "startLine": 1743,
                     "startColumn": 4,
-                    "startOffset": 128515,
+                    "startOffset": 128513,
                     "endLine": 1751,
                     "endColumn": 12,
-                    "endOffset": 129080
+                    "endOffset": 129078
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10099,10 +10099,10 @@
                 "to": {
                     "startLine": 1752,
                     "startColumn": 4,
-                    "startOffset": 129085,
+                    "startOffset": 129083,
                     "endLine": 1754,
                     "endColumn": 12,
-                    "endOffset": 129229
+                    "endOffset": 129227
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10120,10 +10120,10 @@
                 "to": {
                     "startLine": 1755,
                     "startColumn": 4,
-                    "startOffset": 129234,
+                    "startOffset": 129232,
                     "endLine": 1765,
                     "endColumn": 12,
-                    "endOffset": 129961
+                    "endOffset": 129959
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10141,10 +10141,10 @@
                 "to": {
                     "startLine": 1766,
                     "startColumn": 4,
-                    "startOffset": 129966,
+                    "startOffset": 129964,
                     "endLine": 1768,
                     "endColumn": 12,
-                    "endOffset": 130133
+                    "endOffset": 130131
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10162,10 +10162,10 @@
                 "to": {
                     "startLine": 1769,
                     "startColumn": 4,
-                    "startOffset": 130138,
+                    "startOffset": 130136,
                     "endLine": 1773,
                     "endColumn": 12,
-                    "endOffset": 130469
+                    "endOffset": 130467
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10183,10 +10183,10 @@
                 "to": {
                     "startLine": 1774,
                     "startColumn": 4,
-                    "startOffset": 130474,
+                    "startOffset": 130472,
                     "endLine": 1787,
                     "endColumn": 12,
-                    "endOffset": 131527
+                    "endOffset": 131525
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10204,10 +10204,10 @@
                 "to": {
                     "startLine": 1788,
                     "startColumn": 4,
-                    "startOffset": 131532,
+                    "startOffset": 131530,
                     "endLine": 1792,
                     "endColumn": 12,
-                    "endOffset": 131805
+                    "endOffset": 131803
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10225,10 +10225,10 @@
                 "to": {
                     "startLine": 1793,
                     "startColumn": 4,
-                    "startOffset": 131810,
+                    "startOffset": 131808,
                     "endLine": 1795,
                     "endColumn": 12,
-                    "endOffset": 131959
+                    "endOffset": 131957
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -10246,10 +10246,10 @@
                 "to": {
                     "startLine": 1796,
                     "startColumn": 4,
-                    "startOffset": 131964,
+                    "startOffset": 131962,
                     "endLine": 1805,
                     "endColumn": 12,
-                    "endOffset": 132550
+                    "endOffset": 132548
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -10267,10 +10267,10 @@
                 "to": {
                     "startLine": 1806,
                     "startColumn": 4,
-                    "startOffset": 132555,
+                    "startOffset": 132553,
                     "endLine": 1807,
                     "endColumn": 12,
-                    "endOffset": 132614
+                    "endOffset": 132612
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/09548970c209ae9f02ace2b1bb27f50109b6a676/output/res/values/values.xml",
@@ -10288,10 +10288,10 @@
                 "to": {
                     "startLine": 1808,
                     "startColumn": 4,
-                    "startOffset": 132619,
+                    "startOffset": 132617,
                     "endLine": 1810,
                     "endColumn": 12,
-                    "endOffset": 132740
+                    "endOffset": 132738
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/09548970c209ae9f02ace2b1bb27f50109b6a676/output/res/values/values.xml",
@@ -10309,10 +10309,10 @@
                 "to": {
                     "startLine": 1811,
                     "startColumn": 4,
-                    "startOffset": 132745,
+                    "startOffset": 132743,
                     "endLine": 1813,
                     "endColumn": 12,
-                    "endOffset": 132868
+                    "endOffset": 132866
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/09548970c209ae9f02ace2b1bb27f50109b6a676/output/res/values/values.xml",
@@ -10330,10 +10330,10 @@
                 "to": {
                     "startLine": 1814,
                     "startColumn": 4,
-                    "startOffset": 132873,
+                    "startOffset": 132871,
                     "endLine": 1855,
                     "endColumn": 12,
-                    "endOffset": 136054
+                    "endOffset": 136052
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10351,10 +10351,10 @@
                 "to": {
                     "startLine": 1856,
                     "startColumn": 4,
-                    "startOffset": 136059,
+                    "startOffset": 136057,
                     "endLine": 1898,
                     "endColumn": 12,
-                    "endOffset": 139383
+                    "endOffset": 139381
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10372,9 +10372,9 @@
                 "to": {
                     "startLine": 1899,
                     "startColumn": 4,
-                    "startOffset": 139388,
+                    "startOffset": 139386,
                     "endColumn": 61,
-                    "endOffset": 139445
+                    "endOffset": 139443
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10391,10 +10391,10 @@
                 "to": {
                     "startLine": 1900,
                     "startColumn": 4,
-                    "startOffset": 139450,
+                    "startOffset": 139448,
                     "endLine": 1909,
                     "endColumn": 12,
-                    "endOffset": 140075
+                    "endOffset": 140073
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10412,10 +10412,10 @@
                 "to": {
                     "startLine": 1910,
                     "startColumn": 4,
-                    "startOffset": 140080,
+                    "startOffset": 140078,
                     "endLine": 1918,
                     "endColumn": 12,
-                    "endOffset": 140689
+                    "endOffset": 140687
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10433,9 +10433,9 @@
                 "to": {
                     "startLine": 1919,
                     "startColumn": 4,
-                    "startOffset": 140694,
+                    "startOffset": 140692,
                     "endColumn": 85,
-                    "endOffset": 140775
+                    "endOffset": 140773
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10452,10 +10452,10 @@
                 "to": {
                     "startLine": 1920,
                     "startColumn": 4,
-                    "startOffset": 140780,
+                    "startOffset": 140778,
                     "endLine": 1921,
                     "endColumn": 12,
-                    "endOffset": 140888
+                    "endOffset": 140886
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10473,10 +10473,10 @@
                 "to": {
                     "startLine": 1922,
                     "startColumn": 4,
-                    "startOffset": 140893,
+                    "startOffset": 140891,
                     "endLine": 1925,
                     "endColumn": 12,
-                    "endOffset": 141117
+                    "endOffset": 141115
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10494,10 +10494,10 @@
                 "to": {
                     "startLine": 1926,
                     "startColumn": 4,
-                    "startOffset": 141122,
+                    "startOffset": 141120,
                     "endLine": 1928,
                     "endColumn": 12,
-                    "endOffset": 141277
+                    "endOffset": 141275
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10515,10 +10515,10 @@
                 "to": {
                     "startLine": 1929,
                     "startColumn": 4,
-                    "startOffset": 141282,
+                    "startOffset": 141280,
                     "endLine": 1931,
                     "endColumn": 12,
-                    "endOffset": 141429
+                    "endOffset": 141427
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10536,10 +10536,10 @@
                 "to": {
                     "startLine": 1932,
                     "startColumn": 4,
-                    "startOffset": 141434,
+                    "startOffset": 141432,
                     "endLine": 1934,
                     "endColumn": 12,
-                    "endOffset": 141600
+                    "endOffset": 141598
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10557,10 +10557,10 @@
                 "to": {
                     "startLine": 1935,
                     "startColumn": 4,
-                    "startOffset": 141605,
+                    "startOffset": 141603,
                     "endLine": 1937,
                     "endColumn": 12,
-                    "endOffset": 141767
+                    "endOffset": 141765
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10578,10 +10578,10 @@
                 "to": {
                     "startLine": 1938,
                     "startColumn": 4,
-                    "startOffset": 141772,
+                    "startOffset": 141770,
                     "endLine": 1941,
                     "endColumn": 12,
-                    "endOffset": 142010
+                    "endOffset": 142008
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10599,10 +10599,10 @@
                 "to": {
                     "startLine": 1942,
                     "startColumn": 4,
-                    "startOffset": 142015,
+                    "startOffset": 142013,
                     "endLine": 1944,
                     "endColumn": 12,
-                    "endOffset": 142180
+                    "endOffset": 142178
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10620,10 +10620,10 @@
                 "to": {
                     "startLine": 1945,
                     "startColumn": 4,
-                    "startOffset": 142185,
+                    "startOffset": 142183,
                     "endLine": 1947,
                     "endColumn": 12,
-                    "endOffset": 142353
+                    "endOffset": 142351
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10641,10 +10641,10 @@
                 "to": {
                     "startLine": 1948,
                     "startColumn": 4,
-                    "startOffset": 142358,
+                    "startOffset": 142356,
                     "endLine": 1950,
                     "endColumn": 12,
-                    "endOffset": 142524
+                    "endOffset": 142522
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10662,10 +10662,10 @@
                 "to": {
                     "startLine": 1951,
                     "startColumn": 4,
-                    "startOffset": 142529,
+                    "startOffset": 142527,
                     "endLine": 1954,
                     "endColumn": 12,
-                    "endOffset": 142798
+                    "endOffset": 142796
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10683,10 +10683,10 @@
                 "to": {
                     "startLine": 1955,
                     "startColumn": 4,
-                    "startOffset": 142803,
+                    "startOffset": 142801,
                     "endLine": 1957,
                     "endColumn": 12,
-                    "endOffset": 142997
+                    "endOffset": 142995
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10704,10 +10704,10 @@
                 "to": {
                     "startLine": 1958,
                     "startColumn": 4,
-                    "startOffset": 143002,
+                    "startOffset": 143000,
                     "endLine": 1961,
                     "endColumn": 12,
-                    "endOffset": 143202
+                    "endOffset": 143200
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10725,10 +10725,10 @@
                 "to": {
                     "startLine": 1962,
                     "startColumn": 4,
-                    "startOffset": 143207,
+                    "startOffset": 143205,
                     "endLine": 1965,
                     "endColumn": 12,
-                    "endOffset": 143532
+                    "endOffset": 143530
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10746,9 +10746,9 @@
                 "to": {
                     "startLine": 1966,
                     "startColumn": 4,
-                    "startOffset": 143537,
+                    "startOffset": 143535,
                     "endColumn": 83,
-                    "endOffset": 143616
+                    "endOffset": 143614
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10765,9 +10765,9 @@
                 "to": {
                     "startLine": 1967,
                     "startColumn": 4,
-                    "startOffset": 143621,
+                    "startOffset": 143619,
                     "endColumn": 95,
-                    "endOffset": 143712
+                    "endOffset": 143710
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10784,9 +10784,9 @@
                 "to": {
                     "startLine": 1968,
                     "startColumn": 4,
-                    "startOffset": 143717,
+                    "startOffset": 143715,
                     "endColumn": 95,
-                    "endOffset": 143808
+                    "endOffset": 143806
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10803,9 +10803,9 @@
                 "to": {
                     "startLine": 1969,
                     "startColumn": 4,
-                    "startOffset": 143813,
+                    "startOffset": 143811,
                     "endColumn": 97,
-                    "endOffset": 143906
+                    "endOffset": 143904
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10822,9 +10822,9 @@
                 "to": {
                     "startLine": 1970,
                     "startColumn": 4,
-                    "startOffset": 143911,
+                    "startOffset": 143909,
                     "endColumn": 99,
-                    "endOffset": 144006
+                    "endOffset": 144004
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10841,9 +10841,9 @@
                 "to": {
                     "startLine": 1971,
                     "startColumn": 4,
-                    "startOffset": 144011,
+                    "startOffset": 144009,
                     "endColumn": 101,
-                    "endOffset": 144108
+                    "endOffset": 144106
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10860,9 +10860,9 @@
                 "to": {
                     "startLine": 1972,
                     "startColumn": 4,
-                    "startOffset": 144113,
+                    "startOffset": 144111,
                     "endColumn": 101,
-                    "endOffset": 144210
+                    "endOffset": 144208
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10879,9 +10879,9 @@
                 "to": {
                     "startLine": 1973,
                     "startColumn": 4,
-                    "startOffset": 144215,
+                    "startOffset": 144213,
                     "endColumn": 101,
-                    "endOffset": 144312
+                    "endOffset": 144310
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10898,9 +10898,9 @@
                 "to": {
                     "startLine": 1974,
                     "startColumn": 4,
-                    "startOffset": 144317,
+                    "startOffset": 144315,
                     "endColumn": 101,
-                    "endOffset": 144414
+                    "endOffset": 144412
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10917,9 +10917,9 @@
                 "to": {
                     "startLine": 1975,
                     "startColumn": 4,
-                    "startOffset": 144419,
+                    "startOffset": 144417,
                     "endColumn": 101,
-                    "endOffset": 144516
+                    "endOffset": 144514
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10936,9 +10936,9 @@
                 "to": {
                     "startLine": 1976,
                     "startColumn": 4,
-                    "startOffset": 144521,
+                    "startOffset": 144519,
                     "endColumn": 99,
-                    "endOffset": 144616
+                    "endOffset": 144614
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10955,9 +10955,9 @@
                 "to": {
                     "startLine": 1977,
                     "startColumn": 4,
-                    "startOffset": 144621,
+                    "startOffset": 144619,
                     "endColumn": 95,
-                    "endOffset": 144712
+                    "endOffset": 144710
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10974,9 +10974,9 @@
                 "to": {
                     "startLine": 1978,
                     "startColumn": 4,
-                    "startOffset": 144717,
+                    "startOffset": 144715,
                     "endColumn": 111,
-                    "endOffset": 144824
+                    "endOffset": 144822
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -10993,9 +10993,9 @@
                 "to": {
                     "startLine": 1979,
                     "startColumn": 4,
-                    "startOffset": 144829,
+                    "startOffset": 144827,
                     "endColumn": 128,
-                    "endOffset": 144953
+                    "endOffset": 144951
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11012,9 +11012,9 @@
                 "to": {
                     "startLine": 1980,
                     "startColumn": 4,
-                    "startOffset": 144958,
+                    "startOffset": 144956,
                     "endColumn": 122,
-                    "endOffset": 145076
+                    "endOffset": 145074
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11031,9 +11031,9 @@
                 "to": {
                     "startLine": 1981,
                     "startColumn": 4,
-                    "startOffset": 145081,
+                    "startOffset": 145079,
                     "endColumn": 130,
-                    "endOffset": 145207
+                    "endOffset": 145205
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11050,9 +11050,9 @@
                 "to": {
                     "startLine": 1982,
                     "startColumn": 4,
-                    "startOffset": 145212,
+                    "startOffset": 145210,
                     "endColumn": 130,
-                    "endOffset": 145338
+                    "endOffset": 145336
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11069,9 +11069,9 @@
                 "to": {
                     "startLine": 1983,
                     "startColumn": 4,
-                    "startOffset": 145343,
+                    "startOffset": 145341,
                     "endColumn": 97,
-                    "endOffset": 145436
+                    "endOffset": 145434
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11088,9 +11088,9 @@
                 "to": {
                     "startLine": 1984,
                     "startColumn": 4,
-                    "startOffset": 145441,
+                    "startOffset": 145439,
                     "endColumn": 113,
-                    "endOffset": 145550
+                    "endOffset": 145548
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11107,9 +11107,9 @@
                 "to": {
                     "startLine": 1985,
                     "startColumn": 4,
-                    "startOffset": 145555,
+                    "startOffset": 145553,
                     "endColumn": 93,
-                    "endOffset": 145644
+                    "endOffset": 145642
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11126,10 +11126,10 @@
                 "to": {
                     "startLine": 1986,
                     "startColumn": 4,
-                    "startOffset": 145649,
+                    "startOffset": 145647,
                     "endLine": 1989,
                     "endColumn": 12,
-                    "endOffset": 145843
+                    "endOffset": 145841
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11147,10 +11147,10 @@
                 "to": {
                     "startLine": 1990,
                     "startColumn": 4,
-                    "startOffset": 145848,
+                    "startOffset": 145846,
                     "endLine": 1993,
                     "endColumn": 12,
-                    "endOffset": 146047
+                    "endOffset": 146045
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11168,9 +11168,9 @@
                 "to": {
                     "startLine": 1994,
                     "startColumn": 4,
-                    "startOffset": 146052,
+                    "startOffset": 146050,
                     "endColumn": 68,
-                    "endOffset": 146116
+                    "endOffset": 146114
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11187,9 +11187,9 @@
                 "to": {
                     "startLine": 1995,
                     "startColumn": 4,
-                    "startOffset": 146121,
+                    "startOffset": 146119,
                     "endColumn": 115,
-                    "endOffset": 146232
+                    "endOffset": 146230
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11206,9 +11206,9 @@
                 "to": {
                     "startLine": 1996,
                     "startColumn": 4,
-                    "startOffset": 146237,
+                    "startOffset": 146235,
                     "endColumn": 127,
-                    "endOffset": 146360
+                    "endOffset": 146358
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11225,9 +11225,9 @@
                 "to": {
                     "startLine": 1997,
                     "startColumn": 4,
-                    "startOffset": 146365,
+                    "startOffset": 146363,
                     "endColumn": 63,
-                    "endOffset": 146424
+                    "endOffset": 146422
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11244,10 +11244,10 @@
                 "to": {
                     "startLine": 1998,
                     "startColumn": 4,
-                    "startOffset": 146429,
+                    "startOffset": 146427,
                     "endLine": 2001,
                     "endColumn": 12,
-                    "endOffset": 146628
+                    "endOffset": 146626
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11265,9 +11265,9 @@
                 "to": {
                     "startLine": 2002,
                     "startColumn": 4,
-                    "startOffset": 146633,
+                    "startOffset": 146631,
                     "endColumn": 68,
-                    "endOffset": 146697
+                    "endOffset": 146695
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11284,10 +11284,10 @@
                 "to": {
                     "startLine": 2003,
                     "startColumn": 4,
-                    "startOffset": 146702,
+                    "startOffset": 146700,
                     "endLine": 2006,
                     "endColumn": 12,
-                    "endOffset": 146900
+                    "endOffset": 146898
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11305,9 +11305,9 @@
                 "to": {
                     "startLine": 2007,
                     "startColumn": 4,
-                    "startOffset": 146905,
+                    "startOffset": 146903,
                     "endColumn": 69,
-                    "endOffset": 146970
+                    "endOffset": 146968
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11324,10 +11324,10 @@
                 "to": {
                     "startLine": 2008,
                     "startColumn": 4,
-                    "startOffset": 146975,
+                    "startOffset": 146973,
                     "endLine": 2009,
                     "endColumn": 12,
-                    "endOffset": 147110
+                    "endOffset": 147108
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11345,10 +11345,10 @@
                 "to": {
                     "startLine": 2010,
                     "startColumn": 4,
-                    "startOffset": 147115,
+                    "startOffset": 147113,
                     "endLine": 2011,
                     "endColumn": 12,
-                    "endOffset": 147244
+                    "endOffset": 147242
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11366,9 +11366,9 @@
                 "to": {
                     "startLine": 2012,
                     "startColumn": 4,
-                    "startOffset": 147249,
+                    "startOffset": 147247,
                     "endColumn": 95,
-                    "endOffset": 147340
+                    "endOffset": 147338
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11385,9 +11385,9 @@
                 "to": {
                     "startLine": 2013,
                     "startColumn": 4,
-                    "startOffset": 147345,
+                    "startOffset": 147343,
                     "endColumn": 111,
-                    "endOffset": 147452
+                    "endOffset": 147450
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11404,9 +11404,9 @@
                 "to": {
                     "startLine": 2014,
                     "startColumn": 4,
-                    "startOffset": 147457,
+                    "startOffset": 147455,
                     "endColumn": 99,
-                    "endOffset": 147552
+                    "endOffset": 147550
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11423,9 +11423,9 @@
                 "to": {
                     "startLine": 2015,
                     "startColumn": 4,
-                    "startOffset": 147557,
+                    "startOffset": 147555,
                     "endColumn": 115,
-                    "endOffset": 147668
+                    "endOffset": 147666
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11442,9 +11442,9 @@
                 "to": {
                     "startLine": 2016,
                     "startColumn": 4,
-                    "startOffset": 147673,
+                    "startOffset": 147671,
                     "endColumn": 95,
-                    "endOffset": 147764
+                    "endOffset": 147762
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11461,9 +11461,9 @@
                 "to": {
                     "startLine": 2017,
                     "startColumn": 4,
-                    "startOffset": 147769,
+                    "startOffset": 147767,
                     "endColumn": 111,
-                    "endOffset": 147876
+                    "endOffset": 147874
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11480,10 +11480,10 @@
                 "to": {
                     "startLine": 2018,
                     "startColumn": 4,
-                    "startOffset": 147881,
+                    "startOffset": 147879,
                     "endLine": 2019,
                     "endColumn": 12,
-                    "endOffset": 148016
+                    "endOffset": 148014
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11501,9 +11501,9 @@
                 "to": {
                     "startLine": 2020,
                     "startColumn": 4,
-                    "startOffset": 148021,
+                    "startOffset": 148019,
                     "endColumn": 135,
-                    "endOffset": 148152
+                    "endOffset": 148150
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11520,10 +11520,10 @@
                 "to": {
                     "startLine": 2021,
                     "startColumn": 4,
-                    "startOffset": 148157,
+                    "startOffset": 148155,
                     "endLine": 2022,
                     "endColumn": 12,
-                    "endOffset": 148316
+                    "endOffset": 148314
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11541,9 +11541,9 @@
                 "to": {
                     "startLine": 2023,
                     "startColumn": 4,
-                    "startOffset": 148321,
+                    "startOffset": 148319,
                     "endColumn": 129,
-                    "endOffset": 148446
+                    "endOffset": 148444
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11560,10 +11560,10 @@
                 "to": {
                     "startLine": 2024,
                     "startColumn": 4,
-                    "startOffset": 148451,
+                    "startOffset": 148449,
                     "endLine": 2025,
                     "endColumn": 12,
-                    "endOffset": 148604
+                    "endOffset": 148602
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11581,10 +11581,10 @@
                 "to": {
                     "startLine": 2026,
                     "startColumn": 4,
-                    "startOffset": 148609,
+                    "startOffset": 148607,
                     "endLine": 2027,
                     "endColumn": 12,
-                    "endOffset": 148754
+                    "endOffset": 148752
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11602,9 +11602,9 @@
                 "to": {
                     "startLine": 2028,
                     "startColumn": 4,
-                    "startOffset": 148759,
+                    "startOffset": 148757,
                     "endColumn": 140,
-                    "endOffset": 148895
+                    "endOffset": 148893
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11621,10 +11621,10 @@
                 "to": {
                     "startLine": 2029,
                     "startColumn": 4,
-                    "startOffset": 148900,
+                    "startOffset": 148898,
                     "endLine": 2030,
                     "endColumn": 12,
-                    "endOffset": 149039
+                    "endOffset": 149037
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11642,9 +11642,9 @@
                 "to": {
                     "startLine": 2031,
                     "startColumn": 4,
-                    "startOffset": 149044,
+                    "startOffset": 149042,
                     "endColumn": 134,
-                    "endOffset": 149174
+                    "endOffset": 149172
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11661,9 +11661,9 @@
                 "to": {
                     "startLine": 2032,
                     "startColumn": 4,
-                    "startOffset": 149179,
+                    "startOffset": 149177,
                     "endColumn": 111,
-                    "endOffset": 149286
+                    "endOffset": 149284
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11680,9 +11680,9 @@
                 "to": {
                     "startLine": 2033,
                     "startColumn": 4,
-                    "startOffset": 149291,
+                    "startOffset": 149289,
                     "endColumn": 149,
-                    "endOffset": 149436
+                    "endOffset": 149434
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11699,9 +11699,9 @@
                 "to": {
                     "startLine": 2034,
                     "startColumn": 4,
-                    "startOffset": 149441,
+                    "startOffset": 149439,
                     "endColumn": 127,
-                    "endOffset": 149564
+                    "endOffset": 149562
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11718,9 +11718,9 @@
                 "to": {
                     "startLine": 2035,
                     "startColumn": 4,
-                    "startOffset": 149569,
+                    "startOffset": 149567,
                     "endColumn": 127,
-                    "endOffset": 149692
+                    "endOffset": 149690
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11737,10 +11737,10 @@
                 "to": {
                     "startLine": 2036,
                     "startColumn": 4,
-                    "startOffset": 149697,
+                    "startOffset": 149695,
                     "endLine": 2037,
                     "endColumn": 12,
-                    "endOffset": 149828
+                    "endOffset": 149826
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11758,9 +11758,9 @@
                 "to": {
                     "startLine": 2038,
                     "startColumn": 4,
-                    "startOffset": 149833,
+                    "startOffset": 149831,
                     "endColumn": 131,
-                    "endOffset": 149960
+                    "endOffset": 149958
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11777,9 +11777,9 @@
                 "to": {
                     "startLine": 2039,
                     "startColumn": 4,
-                    "startOffset": 149965,
+                    "startOffset": 149963,
                     "endColumn": 129,
-                    "endOffset": 150090
+                    "endOffset": 150088
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11796,9 +11796,9 @@
                 "to": {
                     "startLine": 2040,
                     "startColumn": 4,
-                    "startOffset": 150095,
+                    "startOffset": 150093,
                     "endColumn": 129,
-                    "endOffset": 150220
+                    "endOffset": 150218
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11815,9 +11815,9 @@
                 "to": {
                     "startLine": 2041,
                     "startColumn": 4,
-                    "startOffset": 150225,
+                    "startOffset": 150223,
                     "endColumn": 111,
-                    "endOffset": 150332
+                    "endOffset": 150330
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11834,9 +11834,9 @@
                 "to": {
                     "startLine": 2042,
                     "startColumn": 4,
-                    "startOffset": 150337,
+                    "startOffset": 150335,
                     "endColumn": 139,
-                    "endOffset": 150472
+                    "endOffset": 150470
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -11853,10 +11853,10 @@
                 "to": {
                     "startLine": 2043,
                     "startColumn": 4,
-                    "startOffset": 150477,
+                    "startOffset": 150475,
                     "endLine": 2045,
                     "endColumn": 12,
-                    "endOffset": 150673
+                    "endOffset": 150671
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -11874,9 +11874,9 @@
                 "to": {
                     "startLine": 2046,
                     "startColumn": 4,
-                    "startOffset": 150678,
+                    "startOffset": 150676,
                     "endColumn": 91,
-                    "endOffset": 150765
+                    "endOffset": 150763
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -11893,10 +11893,10 @@
                 "to": {
                     "startLine": 2047,
                     "startColumn": 4,
-                    "startOffset": 150770,
+                    "startOffset": 150768,
                     "endLine": 2049,
                     "endColumn": 12,
-                    "endOffset": 150944
+                    "endOffset": 150942
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -11914,10 +11914,10 @@
                 "to": {
                     "startLine": 2050,
                     "startColumn": 4,
-                    "startOffset": 150949,
+                    "startOffset": 150947,
                     "endLine": 2052,
                     "endColumn": 12,
-                    "endOffset": 151112
+                    "endOffset": 151110
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -11935,10 +11935,10 @@
                 "to": {
                     "startLine": 2053,
                     "startColumn": 4,
-                    "startOffset": 151117,
+                    "startOffset": 151115,
                     "endLine": 2055,
                     "endColumn": 12,
-                    "endOffset": 151287
+                    "endOffset": 151285
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -11956,10 +11956,10 @@
                 "to": {
                     "startLine": 2056,
                     "startColumn": 4,
-                    "startOffset": 151292,
+                    "startOffset": 151290,
                     "endLine": 2059,
                     "endColumn": 12,
-                    "endOffset": 151540
+                    "endOffset": 151538
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -11977,10 +11977,10 @@
                 "to": {
                     "startLine": 2060,
                     "startColumn": 4,
-                    "startOffset": 151545,
+                    "startOffset": 151543,
                     "endLine": 2064,
                     "endColumn": 12,
-                    "endOffset": 151831
+                    "endOffset": 151829
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -11998,9 +11998,9 @@
                 "to": {
                     "startLine": 2065,
                     "startColumn": 4,
-                    "startOffset": 151836,
+                    "startOffset": 151834,
                     "endColumn": 67,
-                    "endOffset": 151899
+                    "endOffset": 151897
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12017,9 +12017,9 @@
                 "to": {
                     "startLine": 2066,
                     "startColumn": 4,
-                    "startOffset": 151904,
+                    "startOffset": 151902,
                     "endColumn": 72,
-                    "endOffset": 151972
+                    "endOffset": 151970
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12036,9 +12036,9 @@
                 "to": {
                     "startLine": 2067,
                     "startColumn": 4,
-                    "startOffset": 151977,
+                    "startOffset": 151975,
                     "endColumn": 73,
-                    "endOffset": 152046
+                    "endOffset": 152044
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12055,9 +12055,9 @@
                 "to": {
                     "startLine": 2068,
                     "startColumn": 4,
-                    "startOffset": 152051,
+                    "startOffset": 152049,
                     "endColumn": 72,
-                    "endOffset": 152119
+                    "endOffset": 152117
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12074,9 +12074,9 @@
                 "to": {
                     "startLine": 2069,
                     "startColumn": 4,
-                    "startOffset": 152124,
+                    "startOffset": 152122,
                     "endColumn": 73,
-                    "endOffset": 152193
+                    "endOffset": 152191
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12093,10 +12093,10 @@
                 "to": {
                     "startLine": 2070,
                     "startColumn": 4,
-                    "startOffset": 152198,
+                    "startOffset": 152196,
                     "endLine": 2071,
                     "endColumn": 12,
-                    "endOffset": 152339
+                    "endOffset": 152337
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12114,10 +12114,10 @@
                 "to": {
                     "startLine": 2072,
                     "startColumn": 4,
-                    "startOffset": 152344,
+                    "startOffset": 152342,
                     "endLine": 2073,
                     "endColumn": 12,
-                    "endOffset": 152483
+                    "endOffset": 152481
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12135,10 +12135,10 @@
                 "to": {
                     "startLine": 2074,
                     "startColumn": 4,
-                    "startOffset": 152488,
+                    "startOffset": 152486,
                     "endLine": 2075,
                     "endColumn": 12,
-                    "endOffset": 152621
+                    "endOffset": 152619
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12156,9 +12156,9 @@
                 "to": {
                     "startLine": 2076,
                     "startColumn": 4,
-                    "startOffset": 152626,
+                    "startOffset": 152624,
                     "endColumn": 65,
-                    "endOffset": 152687
+                    "endOffset": 152685
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12175,9 +12175,9 @@
                 "to": {
                     "startLine": 2077,
                     "startColumn": 4,
-                    "startOffset": 152692,
+                    "startOffset": 152690,
                     "endColumn": 89,
-                    "endOffset": 152777
+                    "endOffset": 152775
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12194,9 +12194,9 @@
                 "to": {
                     "startLine": 2078,
                     "startColumn": 4,
-                    "startOffset": 152782,
+                    "startOffset": 152780,
                     "endColumn": 75,
-                    "endOffset": 152853
+                    "endOffset": 152851
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12213,9 +12213,9 @@
                 "to": {
                     "startLine": 2079,
                     "startColumn": 4,
-                    "startOffset": 152858,
+                    "startOffset": 152856,
                     "endColumn": 103,
-                    "endOffset": 152957
+                    "endOffset": 152955
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12232,9 +12232,9 @@
                 "to": {
                     "startLine": 2080,
                     "startColumn": 4,
-                    "startOffset": 152962,
+                    "startOffset": 152960,
                     "endColumn": 89,
-                    "endOffset": 153047
+                    "endOffset": 153045
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12251,9 +12251,9 @@
                 "to": {
                     "startLine": 2081,
                     "startColumn": 4,
-                    "startOffset": 153052,
+                    "startOffset": 153050,
                     "endColumn": 101,
-                    "endOffset": 153149
+                    "endOffset": 153147
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12270,9 +12270,9 @@
                 "to": {
                     "startLine": 2082,
                     "startColumn": 4,
-                    "startOffset": 153154,
+                    "startOffset": 153152,
                     "endColumn": 107,
-                    "endOffset": 153257
+                    "endOffset": 153255
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12289,9 +12289,9 @@
                 "to": {
                     "startLine": 2083,
                     "startColumn": 4,
-                    "startOffset": 153262,
+                    "startOffset": 153260,
                     "endColumn": 107,
-                    "endOffset": 153365
+                    "endOffset": 153363
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12308,9 +12308,9 @@
                 "to": {
                     "startLine": 2084,
                     "startColumn": 4,
-                    "startOffset": 153370,
+                    "startOffset": 153368,
                     "endColumn": 99,
-                    "endOffset": 153465
+                    "endOffset": 153463
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12327,9 +12327,9 @@
                 "to": {
                     "startLine": 2085,
                     "startColumn": 4,
-                    "startOffset": 153470,
+                    "startOffset": 153468,
                     "endColumn": 79,
-                    "endOffset": 153545
+                    "endOffset": 153543
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12346,9 +12346,9 @@
                 "to": {
                     "startLine": 2086,
                     "startColumn": 4,
-                    "startOffset": 153550,
+                    "startOffset": 153548,
                     "endColumn": 91,
-                    "endOffset": 153637
+                    "endOffset": 153635
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12365,9 +12365,9 @@
                 "to": {
                     "startLine": 2087,
                     "startColumn": 4,
-                    "startOffset": 153642,
+                    "startOffset": 153640,
                     "endColumn": 97,
-                    "endOffset": 153735
+                    "endOffset": 153733
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12384,10 +12384,10 @@
                 "to": {
                     "startLine": 2088,
                     "startColumn": 4,
-                    "startOffset": 153740,
+                    "startOffset": 153738,
                     "endLine": 2089,
                     "endColumn": 12,
-                    "endOffset": 153845
+                    "endOffset": 153843
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12405,9 +12405,9 @@
                 "to": {
                     "startLine": 2090,
                     "startColumn": 4,
-                    "startOffset": 153850,
+                    "startOffset": 153848,
                     "endColumn": 77,
-                    "endOffset": 153923
+                    "endOffset": 153921
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12424,9 +12424,9 @@
                 "to": {
                     "startLine": 2091,
                     "startColumn": 4,
-                    "startOffset": 153928,
+                    "startOffset": 153926,
                     "endColumn": 105,
-                    "endOffset": 154029
+                    "endOffset": 154027
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12443,9 +12443,9 @@
                 "to": {
                     "startLine": 2092,
                     "startColumn": 4,
-                    "startOffset": 154034,
+                    "startOffset": 154032,
                     "endColumn": 91,
-                    "endOffset": 154121
+                    "endOffset": 154119
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12462,9 +12462,9 @@
                 "to": {
                     "startLine": 2093,
                     "startColumn": 4,
-                    "startOffset": 154126,
+                    "startOffset": 154124,
                     "endColumn": 103,
-                    "endOffset": 154225
+                    "endOffset": 154223
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12481,9 +12481,9 @@
                 "to": {
                     "startLine": 2094,
                     "startColumn": 4,
-                    "startOffset": 154230,
+                    "startOffset": 154228,
                     "endColumn": 109,
-                    "endOffset": 154335
+                    "endOffset": 154333
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12500,10 +12500,10 @@
                 "to": {
                     "startLine": 2095,
                     "startColumn": 4,
-                    "startOffset": 154340,
+                    "startOffset": 154338,
                     "endLine": 2096,
                     "endColumn": 12,
-                    "endOffset": 154457
+                    "endOffset": 154455
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12521,10 +12521,10 @@
                 "to": {
                     "startLine": 2097,
                     "startColumn": 4,
-                    "startOffset": 154462,
+                    "startOffset": 154460,
                     "endLine": 2100,
                     "endColumn": 12,
-                    "endOffset": 154620
+                    "endOffset": 154618
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12542,10 +12542,10 @@
                 "to": {
                     "startLine": 2101,
                     "startColumn": 4,
-                    "startOffset": 154625,
+                    "startOffset": 154623,
                     "endLine": 2104,
                     "endColumn": 12,
-                    "endOffset": 154777
+                    "endOffset": 154775
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12563,10 +12563,10 @@
                 "to": {
                     "startLine": 2105,
                     "startColumn": 4,
-                    "startOffset": 154782,
+                    "startOffset": 154780,
                     "endLine": 2107,
                     "endColumn": 12,
-                    "endOffset": 154931
+                    "endOffset": 154929
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -12584,10 +12584,10 @@
                 "to": {
                     "startLine": 2108,
                     "startColumn": 4,
-                    "startOffset": 154936,
+                    "startOffset": 154934,
                     "endLine": 2112,
                     "endColumn": 12,
-                    "endOffset": 155289
+                    "endOffset": 155287
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -12605,10 +12605,10 @@
                 "to": {
                     "startLine": 2113,
                     "startColumn": 4,
-                    "startOffset": 155294,
+                    "startOffset": 155292,
                     "endLine": 2115,
                     "endColumn": 12,
-                    "endOffset": 155456
+                    "endOffset": 155454
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -12626,10 +12626,10 @@
                 "to": {
                     "startLine": 2116,
                     "startColumn": 4,
-                    "startOffset": 155461,
+                    "startOffset": 155459,
                     "endLine": 2120,
                     "endColumn": 12,
-                    "endOffset": 155826
+                    "endOffset": 155824
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -12647,10 +12647,10 @@
                 "to": {
                     "startLine": 2121,
                     "startColumn": 4,
-                    "startOffset": 155831,
+                    "startOffset": 155829,
                     "endLine": 2124,
                     "endColumn": 12,
-                    "endOffset": 155986
+                    "endOffset": 155984
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -12668,10 +12668,10 @@
                 "to": {
                     "startLine": 2125,
                     "startColumn": 4,
-                    "startOffset": 155991,
+                    "startOffset": 155989,
                     "endLine": 2128,
                     "endColumn": 12,
-                    "endOffset": 156140
+                    "endOffset": 156138
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -12689,9 +12689,9 @@
                 "to": {
                     "startLine": 2129,
                     "startColumn": 4,
-                    "startOffset": 156145,
+                    "startOffset": 156143,
                     "endColumn": 79,
-                    "endOffset": 156220
+                    "endOffset": 156218
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12708,9 +12708,9 @@
                 "to": {
                     "startLine": 2130,
                     "startColumn": 4,
-                    "startOffset": 156225,
+                    "startOffset": 156223,
                     "endColumn": 99,
-                    "endOffset": 156320
+                    "endOffset": 156318
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12727,9 +12727,9 @@
                 "to": {
                     "startLine": 2131,
                     "startColumn": 4,
-                    "startOffset": 156325,
+                    "startOffset": 156323,
                     "endColumn": 89,
-                    "endOffset": 156410
+                    "endOffset": 156408
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12746,9 +12746,9 @@
                 "to": {
                     "startLine": 2132,
                     "startColumn": 4,
-                    "startOffset": 156415,
+                    "startOffset": 156413,
                     "endColumn": 109,
-                    "endOffset": 156520
+                    "endOffset": 156518
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12765,9 +12765,9 @@
                 "to": {
                     "startLine": 2133,
                     "startColumn": 4,
-                    "startOffset": 156525,
+                    "startOffset": 156523,
                     "endColumn": 93,
-                    "endOffset": 156614
+                    "endOffset": 156612
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12784,9 +12784,9 @@
                 "to": {
                     "startLine": 2134,
                     "startColumn": 4,
-                    "startOffset": 156619,
+                    "startOffset": 156617,
                     "endColumn": 105,
-                    "endOffset": 156720
+                    "endOffset": 156718
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12803,9 +12803,9 @@
                 "to": {
                     "startLine": 2135,
                     "startColumn": 4,
-                    "startOffset": 156725,
+                    "startOffset": 156723,
                     "endColumn": 91,
-                    "endOffset": 156812
+                    "endOffset": 156810
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12822,10 +12822,10 @@
                 "to": {
                     "startLine": 2136,
                     "startColumn": 4,
-                    "startOffset": 156817,
+                    "startOffset": 156815,
                     "endLine": 2137,
                     "endColumn": 12,
-                    "endOffset": 156912
+                    "endOffset": 156910
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12843,10 +12843,10 @@
                 "to": {
                     "startLine": 2138,
                     "startColumn": 4,
-                    "startOffset": 156917,
+                    "startOffset": 156915,
                     "endLine": 2139,
                     "endColumn": 12,
-                    "endOffset": 157024
+                    "endOffset": 157022
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12864,10 +12864,10 @@
                 "to": {
                     "startLine": 2140,
                     "startColumn": 4,
-                    "startOffset": 157029,
+                    "startOffset": 157027,
                     "endLine": 2141,
                     "endColumn": 12,
-                    "endOffset": 157138
+                    "endOffset": 157136
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12885,10 +12885,10 @@
                 "to": {
                     "startLine": 2142,
                     "startColumn": 4,
-                    "startOffset": 157143,
+                    "startOffset": 157141,
                     "endLine": 2143,
                     "endColumn": 12,
-                    "endOffset": 157254
+                    "endOffset": 157252
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12906,10 +12906,10 @@
                 "to": {
                     "startLine": 2144,
                     "startColumn": 4,
-                    "startOffset": 157259,
+                    "startOffset": 157257,
                     "endLine": 2145,
                     "endColumn": 12,
-                    "endOffset": 157370
+                    "endOffset": 157368
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12927,9 +12927,9 @@
                 "to": {
                     "startLine": 2146,
                     "startColumn": 4,
-                    "startOffset": 157375,
+                    "startOffset": 157373,
                     "endColumn": 93,
-                    "endOffset": 157464
+                    "endOffset": 157462
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12946,9 +12946,9 @@
                 "to": {
                     "startLine": 2147,
                     "startColumn": 4,
-                    "startOffset": 157469,
+                    "startOffset": 157467,
                     "endColumn": 113,
-                    "endOffset": 157578
+                    "endOffset": 157576
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12965,9 +12965,9 @@
                 "to": {
                     "startLine": 2148,
                     "startColumn": 4,
-                    "startOffset": 157583,
+                    "startOffset": 157581,
                     "endColumn": 111,
-                    "endOffset": 157690
+                    "endOffset": 157688
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -12984,10 +12984,10 @@
                 "to": {
                     "startLine": 2149,
                     "startColumn": 4,
-                    "startOffset": 157695,
+                    "startOffset": 157693,
                     "endLine": 2150,
                     "endColumn": 12,
-                    "endOffset": 157792
+                    "endOffset": 157790
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13005,10 +13005,10 @@
                 "to": {
                     "startLine": 2151,
                     "startColumn": 4,
-                    "startOffset": 157797,
+                    "startOffset": 157795,
                     "endLine": 2152,
                     "endColumn": 12,
-                    "endOffset": 157912
+                    "endOffset": 157910
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13026,10 +13026,10 @@
                 "to": {
                     "startLine": 2153,
                     "startColumn": 4,
-                    "startOffset": 157917,
+                    "startOffset": 157915,
                     "endLine": 2154,
                     "endColumn": 12,
-                    "endOffset": 158034
+                    "endOffset": 158032
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13047,9 +13047,9 @@
                 "to": {
                     "startLine": 2155,
                     "startColumn": 4,
-                    "startOffset": 158039,
+                    "startOffset": 158037,
                     "endColumn": 81,
-                    "endOffset": 158116
+                    "endOffset": 158114
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13066,9 +13066,9 @@
                 "to": {
                     "startLine": 2156,
                     "startColumn": 4,
-                    "startOffset": 158121,
+                    "startOffset": 158119,
                     "endColumn": 103,
-                    "endOffset": 158220
+                    "endOffset": 158218
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13085,9 +13085,9 @@
                 "to": {
                     "startLine": 2157,
                     "startColumn": 4,
-                    "startOffset": 158225,
+                    "startOffset": 158223,
                     "endColumn": 119,
-                    "endOffset": 158340
+                    "endOffset": 158338
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13104,9 +13104,9 @@
                 "to": {
                     "startLine": 2158,
                     "startColumn": 4,
-                    "startOffset": 158345,
+                    "startOffset": 158343,
                     "endColumn": 125,
-                    "endOffset": 158466
+                    "endOffset": 158464
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13123,9 +13123,9 @@
                 "to": {
                     "startLine": 2159,
                     "startColumn": 4,
-                    "startOffset": 158471,
+                    "startOffset": 158469,
                     "endColumn": 97,
-                    "endOffset": 158564
+                    "endOffset": 158562
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13142,9 +13142,9 @@
                 "to": {
                     "startLine": 2160,
                     "startColumn": 4,
-                    "startOffset": 158569,
+                    "startOffset": 158567,
                     "endColumn": 93,
-                    "endOffset": 158658
+                    "endOffset": 158656
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13161,9 +13161,9 @@
                 "to": {
                     "startLine": 2161,
                     "startColumn": 4,
-                    "startOffset": 158663,
+                    "startOffset": 158661,
                     "endColumn": 87,
-                    "endOffset": 158746
+                    "endOffset": 158744
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13180,9 +13180,9 @@
                 "to": {
                     "startLine": 2162,
                     "startColumn": 4,
-                    "startOffset": 158751,
+                    "startOffset": 158749,
                     "endColumn": 111,
-                    "endOffset": 158858
+                    "endOffset": 158856
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13199,9 +13199,9 @@
                 "to": {
                     "startLine": 2163,
                     "startColumn": 4,
-                    "startOffset": 158863,
+                    "startOffset": 158861,
                     "endColumn": 115,
-                    "endOffset": 158974
+                    "endOffset": 158972
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13218,9 +13218,9 @@
                 "to": {
                     "startLine": 2164,
                     "startColumn": 4,
-                    "startOffset": 158979,
+                    "startOffset": 158977,
                     "endColumn": 121,
-                    "endOffset": 159096
+                    "endOffset": 159094
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13237,9 +13237,9 @@
                 "to": {
                     "startLine": 2165,
                     "startColumn": 4,
-                    "startOffset": 159101,
+                    "startOffset": 159099,
                     "endColumn": 111,
-                    "endOffset": 159208
+                    "endOffset": 159206
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13256,10 +13256,10 @@
                 "to": {
                     "startLine": 2166,
                     "startColumn": 4,
-                    "startOffset": 159213,
+                    "startOffset": 159211,
                     "endLine": 2168,
                     "endColumn": 12,
-                    "endOffset": 159383
+                    "endOffset": 159381
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13277,9 +13277,9 @@
                 "to": {
                     "startLine": 2169,
                     "startColumn": 4,
-                    "startOffset": 159388,
+                    "startOffset": 159386,
                     "endColumn": 115,
-                    "endOffset": 159499
+                    "endOffset": 159497
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13296,9 +13296,9 @@
                 "to": {
                     "startLine": 2170,
                     "startColumn": 4,
-                    "startOffset": 159504,
+                    "startOffset": 159502,
                     "endColumn": 85,
-                    "endOffset": 159585
+                    "endOffset": 159583
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13315,9 +13315,9 @@
                 "to": {
                     "startLine": 2171,
                     "startColumn": 4,
-                    "startOffset": 159590,
+                    "startOffset": 159588,
                     "endColumn": 91,
-                    "endOffset": 159677
+                    "endOffset": 159675
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13334,10 +13334,10 @@
                 "to": {
                     "startLine": 2172,
                     "startColumn": 4,
-                    "startOffset": 159682,
+                    "startOffset": 159680,
                     "endLine": 2173,
                     "endColumn": 12,
-                    "endOffset": 159789
+                    "endOffset": 159787
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13355,10 +13355,10 @@
                 "to": {
                     "startLine": 2174,
                     "startColumn": 4,
-                    "startOffset": 159794,
+                    "startOffset": 159792,
                     "endLine": 2175,
                     "endColumn": 12,
-                    "endOffset": 159913
+                    "endOffset": 159911
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13376,9 +13376,9 @@
                 "to": {
                     "startLine": 2176,
                     "startColumn": 4,
-                    "startOffset": 159918,
+                    "startOffset": 159916,
                     "endColumn": 66,
-                    "endOffset": 159980
+                    "endOffset": 159978
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13395,10 +13395,10 @@
                 "to": {
                     "startLine": 2177,
                     "startColumn": 4,
-                    "startOffset": 159985,
+                    "startOffset": 159983,
                     "endLine": 2178,
                     "endColumn": 12,
-                    "endOffset": 160106
+                    "endOffset": 160104
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13416,9 +13416,9 @@
                 "to": {
                     "startLine": 2179,
                     "startColumn": 4,
-                    "startOffset": 160111,
+                    "startOffset": 160109,
                     "endColumn": 67,
-                    "endOffset": 160174
+                    "endOffset": 160172
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13435,10 +13435,10 @@
                 "to": {
                     "startLine": 2180,
                     "startColumn": 4,
-                    "startOffset": 160179,
+                    "startOffset": 160177,
                     "endLine": 2181,
                     "endColumn": 12,
-                    "endOffset": 160302
+                    "endOffset": 160300
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13456,10 +13456,10 @@
                 "to": {
                     "startLine": 2182,
                     "startColumn": 4,
-                    "startOffset": 160307,
+                    "startOffset": 160305,
                     "endLine": 2183,
                     "endColumn": 12,
-                    "endOffset": 160446
+                    "endOffset": 160444
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13477,10 +13477,10 @@
                 "to": {
                     "startLine": 2184,
                     "startColumn": 4,
-                    "startOffset": 160451,
+                    "startOffset": 160449,
                     "endLine": 2185,
                     "endColumn": 12,
-                    "endOffset": 160574
+                    "endOffset": 160572
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13498,9 +13498,9 @@
                 "to": {
                     "startLine": 2186,
                     "startColumn": 4,
-                    "startOffset": 160579,
+                    "startOffset": 160577,
                     "endColumn": 68,
-                    "endOffset": 160643
+                    "endOffset": 160641
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13517,9 +13517,9 @@
                 "to": {
                     "startLine": 2187,
                     "startColumn": 4,
-                    "startOffset": 160648,
+                    "startOffset": 160646,
                     "endColumn": 94,
-                    "endOffset": 160738
+                    "endOffset": 160736
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13536,9 +13536,9 @@
                 "to": {
                     "startLine": 2188,
                     "startColumn": 4,
-                    "startOffset": 160743,
+                    "startOffset": 160741,
                     "endColumn": 114,
-                    "endOffset": 160853
+                    "endOffset": 160851
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13555,9 +13555,9 @@
                 "to": {
                     "startLine": 2189,
                     "startColumn": 4,
-                    "startOffset": 160858,
+                    "startOffset": 160856,
                     "endColumn": 112,
-                    "endOffset": 160966
+                    "endOffset": 160964
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13574,9 +13574,9 @@
                 "to": {
                     "startLine": 2190,
                     "startColumn": 4,
-                    "startOffset": 160971,
+                    "startOffset": 160969,
                     "endColumn": 98,
-                    "endOffset": 161065
+                    "endOffset": 161063
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13593,9 +13593,9 @@
                 "to": {
                     "startLine": 2191,
                     "startColumn": 4,
-                    "startOffset": 161070,
+                    "startOffset": 161068,
                     "endColumn": 108,
-                    "endOffset": 161174
+                    "endOffset": 161172
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13612,9 +13612,9 @@
                 "to": {
                     "startLine": 2192,
                     "startColumn": 4,
-                    "startOffset": 161179,
+                    "startOffset": 161177,
                     "endColumn": 110,
-                    "endOffset": 161285
+                    "endOffset": 161283
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13631,9 +13631,9 @@
                 "to": {
                     "startLine": 2193,
                     "startColumn": 4,
-                    "startOffset": 161290,
+                    "startOffset": 161288,
                     "endColumn": 110,
-                    "endOffset": 161396
+                    "endOffset": 161394
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13650,9 +13650,9 @@
                 "to": {
                     "startLine": 2194,
                     "startColumn": 4,
-                    "startOffset": 161401,
+                    "startOffset": 161399,
                     "endColumn": 100,
-                    "endOffset": 161497
+                    "endOffset": 161495
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13669,9 +13669,9 @@
                 "to": {
                     "startLine": 2195,
                     "startColumn": 4,
-                    "startOffset": 161502,
+                    "startOffset": 161500,
                     "endColumn": 104,
-                    "endOffset": 161602
+                    "endOffset": 161600
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13688,9 +13688,9 @@
                 "to": {
                     "startLine": 2196,
                     "startColumn": 4,
-                    "startOffset": 161607,
+                    "startOffset": 161605,
                     "endColumn": 99,
-                    "endOffset": 161702
+                    "endOffset": 161700
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13707,10 +13707,10 @@
                 "to": {
                     "startLine": 2197,
                     "startColumn": 4,
-                    "startOffset": 161707,
+                    "startOffset": 161705,
                     "endLine": 2198,
                     "endColumn": 12,
-                    "endOffset": 161832
+                    "endOffset": 161830
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13728,9 +13728,9 @@
                 "to": {
                     "startLine": 2199,
                     "startColumn": 4,
-                    "startOffset": 161837,
+                    "startOffset": 161835,
                     "endColumn": 90,
-                    "endOffset": 161923
+                    "endOffset": 161921
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13747,9 +13747,9 @@
                 "to": {
                     "startLine": 2200,
                     "startColumn": 4,
-                    "startOffset": 161928,
+                    "startOffset": 161926,
                     "endColumn": 122,
-                    "endOffset": 162046
+                    "endOffset": 162044
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13766,9 +13766,9 @@
                 "to": {
                     "startLine": 2201,
                     "startColumn": 4,
-                    "startOffset": 162051,
+                    "startOffset": 162049,
                     "endColumn": 93,
-                    "endOffset": 162140
+                    "endOffset": 162138
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13785,10 +13785,10 @@
                 "to": {
                     "startLine": 2202,
                     "startColumn": 4,
-                    "startOffset": 162145,
+                    "startOffset": 162143,
                     "endLine": 2203,
                     "endColumn": 12,
-                    "endOffset": 162252
+                    "endOffset": 162250
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13806,9 +13806,9 @@
                 "to": {
                     "startLine": 2204,
                     "startColumn": 4,
-                    "startOffset": 162257,
+                    "startOffset": 162255,
                     "endColumn": 85,
-                    "endOffset": 162338
+                    "endOffset": 162336
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13825,9 +13825,9 @@
                 "to": {
                     "startLine": 2205,
                     "startColumn": 4,
-                    "startOffset": 162343,
+                    "startOffset": 162341,
                     "endColumn": 103,
-                    "endOffset": 162442
+                    "endOffset": 162440
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13844,9 +13844,9 @@
                 "to": {
                     "startLine": 2206,
                     "startColumn": 4,
-                    "startOffset": 162447,
+                    "startOffset": 162445,
                     "endColumn": 95,
-                    "endOffset": 162538
+                    "endOffset": 162536
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13863,9 +13863,9 @@
                 "to": {
                     "startLine": 2207,
                     "startColumn": 4,
-                    "startOffset": 162543,
+                    "startOffset": 162541,
                     "endColumn": 74,
-                    "endOffset": 162613
+                    "endOffset": 162611
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13882,9 +13882,9 @@
                 "to": {
                     "startLine": 2208,
                     "startColumn": 4,
-                    "startOffset": 162618,
+                    "startOffset": 162616,
                     "endColumn": 69,
-                    "endOffset": 162683
+                    "endOffset": 162681
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13901,9 +13901,9 @@
                 "to": {
                     "startLine": 2209,
                     "startColumn": 4,
-                    "startOffset": 162688,
+                    "startOffset": 162686,
                     "endColumn": 87,
-                    "endOffset": 162771
+                    "endOffset": 162769
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13920,10 +13920,10 @@
                 "to": {
                     "startLine": 2210,
                     "startColumn": 4,
-                    "startOffset": 162776,
+                    "startOffset": 162774,
                     "endLine": 2211,
                     "endColumn": 12,
-                    "endOffset": 162889
+                    "endOffset": 162887
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13941,10 +13941,10 @@
                 "to": {
                     "startLine": 2212,
                     "startColumn": 4,
-                    "startOffset": 162894,
+                    "startOffset": 162892,
                     "endLine": 2213,
                     "endColumn": 12,
-                    "endOffset": 162993
+                    "endOffset": 162991
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13962,10 +13962,10 @@
                 "to": {
                     "startLine": 2214,
                     "startColumn": 4,
-                    "startOffset": 162998,
+                    "startOffset": 162996,
                     "endLine": 2215,
                     "endColumn": 12,
-                    "endOffset": 163097
+                    "endOffset": 163095
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -13983,10 +13983,10 @@
                 "to": {
                     "startLine": 2216,
                     "startColumn": 4,
-                    "startOffset": 163102,
+                    "startOffset": 163100,
                     "endLine": 2217,
                     "endColumn": 12,
-                    "endOffset": 163223
+                    "endOffset": 163221
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14004,9 +14004,9 @@
                 "to": {
                     "startLine": 2218,
                     "startColumn": 4,
-                    "startOffset": 163228,
+                    "startOffset": 163226,
                     "endColumn": 87,
-                    "endOffset": 163311
+                    "endOffset": 163309
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14023,9 +14023,9 @@
                 "to": {
                     "startLine": 2219,
                     "startColumn": 4,
-                    "startOffset": 163316,
+                    "startOffset": 163314,
                     "endColumn": 107,
-                    "endOffset": 163419
+                    "endOffset": 163417
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14042,9 +14042,9 @@
                 "to": {
                     "startLine": 2220,
                     "startColumn": 4,
-                    "startOffset": 163424,
+                    "startOffset": 163422,
                     "endColumn": 99,
-                    "endOffset": 163519
+                    "endOffset": 163517
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14061,9 +14061,9 @@
                 "to": {
                     "startLine": 2221,
                     "startColumn": 4,
-                    "startOffset": 163524,
+                    "startOffset": 163522,
                     "endColumn": 89,
-                    "endOffset": 163609
+                    "endOffset": 163607
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14080,9 +14080,9 @@
                 "to": {
                     "startLine": 2222,
                     "startColumn": 4,
-                    "startOffset": 163614,
+                    "startOffset": 163612,
                     "endColumn": 109,
-                    "endOffset": 163719
+                    "endOffset": 163717
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14099,9 +14099,9 @@
                 "to": {
                     "startLine": 2223,
                     "startColumn": 4,
-                    "startOffset": 163724,
+                    "startOffset": 163722,
                     "endColumn": 83,
-                    "endOffset": 163803
+                    "endOffset": 163801
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14118,9 +14118,9 @@
                 "to": {
                     "startLine": 2224,
                     "startColumn": 4,
-                    "startOffset": 163808,
+                    "startOffset": 163806,
                     "endColumn": 101,
-                    "endOffset": 163905
+                    "endOffset": 163903
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14137,9 +14137,9 @@
                 "to": {
                     "startLine": 2225,
                     "startColumn": 4,
-                    "startOffset": 163910,
+                    "startOffset": 163908,
                     "endColumn": 83,
-                    "endOffset": 163989
+                    "endOffset": 163987
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14156,9 +14156,9 @@
                 "to": {
                     "startLine": 2226,
                     "startColumn": 4,
-                    "startOffset": 163994,
+                    "startOffset": 163992,
                     "endColumn": 53,
-                    "endOffset": 164043
+                    "endOffset": 164041
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14175,9 +14175,9 @@
                 "to": {
                     "startLine": 2227,
                     "startColumn": 4,
-                    "startOffset": 164048,
+                    "startOffset": 164046,
                     "endColumn": 63,
-                    "endOffset": 164107
+                    "endOffset": 164105
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14194,9 +14194,9 @@
                 "to": {
                     "startLine": 2228,
                     "startColumn": 4,
-                    "startOffset": 164112,
+                    "startOffset": 164110,
                     "endColumn": 105,
-                    "endOffset": 164213
+                    "endOffset": 164211
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14213,9 +14213,9 @@
                 "to": {
                     "startLine": 2229,
                     "startColumn": 4,
-                    "startOffset": 164218,
+                    "startOffset": 164216,
                     "endColumn": 109,
-                    "endOffset": 164323
+                    "endOffset": 164321
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14232,9 +14232,9 @@
                 "to": {
                     "startLine": 2230,
                     "startColumn": 4,
-                    "startOffset": 164328,
+                    "startOffset": 164326,
                     "endColumn": 83,
-                    "endOffset": 164407
+                    "endOffset": 164405
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14251,9 +14251,9 @@
                 "to": {
                     "startLine": 2231,
                     "startColumn": 4,
-                    "startOffset": 164412,
+                    "startOffset": 164410,
                     "endColumn": 119,
-                    "endOffset": 164527
+                    "endOffset": 164525
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/values/values.xml",
@@ -14270,10 +14270,10 @@
                 "to": {
                     "startLine": 2232,
                     "startColumn": 4,
-                    "startOffset": 164532,
+                    "startOffset": 164530,
                     "endLine": 2233,
                     "endColumn": 12,
-                    "endOffset": 164627
+                    "endOffset": 164625
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -14291,10 +14291,10 @@
                 "to": {
                     "startLine": 2234,
                     "startColumn": 4,
-                    "startOffset": 164632,
+                    "startOffset": 164630,
                     "endLine": 2237,
                     "endColumn": 12,
-                    "endOffset": 164868
+                    "endOffset": 164866
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -14312,10 +14312,10 @@
                 "to": {
                     "startLine": 2238,
                     "startColumn": 4,
-                    "startOffset": 164873,
+                    "startOffset": 164871,
                     "endLine": 2244,
                     "endColumn": 12,
-                    "endOffset": 165303
+                    "endOffset": 165301
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -14333,10 +14333,10 @@
                 "to": {
                     "startLine": 2245,
                     "startColumn": 4,
-                    "startOffset": 165308,
+                    "startOffset": 165306,
                     "endLine": 2248,
                     "endColumn": 12,
-                    "endOffset": 165510
+                    "endOffset": 165508
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -14354,10 +14354,10 @@
                 "to": {
                     "startLine": 2249,
                     "startColumn": 4,
-                    "startOffset": 165515,
+                    "startOffset": 165513,
                     "endLine": 2251,
                     "endColumn": 12,
-                    "endOffset": 165669
+                    "endOffset": 165667
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -14375,10 +14375,10 @@
                 "to": {
                     "startLine": 2252,
                     "startColumn": 4,
-                    "startOffset": 165674,
+                    "startOffset": 165672,
                     "endLine": 2260,
                     "endColumn": 12,
-                    "endOffset": 166234
+                    "endOffset": 166232
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -14396,10 +14396,10 @@
                 "to": {
                     "startLine": 2261,
                     "startColumn": 4,
-                    "startOffset": 166239,
+                    "startOffset": 166237,
                     "endLine": 2266,
                     "endColumn": 12,
-                    "endOffset": 166595
+                    "endOffset": 166593
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -14417,10 +14417,10 @@
                 "to": {
                     "startLine": 2267,
                     "startColumn": 4,
-                    "startOffset": 166600,
+                    "startOffset": 166598,
                     "endLine": 2269,
                     "endColumn": 12,
-                    "endOffset": 166724
+                    "endOffset": 166722
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -14438,10 +14438,10 @@
                 "to": {
                     "startLine": 2270,
                     "startColumn": 4,
-                    "startOffset": 166729,
+                    "startOffset": 166727,
                     "endLine": 2278,
                     "endColumn": 12,
-                    "endOffset": 167391
+                    "endOffset": 167389
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -14459,10 +14459,10 @@
                 "to": {
                     "startLine": 2279,
                     "startColumn": 4,
-                    "startOffset": 167396,
+                    "startOffset": 167394,
                     "endLine": 2282,
                     "endColumn": 12,
-                    "endOffset": 167571
+                    "endOffset": 167569
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",
@@ -14480,10 +14480,10 @@
                 "to": {
                     "startLine": 2283,
                     "startColumn": 4,
-                    "startOffset": 167576,
+                    "startOffset": 167574,
                     "endLine": 2291,
                     "endColumn": 12,
-                    "endOffset": 168280
+                    "endOffset": 168278
                 },
                 "from": {
                     "file": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/values/values.xml",

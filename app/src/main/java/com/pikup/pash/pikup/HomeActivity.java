@@ -32,7 +32,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
         FirebaseUser user = auth.getCurrentUser();
 
-        Toast.makeText(getApplicationContext(), "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
+    //    Toast.makeText(getApplicationContext(), "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
 
         postButton = (Button) findViewById(R.id.buttonPost);
         viewButton = (Button) findViewById(R.id.buttonView);
@@ -49,7 +49,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         postButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(HomeActivity.this, PostActivity.class));
+                startActivity(new Intent(HomeActivity.this, ChooseCategoryActivity.class));
             }
         });
 
@@ -67,8 +67,11 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         if (view == logoutButton){
             auth.signOut();
             finish();
-            startActivity(new Intent(HomeActivity.this, LoginActivity.class
+            startActivity(new Intent(HomeActivity.this, MainActivity.class
             ));
+
+            Toast.makeText(getApplicationContext(), "See you soon", Toast.LENGTH_SHORT).show();
+
         }
     }
 }

@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -27,13 +29,28 @@ public class DeleteAccountActivity extends AppCompatActivity {
     private ProgressBar progressBar;
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.homemenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.menu_home) {
+            startActivity(new Intent(DeleteAccountActivity.this, HomeActivity.class));
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delete_account);
 
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         buttonDeleteAccount = (Button) findViewById(R.id.buttonDeleteAccount);
-        buttonDeleteBack = (Button) findViewById(R.id.buttonDeleteBack);
+        buttonDeleteBack = (Button) findViewById(R.id.buttonDeleteBAck);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
        // auth = FirebaseAuth.getInstance();
@@ -65,6 +82,8 @@ public class DeleteAccountActivity extends AppCompatActivity {
 
                 progressBar.setVisibility(View.VISIBLE);
                 if (user != null) {
+
+
                     final String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
                     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Users");
                     databaseReference.child(uid).removeValue(new DatabaseReference.CompletionListener() {
@@ -74,13 +93,14 @@ public class DeleteAccountActivity extends AppCompatActivity {
                             //databaseError.toException().printStackTrace();
                         }
                     });
+
                     user.delete()
                             .addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if (task.isSuccessful()) {
                                         Toast.makeText(DeleteAccountActivity.this, "Your profile is deleted: \n We will Miss you", Toast.LENGTH_SHORT).show();
-                                        startActivity(new Intent(DeleteAccountActivity.this, RegistrationActivity.class));
+                                        startActivity(new Intent(DeleteAccountActivity.this, MainActivity.class));
                                         finish();
                                         progressBar.setVisibility(View.GONE);
                                     } else {

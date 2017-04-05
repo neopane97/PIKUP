@@ -4,7 +4,10 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -36,6 +39,7 @@ public class UploadImageActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private Button buttonSubmitItem;
     private Uri uri;
+    private Toolbar toolbar;
 
     private EditText postName, postDescr, postLocation;
 
@@ -43,6 +47,9 @@ public class UploadImageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_upload);
+
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         myDB = FirebaseDatabase.getInstance().getReference();
         myStorage = FirebaseStorage.getInstance().getReference();
@@ -127,7 +134,7 @@ public class UploadImageActivity extends AppCompatActivity {
         myDB.child("/Posts/" + key).setValue(p);
 
 
-        startActivity(new Intent(UploadImageActivity.this, PostActivity.class));
+        startActivity(new Intent(UploadImageActivity.this, ChooseCategoryActivity.class));
         Toast.makeText(UploadImageActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
         finish();
     }
@@ -137,4 +144,19 @@ public class UploadImageActivity extends AppCompatActivity {
         super.onResume();
         progressBar.setVisibility(GONE);
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.homemenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.menu_home) {
+            startActivity(new Intent(UploadImageActivity.this, HomeActivity.class));
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 }

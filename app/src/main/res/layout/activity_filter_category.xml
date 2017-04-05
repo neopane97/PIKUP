@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_filter_category"
+    android:background="@drawable/upload">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:text="SELECT CATEGORY TO FILTER"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/electronic_Cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="50dp"
+                android:onClick="selectCategory"
+                android:text="Electronics"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/furniture_Cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/electronic_Cat"
+                android:layout_alignStart="@+id/electronic_Cat"
+                android:layout_below="@+id/electronic_Cat"
+                android:layout_marginTop="36dp"
+                android:onClick="selectCategory"
+                android:text="Furniture"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/appliance_Cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/furniture_Cat"
+                android:layout_alignStart="@+id/furniture_Cat"
+                android:layout_below="@+id/furniture_Cat"
+                android:layout_marginTop="42dp"
+                android:onClick="selectCategory"
+                android:text="Appliances"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/misc_Cat"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/appliance_Cat"
+                android:layout_alignStart="@+id/appliance_Cat"
+                android:layout_below="@+id/appliance_Cat"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="36dp"
+                android:onClick="selectCategory"
+                android:text="Miscellaneous"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonCapture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="24dp"
+            android:text="Filter"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

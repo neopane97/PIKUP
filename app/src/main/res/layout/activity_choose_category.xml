@@ -1,21 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/upload"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="25dp"
+        android:drawableTint="?attr/colorPrimary"
+        android:text="PLEASE CHOOSE ITEM CATEGORY"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textStyle="bold" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="375dp"
-            android:layout_height="100dp"
-            android:text="Please choose a category for your picture from the list below."
-            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+        <Button
+            android:id="@+id/buttonUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonCapture"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:text="UPLOAD"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonCapture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="24dp"
+            android:text="CAPTURE"
+            android:textStyle="bold" />
+
+
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_above="@+id/buttonUpload"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
             <RadioButton
                 android:id="@+id/electronic_Cat"
                 android:layout_width="wrap_content"
@@ -23,9 +64,10 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/textView2"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="50dp"
+                android:onClick="selectCategory"
                 android:text="Electronics"
-                android:onClick="selectCategory"/>
+                android:textStyle="bold" />
 
             <RadioButton
                 android:id="@+id/furniture_Cat"
@@ -35,8 +77,9 @@
                 android:layout_alignStart="@+id/electronic_Cat"
                 android:layout_below="@+id/electronic_Cat"
                 android:layout_marginTop="36dp"
+                android:onClick="selectCategory"
                 android:text="Furniture"
-                android:onClick="selectCategory"/>
+                android:textStyle="bold" />
 
             <RadioButton
                 android:id="@+id/appliance_Cat"
@@ -46,8 +89,9 @@
                 android:layout_alignStart="@+id/furniture_Cat"
                 android:layout_below="@+id/furniture_Cat"
                 android:layout_marginTop="42dp"
+                android:onClick="selectCategory"
                 android:text="Appliances"
-                android:onClick="selectCategory"/>
+                android:textStyle="bold" />
 
             <RadioButton
                 android:id="@+id/misc_Cat"
@@ -58,18 +102,11 @@
                 android:layout_alignStart="@+id/appliance_Cat"
                 android:layout_below="@+id/appliance_Cat"
                 android:layout_marginTop="36dp"
+                android:onClick="selectCategory"
                 android:text="Miscellaneous"
-                android:onClick="selectCategory"/>
+                android:textStyle="bold" />
+
         </RadioGroup>
 
-        <Button
-            android:id="@+id/btnNextPage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/misc_Cat"
-            android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/misc_Cat"
-            android:layout_marginBottom="24dp"
-            android:text="OK" />
     </RelativeLayout>
 </LinearLayout>

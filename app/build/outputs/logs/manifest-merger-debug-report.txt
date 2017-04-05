@@ -94,62 +94,62 @@ activity#com.pikup.pash.pikup.ForgetActivity
 ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:25:9-52
 	android:name
 		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:25:19-49
-activity#com.pikup.pash.pikup.PostActivity
+activity#com.pikup.pash.pikup.HomeActivity
 ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:27:9-50
 	android:name
 		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:27:19-47
-activity#com.pikup.pash.pikup.HomeActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:28:9-50
-	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:28:19-47
 activity#com.pikup.pash.pikup.CaptureImageActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:29:9-58
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:28:9-58
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:29:19-55
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:28:19-55
 activity#com.pikup.pash.pikup.ViewActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:30:9-50
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:29:9-50
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:30:19-47
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:29:19-47
 activity#com.pikup.pash.pikup.ItemDetailActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:31:9-56
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:30:9-56
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:31:19-53
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:30:19-53
 provider#android.support.v4.content.FileProvider
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:33:9-41:20
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:32:9-40:20
 	android:authorities
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:35:13-67
-	android:grantUriPermissions
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:37:13-47
-	android:exported
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:36:13-37
-	android:name
 		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:34:13-67
+	android:grantUriPermissions
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:36:13-47
+	android:exported
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:33:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:38:13-40:54
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:37:13-39:54
 	android:resource
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:40:17-51
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:39:17-51
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:39:17-67
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:38:17-67
 activity#com.pikup.pash.pikup.UserInformationActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:43:9-61
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:42:9-61
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:43:19-58
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:42:19-58
 activity#com.pikup.pash.pikup.UploadImageActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:44:9-57
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:43:9-57
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:44:19-54
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:43:19-54
 activity#com.pikup.pash.pikup.ChooseCategoryActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:45:9-60
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:44:9-60
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:45:19-57
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:44:19-57
 activity#com.pikup.pash.pikup.DeleteAccountActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:46:9-59
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:45:9-59
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:46:19-56
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:45:19-56
 activity#com.pikup.pash.pikup.DeleteAggrement
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:47:9-62
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:46:9-53
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:47:19-50
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:46:19-50
+activity#com.pikup.pash.pikup.FilterCategoryActivity
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:47:9-69
+	android:name
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:47:19-57
 uses-sdk
 INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/pash/.android/build-cache/2818d1a7e3b668acb1566a9776ca77be94776062/output/AndroidManifest.xml:17:5-43

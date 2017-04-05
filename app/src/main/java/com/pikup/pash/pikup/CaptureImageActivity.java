@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -44,6 +47,7 @@ public class CaptureImageActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private Button buttonSubmitItem;
     private Uri uri;
+    private Toolbar toolbar;
 
     private EditText postName, postDescr, postLocation;
 
@@ -51,6 +55,11 @@ public class CaptureImageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_capture_image);
+
+
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
 /**/
         Intent intent = getIntent();
         if (null != intent) {
@@ -164,7 +173,7 @@ public class CaptureImageActivity extends AppCompatActivity {
 
         myDB.child("/Posts/" + key).setValue(p);
 
-        startActivity(new Intent(CaptureImageActivity.this,PostActivity.class));
+        startActivity(new Intent(CaptureImageActivity.this,ChooseCategoryActivity.class));
         Toast.makeText(CaptureImageActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
         finish();
     }
@@ -177,5 +186,20 @@ public class CaptureImageActivity extends AppCompatActivity {
         super.onResume();
         progressBar.setVisibility(GONE);
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.homemenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.menu_home) {
+            startActivity(new Intent(CaptureImageActivity.this, HomeActivity.class));
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 
 }

@@ -9,11 +9,18 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
+
+
 public class ItemDetailFragment extends Fragment {
 
 	Context context;
 	ImageView img;
 	TextView title, zip, description;
+
+
+
+
 
 	public ItemDetailFragment() {
 		super();
@@ -23,6 +30,7 @@ public class ItemDetailFragment extends Fragment {
 		ItemDetailFragment df = new ItemDetailFragment();
 		return df;
 	}
+
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
