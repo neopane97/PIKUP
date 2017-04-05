@@ -143,6 +143,7 @@ public class UserInformationActivity extends AppCompatActivity {
                         gll = new GridLayoutManager(getApplicationContext(), 3);
                         uiView.setLayoutManager(gll);
                         uiView.setAdapter(uiAdapter);
+                        notifyDataSetChanged();
                     } else
                         updateFrame(R.layout.ui_nop);
                     progressBar.setVisibility(View.GONE);

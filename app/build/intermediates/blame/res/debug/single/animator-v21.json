@@ -1,26 +1,6 @@
 [
     {
-        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/animator-v21/design_appbar_state_list_animator.xml",
-        "source": "/Users/ssants/.android/build-cache/38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5/output/res/animator-v21/design_appbar_state_list_animator.xml"
-    },
-    {
-        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
-        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\pash\\Desktop\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\pash\\.android\\build-cache\\a0be4e133b95cc2be7bb3c9312ec9f76a05dd689\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
-        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
-        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
-        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\AS\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\ssants\\.android\\build-cache\\38f3141b21ab8325cd44a30a9bd258e7bc8ff1c5\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\Sergi\\.android\\build-cache\\fff32b6af1d6172e85d81cd7dc14d7697474d7b8\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     }
 ]
