@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Sergi\\.android\\build-cache\\6c2947b6490443681bd58766ac35918cf1f37701\\output\\res\\values\\values.xml",
+                    "file": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\.android\\build-cache\\6c2947b6490443681bd58766ac35918cf1f37701\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/ssants/AS/PIKUP/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "/Users/ssants/.android/build-cache/1174a6543bc4f3bd893680cd86e50d7472b55d23/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

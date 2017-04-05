@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "/Users/ssants/AS/PIKUP/C:\\Users\\Sergi\\StudioProjects\\PIKUP\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]
