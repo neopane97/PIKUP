@@ -3,6 +3,7 @@ package com.pikup.pash.pikup;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.annotation.Nullable;
@@ -85,7 +86,7 @@ public class ItemFeedFragment extends Fragment {
 				Intent i = new Intent(Intent.ACTION_SEND);
 				i.setType("message/rfc822");
 				i.putExtra(Intent.EXTRA_EMAIL, new String[]{user.getEmail()});
-				i.putExtra(Intent.EXTRA_SUBJECT, "I would like to come pick up your given (Free) item(s)");
+				i.putExtra(Intent.EXTRA_SUBJECT, "I would like to come pick up your item(s)");
 				i.putExtra(Intent.EXTRA_TEXT, "Please reply to my email to negotiate a time and place for me to pickup your item." +
 						" \n" + "\nI look forward hearing back from you\n" + "\nThank You");
 				try {
@@ -110,26 +111,6 @@ public class ItemFeedFragment extends Fragment {
 		// Check exists
 		if (menu.findItem(R.id.menu_claim) == null)
 			inflater.inflate(R.menu.reycc_menu, menu);
-
-        /*claimed = (Button) findViewById(R.id.claim_checked_btn);
-
-        claimed.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_SEND);
-                i.setType("message/rfc822");
-                i.putExtra(Intent.EXTRA_EMAIL  , new String[]{user.getEmail()});
-                i.putExtra(Intent.EXTRA_SUBJECT, "I would like to come pick up your given (Free) item(s)");
-                i.putExtra(Intent.EXTRA_TEXT   , "Please reply to my email to negotiate a time and place for me to pickup your item." +
-                        " \n"+"\nI look forward hearing back from you\n"+"\nThank You");
-                try {
-                    startActivity(Intent.createChooser(i, "Send mail..."));
-                } catch (android.content.ActivityNotFoundException ex) {
-                    Toast.makeText(ViewActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
-        */
 	}
 
 	@Override
@@ -144,7 +125,6 @@ public class ItemFeedFragment extends Fragment {
 		private ArrayList<Post> posts;
 		private boolean fast;
 		private ChildEventListener chel;
-		//boolean allCheckd = false;
 
 		ItemFeedAdapter() {
 			posts = new ArrayList<>();
@@ -163,6 +143,8 @@ public class ItemFeedFragment extends Fragment {
 		public void onBindViewHolder(ItemHolder holder, int position) {
 			holder.img.setImageResource(R.drawable.place);
 			Post p = posts.get(position);
+			boolean claimd = p.isClaimd();
+
 			Log.i("IMAGEPATH", p.getImage_path());
 			StorageReference imgRef = FirebaseStorage
 					.getInstance()
@@ -175,7 +157,14 @@ public class ItemFeedFragment extends Fragment {
 					.into(holder.img);
 			holder.title.setText(p.getTitle());
 			holder.checkBox.setChecked(false);
-		}
+            if (claimd) {
+                holder.title.setPaintFlags(
+                        holder.title.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+                holder.title.setTextColor(getResources().getColor(android.R.color.darker_gray));
+                holder.checkBox.setEnabled(false);
+                //holder.checkBox.setBackgroundResource(R.drawable.ic_check_ind);
+            }
+        }
 
 		@Override
 		public int getItemCount() {

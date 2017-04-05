@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "362573762591",
-    "firebase_url": "https://pikup-156816.firebaseio.com",
-    "project_id": "pikup-156816",
-    "storage_bucket": "pikup-156816.appspot.com"
+    "project_number": "805624988665",
+    "firebase_url": "https://pikup-243f2.firebaseio.com",
+    "project_id": "pikup-243f2",
+    "storage_bucket": "pikup-243f2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:362573762591:android:b83a6b04f768de98",
+        "mobilesdk_app_id": "1:805624988665:android:b83a6b04f768de98",
         "android_client_info": {
           "package_name": "com.pikup.pash.pikup"
         }
       },
       "oauth_client": [
         {
-          "client_id": "362573762591-r80m0psvrs1okj1cu5p364je5m4jlk2b.apps.googleusercontent.com",
+          "client_id": "805624988665-7qhpj5bokt8hpmvi8c28obcpb79f3dj4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAPYIJ9Vc4cCElFFAIWRxm34ScW9_k0ZM4"
+          "current_key": "AIzaSyC4Da7TyGg_-VjemuA6eGpJGt5vzWKa9lc"
         }
       ],
       "services": {
