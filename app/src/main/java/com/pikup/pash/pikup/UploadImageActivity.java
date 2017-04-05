@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -74,14 +75,6 @@ public class UploadImageActivity extends AppCompatActivity {
 			}
 		});
 
-//        buttonCaptureImage.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(Intent.ACTION_PICK);
-//                intent.setType("image/*");
-//                startActivityForResult(intent, GALLERY_INTENT);
-//            }
-//        });
 		buttonCaptureImage.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -89,52 +82,10 @@ public class UploadImageActivity extends AppCompatActivity {
 				intent.setType("image/*");
 				intent.setAction(Intent.ACTION_GET_CONTENT);
 				startActivityForResult(Intent.createChooser(intent, "Select Picture"), GALLERY_INTENT);
-//				File image = null;
-//				try {
-//					image = createImageFile();
-//				} catch (IOException e) {
-//					e.printStackTrace();
-//					finish();
-//				}
-//				if (image != null) {
-//					uri = FileProvider.getUriForFile(UploadImageActivity.this,
-//							"com.example.android.fileprovider",
-//							image);
-//					intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
-//					List<ResolveInfo> resolveInfos = getApplicationContext()
-//							.getPackageManager()
-//							.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
-//					for (ResolveInfo ri : resolveInfos) {
-//						String packageName = ri.activityInfo.packageName;
-//						getApplicationContext().grantUriPermission(packageName, uri,
-//								Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
-//										Intent.FLAG_GRANT_READ_URI_PERMISSION);
-//					}
-//					startActivityForResult(intent, GALLERY_INTENT);
-//				}
 			}
 		});
 
 	}
-
-//        @Override
-//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        super.onActivityResult(requestCode, resultCode, data);
-//        if (requestCode == GALLERY_INTENT && resultCode == RESULT_OK) {
-//            // progressBar.setVisibility(View.VISIBLE);
-//
-//            Uri uri = data.getData();
-//            StorageReference filepath = myStorage.child("PickUpPhotos").child(uri.getLastPathSegment());
-//            filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-//                @Override
-//                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-//                    Toast.makeText(UploadImageActivity.this, "Thanks For Giving", Toast.LENGTH_LONG).show();
-//                    //   progressBar.setVisibility(View.GONE);
-//                }
-//            });
-//        }
-//    }
-
 
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data){
@@ -143,14 +94,6 @@ public class UploadImageActivity extends AppCompatActivity {
 			if (data != null) {
 				uri = data.getData();
 				Log.d("URI", "uri is " + uri.toString());
-//				try {
-//					Bitmap bitmap = MediaStore.Images.Media
-//							.getBitmap(getApplicationContext().getContentResolver(), uri);
-//				} catch (IOException e) {
-//					e.printStackTrace();
-//					Toast.makeText(getApplicationContext(), "Check stacktrace", Toast.LENGTH_SHORT)
-//							.show();
-//				}
 			} else {
 
 				Toast.makeText(getApplicationContext(), "Something was null", Toast.LENGTH_SHORT)
@@ -168,26 +111,28 @@ public class UploadImageActivity extends AppCompatActivity {
 
 
 	private void uploadThings() {
-		image_path = createImageFileName();
-		StorageReference filepath = myStorage.child("PikUpPhotos").child(image_path);
+        image_path = createImageFileName();
+        StorageReference filepath = myStorage.child("PikUpPhotos").child(image_path);
 		filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
 			@Override
 			public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) { /* nothing */}
 		});
-		String key = myDB.child("Posts").push().getKey();
-//		getApplicationContext().revokeUriPermission(uri,
-//				Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
-//						Intent.FLAG_GRANT_READ_URI_PERMISSION);
+
+        getApplicationContext().revokeUriPermission(uri,
+				        Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
+						Intent.FLAG_GRANT_READ_URI_PERMISSION);
+
+		FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+		String uid = user.getUid();
+		String pid = myDB.child("Posts").push().getKey();
 		//noinspection ConstantConditions
 		Post p = new Post(
 				postName.getText().toString(),
-				postDescr.getText().toString(),
 				postLocation.getText().toString(),
 				image_path,
-				FirebaseAuth.getInstance().getCurrentUser().getUid());
-		//Map<String, String> pm = p.toMap();
-		//Log.d("POST", pm.toString());
-		myDB.child("/Posts/" + key).setValue(p);
+				user.getUid());
+		myDB.child("/Posts/" + pid).setValue(p);
+		myDB.child("/User-Posts/" + uid + "/" + pid).setValue(p);
 
 
 		startActivity(new Intent(UploadImageActivity.this, PostActivity.class));
@@ -202,33 +147,3 @@ public class UploadImageActivity extends AppCompatActivity {
 	}
 
 }
-
-
-//        uploadButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(Intent.ACTION_PICK);
-//                intent.setType("image/*");
-//                startActivityForResult(intent, GALLERY_INTENT);
-//            }
-//        });
-//    }
-//
-//
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        super.onActivityResult(requestCode, resultCode, data);
-//        if (requestCode == GALLERY_INTENT && resultCode == RESULT_OK) {
-//            // progressBar.setVisibility(View.VISIBLE);
-//
-//            Uri uri = data.getData();
-//            StorageReference filepath = myStorage.child("PickUpPhotos").child(uri.getLastPathSegment());
-//            filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-//                @Override
-//                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-//                    Toast.makeText(PostActivity.this, "Thanks For Giving", Toast.LENGTH_LONG).show();
-//                    //   progressBar.setVisibility(View.GONE);
-//                }
-//            });
-//        }
-//    }

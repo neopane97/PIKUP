@@ -52,7 +52,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
         FirstName = (EditText) findViewById(R.id.editFirstName);
         LastName = (EditText) findViewById(R.id.editLastName);
         Address = (EditText) findViewById(R.id.editAddress);
-        State = (EditText) findViewById(R.id.editAddress);
+        State = (EditText) findViewById(R.id.editState);
         City = (EditText) findViewById(R.id.editCity);
         ZipCode = (EditText) findViewById(R.id.editZipCode);
         Dob = (EditText) findViewById(R.id.editDateOfBirth);

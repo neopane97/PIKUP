@@ -27,9 +27,7 @@ import com.google.firebase.storage.UploadTask;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import static android.view.View.GONE;
 
@@ -154,12 +152,8 @@ public class CaptureImageActivity extends AppCompatActivity {
                 postLocation.getText().toString(),
                 image_path,
                 uid);
-        //Map<String, String> pm = p.toMap();
-		//Log.d("POST", pm.toString());
 		myDB.child("/Posts/" + pid).setValue(p);
-        Map temp = new HashMap<>();
-        temp.put(pid, true);
-        myDB.child("/Users/" + uid + "/posts").updateChildren(temp);
+        myDB.child("/User-Posts/" + uid + "/" + pid).setValue(p);
 
 		startActivity(new Intent(CaptureImageActivity.this, PostActivity.class));
 		Toast.makeText(CaptureImageActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();

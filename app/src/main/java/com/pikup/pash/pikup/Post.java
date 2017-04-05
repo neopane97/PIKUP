@@ -14,7 +14,7 @@ public class Post {
 	public Post(String title, /*String descr,*/ String location, String image_path, String uid) {
 		this.title = title;
 		//this.descr = descr;
-		//this.location = location;
+		this.location = location;
 		this.image_path = image_path;
 		this.claimd = false;
 		this.uid = uid;

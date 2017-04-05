@@ -45,8 +45,8 @@ public class ItemFeedFragment extends Fragment {
 
 	View view;
 	LinearLayoutManager llm;
-	RecyclerAdapter reAdapter;
-	RecyclerView reView;
+	ItemFeedAdapter iAdapter;
+	RecyclerView iView;
 
 	@Override
 	public void onAttach(Context context) {
@@ -68,12 +68,12 @@ public class ItemFeedFragment extends Fragment {
 			return view;
 		setHasOptionsMenu(true);
 		view = inflater.inflate(R.layout.fragment_item_feed, container, false);
-		reView = (RecyclerView) view.findViewById(recycc);
+		iView = (RecyclerView) view.findViewById(recycc);
 		llm = new LinearLayoutManager(context);
-		reView.setLayoutManager(llm);
-		reAdapter = new RecyclerAdapter();
-		reAdapter.initPosts();
-		reView.setAdapter(reAdapter);
+		iView.setLayoutManager(llm);
+		iAdapter = new ItemFeedAdapter();
+		iAdapter.initPosts();
+		iView.setAdapter(iAdapter);
 		Log.d("CREATEVIEW", "onCreateView is done");
 		return view;
 	}
@@ -95,10 +95,10 @@ public class ItemFeedFragment extends Fragment {
 				}
 				break;
 			case R.id.menu_fast:
-				if (reAdapter.isFast()) {
-					reAdapter.goNormal();
+				if (iAdapter.isFast()) {
+					iAdapter.goNormal();
 				} else
-					reAdapter.goFast();
+					iAdapter.goFast();
 				break;
 		}
 		return super.onOptionsItemSelected(item);
@@ -139,28 +139,28 @@ public class ItemFeedFragment extends Fragment {
 		super.onDestroyView();
 	}
 
-	class RecyclerAdapter extends RecyclerView.Adapter<Holder> {
+	class ItemFeedAdapter extends RecyclerView.Adapter<ItemHolder> {
 		DatabaseReference dbr;
 		private ArrayList<Post> posts;
 		private boolean fast;
 		private ChildEventListener chel;
 		//boolean allCheckd = false;
 
-		RecyclerAdapter() {
+		ItemFeedAdapter() {
 			posts = new ArrayList<>();
 			dbr = FirebaseDatabase.getInstance().getReference().child("Posts");
 			fast = false;
 		}
 
 		@Override
-		public Holder onCreateViewHolder(ViewGroup parent, int viewType) {
+		public ItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 			View v = LayoutInflater.from(parent.getContext())
 					.inflate(R.layout.feed_item, parent, false);
-			return new Holder(v);
+			return new ItemHolder(v);
 		}
 
 		@Override
-		public void onBindViewHolder(Holder holder, int position) {
+		public void onBindViewHolder(ItemHolder holder, int position) {
 			holder.img.setImageResource(R.drawable.place);
 			Post p = posts.get(position);
 			Log.i("IMAGEPATH", p.getImage_path());
@@ -231,7 +231,7 @@ public class ItemFeedFragment extends Fragment {
 						}
 						posts.add(0, p);
 						SystemClock.sleep(3000);
-						reAdapter.notifyItemInserted(0);
+						iAdapter.notifyItemInserted(0);
 						llm.scrollToPosition(0);
 
 					}
@@ -262,22 +262,16 @@ public class ItemFeedFragment extends Fragment {
 			Toast.makeText(context, "Realtime Database", Toast.LENGTH_SHORT)
 					.show();
 		}
-//
-//		public void setPosts(ArrayList<Post> posts) {
-//			int k = posts.size();
-//			this.posts = posts;
-//			notifyItemRangeInserted(k, posts.size());
-//		}
 
 	}
 
-	public static class Holder extends RecyclerView.ViewHolder {
+	public static class ItemHolder extends RecyclerView.ViewHolder {
 		ImageView img;
 		TextView title;
 		CheckBox checkBox;
 		CardView card;
 
-		public Holder(View itemView) {
+		public ItemHolder(View itemView) {
 			super(itemView);
 			card = (CardView) itemView.findViewById(R.id.card);
 			img = (ImageView) itemView.findViewById(R.id.item_img);
