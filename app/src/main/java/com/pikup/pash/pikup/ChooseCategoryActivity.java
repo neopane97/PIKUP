@@ -22,7 +22,7 @@ public class ChooseCategoryActivity extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.userprofilemenu, menu);
+        getMenuInflater().inflate(R.menu.homemenu, menu);
         return super.onCreateOptionsMenu(menu);
     }
 

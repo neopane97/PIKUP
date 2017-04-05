@@ -118,6 +118,10 @@ public class ItemFeedFragment extends Fragment {
 			case R.id.menu_filter:
 				Intent intent = new Intent(context, FilterCategoryActivity.class);
 				startActivity(intent);
+				break;
+			case R.id.menu_home:
+				Intent intent1 = new Intent(context, HomeActivity.class);
+				startActivity(intent1);
 		}
 		return super.onOptionsItemSelected(item);
 	}

@@ -20,7 +20,7 @@
         <!--app:srcCompat="@drawable/main" />-->
 
     <Button
-        android:id="@+id/buttonPost"
+        android:id="@+id/buttonForgetBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Post Item"
@@ -33,13 +33,13 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:id="@+id/buttonView"
+        android:id="@+id/buttonForgetSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="View Item"
         android:textAlignment="center"
         android:textStyle="bold"
-        android:layout_above="@+id/buttonPost"
+        android:layout_above="@+id/buttonForgetBack"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"

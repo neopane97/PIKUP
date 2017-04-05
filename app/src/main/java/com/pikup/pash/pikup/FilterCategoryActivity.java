@@ -3,6 +3,9 @@ package com.pikup.pash.pikup;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
@@ -16,11 +19,32 @@ public class FilterCategoryActivity extends AppCompatActivity
 {
     private Button buttonOk;
     public String category;
+    private Toolbar toolbar;
     public static final String KEY_CATEGORY="category";
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.homemenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.menu_home) {
+            startActivity(new Intent(FilterCategoryActivity.this, HomeActivity.class));
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_filter_category);
+
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
 
         buttonOk = (Button) findViewById(R.id.buttonCapture);
 

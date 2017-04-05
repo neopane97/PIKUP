@@ -34,8 +34,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     //    Toast.makeText(getApplicationContext(), "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
 
-        postButton = (Button) findViewById(R.id.buttonPost);
-        viewButton = (Button) findViewById(R.id.buttonView);
+        postButton = (Button) findViewById(R.id.buttonForgetBack);
+        viewButton = (Button) findViewById(R.id.buttonForgetSubmit);
         logoutButton = (Button) findViewById(R.id.buttonLogout);
         userInfoButton = (Button) findViewById(R.id.userInfoButton);
 

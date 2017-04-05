@@ -19,18 +19,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
         android:ems="10"
-        android:hint="userName"
-        android:inputType="textEmailAddress" />
-
-    <ProgressBar
-        android:id="@+id/progressBar2"
-        style="?android:attr/progressBarStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="#00ffff"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editPassword"
@@ -43,10 +38,13 @@
         android:layout_below="@+id/editUserName"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="#00ffff"
+        android:textStyle="bold" />
 
     <Button
-        android:id="@+id/buttonLogin"
+        android:id="@+id/buttonForgetSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -54,9 +52,10 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/editPassword"
-        android:backgroundTint="?attr/colorControlNormal"
+        android:layout_marginTop="5dp"
         android:text="Login"
-        android:textColor="@android:color/holo_blue_bright" />
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonForget"
@@ -66,10 +65,11 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/buttonLogin"
-        android:backgroundTint="?attr/colorControlNormal"
+        android:layout_below="@+id/buttonForgetSubmit"
+        android:layout_marginTop="5dp"
         android:text="Forget Password"
-        android:textColor="@android:color/holo_blue_bright" />
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonNotRegister"
@@ -80,8 +80,16 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/buttonForget"
-        android:backgroundTint="?attr/colorControlNormal"
         android:text="NotRegister?"
-        android:textColor="@android:color/holo_blue_bright" />
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

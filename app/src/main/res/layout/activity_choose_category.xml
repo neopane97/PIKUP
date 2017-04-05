@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/upload"
@@ -17,6 +18,7 @@
         android:text="PLEASE CHOOSE ITEM CATEGORY"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@android:color/black"
         android:textStyle="bold" />
 
     <RelativeLayout
@@ -67,7 +69,10 @@
                 android:layout_marginTop="50dp"
                 android:onClick="selectCategory"
                 android:text="Electronics"
-                android:textStyle="bold" />
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:buttonTint="@android:color/white" />
 
             <RadioButton
                 android:id="@+id/furniture_Cat"
@@ -79,7 +84,10 @@
                 android:layout_marginTop="36dp"
                 android:onClick="selectCategory"
                 android:text="Furniture"
-                android:textStyle="bold" />
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:buttonTint="@android:color/white" />
 
             <RadioButton
                 android:id="@+id/appliance_Cat"
@@ -91,7 +99,10 @@
                 android:layout_marginTop="42dp"
                 android:onClick="selectCategory"
                 android:text="Appliances"
-                android:textStyle="bold" />
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:buttonTint="@android:color/white" />
 
             <RadioButton
                 android:id="@+id/misc_Cat"
@@ -104,7 +115,10 @@
                 android:layout_marginTop="36dp"
                 android:onClick="selectCategory"
                 android:text="Miscellaneous"
-                android:textStyle="bold" />
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:buttonTint="@android:color/white" />
 
         </RadioGroup>
 

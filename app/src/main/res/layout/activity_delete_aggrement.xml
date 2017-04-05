@@ -31,23 +31,25 @@
         android:id="@+id/buttonYes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yes"
         android:layout_above="@+id/buttonNo"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true"
+        android:text="Yes"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NO"
         android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true"
+        android:text="NO"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textMessage"

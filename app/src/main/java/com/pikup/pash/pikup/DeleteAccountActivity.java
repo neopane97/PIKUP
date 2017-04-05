@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -27,6 +28,7 @@ public class DeleteAccountActivity extends AppCompatActivity {
     private Button buttonDeleteBack;
     private FirebaseAuth auth;
     private ProgressBar progressBar;
+    private Toolbar toolbar;
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -48,10 +50,15 @@ public class DeleteAccountActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delete_account);
 
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+
+
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         buttonDeleteAccount = (Button) findViewById(R.id.buttonDeleteAccount);
         buttonDeleteBack = (Button) findViewById(R.id.buttonDeleteBAck);
-        progressBar = (ProgressBar) findViewById(R.id.progressBar);
+        progressBar = (ProgressBar) findViewById(R.id.ForgetProgressBar);
 
        // auth = FirebaseAuth.getInstance();
 
