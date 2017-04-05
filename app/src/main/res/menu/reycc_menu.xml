@@ -17,12 +17,12 @@
     <item
         android:id="@+id/menu_loc"
         android:icon="@drawable/ic_loc"
-        android:title="Location"
+        android:title="Search by Location"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/menu_filter"
         android:icon="@drawable/ic_filter"
-        android:title="Filter"
+        android:title="Filter by Category"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/menu_home"
@@ -32,7 +32,7 @@
         />
     <!--<item-->
     <!--android:id="@+id/menu_search"-->
-    <!--android:icon="@drawable/ic_searchbar"-->
+    <!--android:icon="@drawable/ic_seach"-->
     <!--android:title="Search"-->
     <!--app:showAsAction="ifRoom"/>-->
 

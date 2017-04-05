@@ -122,6 +122,10 @@ public class ItemFeedFragment extends Fragment {
 			case R.id.menu_home:
 				Intent intent1 = new Intent(context, HomeActivity.class);
 				startActivity(intent1);
+			break;
+			case R.id.menu_loc:
+				Intent intent2 = new Intent(context, FilterByLocation.class);
+				startActivity(intent2);
 		}
 		return super.onOptionsItemSelected(item);
 	}

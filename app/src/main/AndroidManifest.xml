@@ -44,7 +44,8 @@
         <activity android:name=".ChooseCategoryActivity" />
         <activity android:name=".DeleteAccountActivity" />
         <activity android:name=".DeleteAggrement" />
-        <activity android:name=".FilterCategoryActivity"></activity>
+        <activity android:name=".FilterCategoryActivity" />
+        <activity android:name=".FilterByLocation"></activity>
     </application>
 
 </manifest>

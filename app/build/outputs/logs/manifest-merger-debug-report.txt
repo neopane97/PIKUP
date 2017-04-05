@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:2:1-50:12
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:2:1-51:12
 	package
 		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml
@@ -33,7 +33,7 @@ ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:8:5-65
 	android:name
 		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:8:22-62
 application
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:10:5-48:19
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:10:5-49:19
 MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/pash/.android/build-cache/2818d1a7e3b668acb1566a9776ca77be94776062/output/AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.android.support:design:25.1.1] /Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/AndroidManifest.xml:25:5-20
@@ -147,9 +147,13 @@ ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:46:9-53
 	android:name
 		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:46:19-50
 activity#com.pikup.pash.pikup.FilterCategoryActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:47:9-69
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:47:9-60
 	android:name
 		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:47:19-57
+activity#com.pikup.pash.pikup.FilterByLocation
+ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:48:9-63
+	android:name
+		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:48:19-51
 uses-sdk
 INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/pash/.android/build-cache/2818d1a7e3b668acb1566a9776ca77be94776062/output/AndroidManifest.xml:17:5-43

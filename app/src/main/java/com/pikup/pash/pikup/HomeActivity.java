@@ -37,7 +37,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         postButton = (Button) findViewById(R.id.buttonForgetBack);
         viewButton = (Button) findViewById(R.id.buttonForgetSubmit);
         logoutButton = (Button) findViewById(R.id.buttonLogout);
-        userInfoButton = (Button) findViewById(R.id.userInfoButton);
+        userInfoButton = (Button) findViewById(R.id.locSubmit);
 
         userInfoButton.setOnClickListener(new View.OnClickListener() {
             @Override

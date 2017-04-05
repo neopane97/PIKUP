@@ -60,6 +60,7 @@
         <activity android:name="com.pikup.pash.pikup.DeleteAccountActivity" />
         <activity android:name="com.pikup.pash.pikup.DeleteAggrement" />
         <activity android:name="com.pikup.pash.pikup.FilterCategoryActivity" />
+        <activity android:name="com.pikup.pash.pikup.FilterByLocation" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
