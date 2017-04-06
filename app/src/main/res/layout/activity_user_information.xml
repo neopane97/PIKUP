@@ -1,23 +1,231 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <include
-        layout="@layout/toolbar"/>
-    <ListView
-        android:id="@+id/listview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
-    <TextView
-        android:id="@+id/tvUserInfo"
+    <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="User Information"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:fitsSystemWindows="true"
+        app:theme="@style/AppTheme.AppBarOverlay">
+
+        <include
+            layout="@layout/toolbar"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Name -->
+
+            <TextView
+                android:id="@+id/ui_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Name: "
+                android:textSize="20sp"/>
+
+            <!-- Address -->
+
+            <TextView
+                android:id="@+id/ui_tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ui_tv_name"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Address: "
+                android:textSize="20sp"/>
+
+            <!-- City -->
+
+            <TextView
+                android:id="@+id/ui_tv_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ui_tv_address"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="City: "
+                android:textSize="20sp"/>
+
+            <!-- State -->
+
+            <TextView
+                android:id="@+id/ui_tv_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ui_tv_city"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="State: "
+                android:textSize="20sp"/>
+
+            <!-- Zip -->
+
+            <TextView
+                android:id="@+id/ui_tv_zip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ui_tv_state"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Zip: "
+                android:textSize="20sp"/>
+
+            <!-- Date of Birth -->
+
+            <TextView
+                android:id="@+id/ui_tv_dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ui_tv_zip"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Date of Birth: "
+                android:textSize="20sp"/>
 
 
-</LinearLayout>
+            <!--        -->
+            <!-- Marker -->
+            <!--        -->
+
+            <View
+                android:id="@+id/marker"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_toEndOf="@id/ui_tv_dob"
+                android:layout_toRightOf="@id/ui_tv_dob"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp" />
+
+            <!-- Name -->
+
+            <EditText
+                android:id="@+id/ui_edit_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/marker"
+                android:layout_toRightOf="@id/marker"
+                android:layout_alignBaseline="@id/ui_tv_name"
+                android:hint="Loading..."
+                android:textColor="@drawable/edittext_custom"/>
+
+            <!-- Address -->
+
+            <EditText
+                android:id="@+id/ui_edit_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/marker"
+                android:layout_toRightOf="@id/marker"
+                android:layout_alignBaseline="@id/ui_tv_address"
+                android:hint="Loading..."
+                android:textColor="@drawable/edittext_custom"/>
+
+            <!-- City -->
+
+            <EditText
+                android:id="@+id/ui_edit_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/marker"
+                android:layout_toRightOf="@id/marker"
+                android:layout_alignBaseline="@id/ui_tv_city"
+                android:hint="Loading..."
+                android:textColor="@drawable/edittext_custom" />
+
+            <!-- State -->
+
+            <EditText
+                android:id="@+id/ui_edit_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/marker"
+                android:layout_toRightOf="@id/marker"
+                android:layout_alignBaseline="@id/ui_tv_state"
+                android:hint="Loading..."
+                android:textColor="@drawable/edittext_custom" />
+
+            <!-- Zip -->
+
+            <EditText
+                android:id="@+id/ui_edit_zip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/marker"
+                android:layout_toRightOf="@id/marker"
+                android:layout_alignBaseline="@id/ui_tv_zip"
+                android:hint="Loading..."
+                android:textColor="@drawable/edittext_custom" />
+
+            <!-- Date of Birth -->
+
+            <EditText
+                android:id="@+id/ui_edit_dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/marker"
+                android:layout_toRightOf="@id/marker"
+                android:layout_alignBaseline="@id/ui_tv_dob"
+                android:hint="Loading..."
+                android:textColor="@drawable/edittext_custom"/>
+
+            <!-- Posts -->
+
+            <TextView
+                android:id="@+id/ui_tv_posts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ui_tv_dob"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="Your Posts"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <FrameLayout
+                android:id="@+id/ui_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ui_tv_posts"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ProgressBar
+                android:id="@+id/ui_progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ui_frame"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:indeterminate="true"/>
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -284,6 +284,10 @@
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/edittext_custom.xml",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/edittext_custom.xml"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/ic_seach.png",
         "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/ic_seach.png"
     },

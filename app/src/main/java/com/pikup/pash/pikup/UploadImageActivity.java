@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -33,6 +34,7 @@ public class UploadImageActivity extends AppCompatActivity {
     private String itemCategory;
 
     private static final int GALLERY_INTENT = 2;
+    public static final String KEY_CATEGORY="category";
 
     private ImageButton buttonCaptureImage;
     private TextView buttonCaptureText;
@@ -47,6 +49,11 @@ public class UploadImageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_upload);
+
+        Intent intent = getIntent();
+        if (intent.hasExtra(KEY_CATEGORY)) {
+            itemCategory = intent.getStringExtra(KEY_CATEGORY);
+        }
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -123,18 +130,26 @@ public class UploadImageActivity extends AppCompatActivity {
             @Override
             public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) { /* nothing */}
         });
-        String key = myDB.child("Posts").push().getKey();
+
+        getApplicationContext().revokeUriPermission(uri,
+                Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
+                        Intent.FLAG_GRANT_READ_URI_PERMISSION);
+
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        String uid = user.getUid();
+        String pid = myDB.child("Posts").push().getKey();
+        //noinspection ConstantConditions
         Post p = new Post(
                 postName.getText().toString(),
-                postDescr.getText().toString(),
                 postLocation.getText().toString(),
                 image_path,
-                itemCategory,
-                FirebaseAuth.getInstance().getCurrentUser().getUid());
-        myDB.child("/Posts/" + key).setValue(p);
+                uid,
+                itemCategory);
+        myDB.child("/Posts/" + pid).setValue(p);
+        myDB.child("/User-Posts/" + uid + "/" + pid).setValue(p);
 
 
-        startActivity(new Intent(UploadImageActivity.this, ChooseCategoryActivity.class));
+        startActivity(new Intent(UploadImageActivity.this, HomeActivity.class));
         Toast.makeText(UploadImageActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
         finish();
     }

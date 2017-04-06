@@ -136,6 +136,10 @@
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/ui_posts.xml",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/layout/ui_posts.xml"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/layout/abc_action_bar_title_item.xml"
     },
@@ -208,6 +212,10 @@
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/ui_nop.xml",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/layout/ui_nop.xml"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
@@ -264,6 +272,10 @@
         "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/layout/activity_login.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/ui_loading.xml",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/layout/ui_loading.xml"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/activity_registration.xml",
         "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/layout/activity_registration.xml"
     },
@@ -286,6 +298,10 @@
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/ui_item.xml",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/layout/ui_item.xml"
     },
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout/notification_action.xml",

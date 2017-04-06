@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.annotation.Nullable;
@@ -108,6 +109,8 @@ public class ItemFeedFragment extends Fragment {
 				} catch (android.content.ActivityNotFoundException ex) {
 					Toast.makeText(context, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
 				}
+//				Post[] cPosts = reAdapter.getCheckedPosts();
+
 				break;
 			case R.id.menu_fast:
 				if (reAdapter.isFast()) {
@@ -148,6 +151,7 @@ public class ItemFeedFragment extends Fragment {
 	class RecyclerAdapter extends RecyclerView.Adapter<Holder> {
 		DatabaseReference dbr;
 		private ArrayList<Post> posts;
+		private ArrayList<Post> checkdPosts;
 		private boolean fast;
 		private ChildEventListener chel;
 		//boolean allCheckd = false;
@@ -168,7 +172,8 @@ public class ItemFeedFragment extends Fragment {
 		@Override
 		public void onBindViewHolder(Holder holder, int position) {
 			holder.img.setImageResource(R.drawable.place);
-			Post p = posts.get(position);
+			final Post p = posts.get(position);
+			boolean claimd = p.isClaimd();
 			Log.i("IMAGEPATH", p.getImage_path());
 			StorageReference imgRef = FirebaseStorage
 					.getInstance()
@@ -181,6 +186,18 @@ public class ItemFeedFragment extends Fragment {
 					.into(holder.img);
 			holder.title.setText(p.getTitle());
 			holder.checkBox.setChecked(false);
+			if (claimd) {
+				holder.title.setPaintFlags(
+						holder.title.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+				holder.title.setTextColor(getResources().getColor(android.R.color.darker_gray));
+				holder.checkBox.setEnabled(false);
+			}
+			holder.checkBox.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+//					checkdPosts.add(p);
+				}
+			});
 		}
 
 		@Override
@@ -295,6 +312,14 @@ public class ItemFeedFragment extends Fragment {
 					.show();
 		}
 
+//		public Post[] getCheckedPosts() {
+////			int s = checkdPosts.size();
+//			Post[] cPosts = new Post[s];
+//			for (int i = 0; i < s; i++) {
+//				cPosts[i] = checkdPosts.get(i);
+//			}
+//			return cPosts;
+//		}
 	}
 
 	public static class Holder extends RecyclerView.ViewHolder {

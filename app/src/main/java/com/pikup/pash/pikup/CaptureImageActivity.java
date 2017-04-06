@@ -21,6 +21,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -32,7 +33,6 @@ import java.io.IOException;
 import java.util.List;
 
 import static android.view.View.GONE;
-import static com.pikup.pash.pikup.ChooseCategoryActivity.KEY_CATEGORY;
 
 public class CaptureImageActivity extends AppCompatActivity {
     private DatabaseReference myDB;
@@ -41,6 +41,7 @@ public class CaptureImageActivity extends AppCompatActivity {
     private String itemCategory;
 
     private static final int CAMERA_REQUEST_CODE = 1;
+    public static final String KEY_CATEGORY="category";
 
     private ImageButton buttonCaptureImage;
     private TextView buttonCaptureText;
@@ -56,17 +57,15 @@ public class CaptureImageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_capture_image);
 
-
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
 /**/
         Intent intent = getIntent();
-        if (null != intent) {
+        if (intent.hasExtra(KEY_CATEGORY)) {
             itemCategory = intent.getStringExtra(KEY_CATEGORY);
-            //Toast.makeText(CaptureImageActivity.this, itemCategory, Toast.LENGTH_LONG).show();
 
-        }//end if
+        }
 
 /**/
         myDB = FirebaseDatabase.getInstance().getReference();
@@ -156,27 +155,29 @@ public class CaptureImageActivity extends AppCompatActivity {
             @Override
             public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) { /* nothing */}
         });
-        String key = myDB.child("Posts").push().getKey();
         image_path = uri.getLastPathSegment();
         getApplicationContext().revokeUriPermission(uri,
                 Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
                         Intent.FLAG_GRANT_READ_URI_PERMISSION);
-        Toast.makeText(CaptureImageActivity.this, itemCategory, Toast.LENGTH_LONG).show();
 
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        String uid = user.getUid();
+        String pid = myDB.child("Posts").push().getKey();
+        //noinspection ConstantConditions
         Post p = new Post(
                 postName.getText().toString(),
-                postDescr.getText().toString(),
                 postLocation.getText().toString(),
                 image_path,
-                itemCategory,
-                FirebaseAuth.getInstance().getCurrentUser().getUid());
+                uid,
+                itemCategory);
+        myDB.child("/Posts/" + pid).setValue(p);
+        myDB.child("/User-Posts/" + uid + "/" + pid).setValue(p);
 
-        myDB.child("/Posts/" + key).setValue(p);
-
-        startActivity(new Intent(CaptureImageActivity.this,ChooseCategoryActivity.class));
+        startActivity(new Intent(CaptureImageActivity.this, HomeActivity.class));
         Toast.makeText(CaptureImageActivity.this, "Thanks for Giving", Toast.LENGTH_LONG).show();
         finish();
     }
+
 
     public String getItemCategory()
     {return itemCategory;}

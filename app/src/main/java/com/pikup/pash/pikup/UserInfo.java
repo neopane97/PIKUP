@@ -1,97 +1,123 @@
 package com.pikup.pash.pikup;
 
-/**
- * Created by pash on 3/24/17.
- */
+import java.util.HashMap;
+import java.util.Map;
 
 public class UserInfo {
-    private String FirstName;
-    private String LastName;
-    private String Address;
-    private String State;
-    private String City;
-    private String ZipCode;
-    private String DateOfBirth;
-    private String Email;
+    private String firstName;
+    private String lastName;
+    private String address;
+    private String state;
+    private String city;
+    private String zipCode;
+    private String dateOfBirth;
+    private String email;
+    private Map<String, Boolean> posts;
 
-    public UserInfo(){
-
-    }
+    public UserInfo() {}
 
     public UserInfo(String firstName, String lastName, String address, String state, String city,
-                    String zipCode, String dateOfBirth, String email){
-        this.FirstName = firstName;
-        this.LastName = lastName;
-        this.Address = address;
-        this.State = state;
-        this.City = city;
-        this.ZipCode = zipCode;
-        this.DateOfBirth = dateOfBirth;
-        this.Email = email;
+                    String zipCode, String dateOfBirth, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address = address;
+        this.state = state;
+        this.city = city;
+        this.zipCode = zipCode;
+        this.dateOfBirth = dateOfBirth;
+        this.email = email;
+        this.posts = new HashMap<String, Boolean>();
     }
+
+    public String getFullName() {
+        return firstName + " " + lastName;
+    }
+
+    public void setFullName(String fullName) {
+        int len = fullName.length();
+        for (int i = 0; i < len; i++) {
+            char k = fullName.charAt(i);
+            if (k == ' ') {
+                firstName = fullName.substring(0, i-1);
+                lastName = fullName.substring(i, len - 1);
+                return;
+            }
+            if (i == len - 1) {
+                firstName = fullName;
+                lastName = "";
+            }
+        }
+    }
+
     public String getFirstName() {
-        return FirstName;
+        return firstName;
     }
 
     public void setFirstName(String firstName) {
-        FirstName = firstName;
-    }
-
-    public String getAddress() {
-        return Address;
-    }
-
-    public void setAddress(String address) {
-        Address = address;
+        this.firstName = firstName;
     }
 
     public String getLastName() {
-        return LastName;
+        return lastName;
     }
 
     public void setLastName(String lastName) {
-        LastName = lastName;
+        this.lastName = lastName;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public String getState() {
-        return State;
+        return state;
     }
 
     public void setState(String state) {
-        State = state;
+        this.state = state;
     }
 
     public String getCity() {
-        return City;
+        return city;
     }
 
     public void setCity(String city) {
-        City = city;
+        this.city = city;
     }
 
     public String getZipCode() {
-        return ZipCode;
+        return zipCode;
     }
 
     public void setZipCode(String zipCode) {
-        ZipCode = zipCode;
+        this.zipCode = zipCode;
     }
 
     public String getDateOfBirth() {
-        return DateOfBirth;
+        return dateOfBirth;
     }
 
     public void setDateOfBirth(String dateOfBirth) {
-        DateOfBirth = dateOfBirth;
+        this.dateOfBirth = dateOfBirth;
     }
 
     public String getEmail() {
-        return Email;
+        return email;
     }
 
     public void setEmail(String email) {
-        Email = email;
+        this.email = email;
+    }
+
+    public Map<String, Boolean> getPosts() {
+        return posts;
+    }
+
+    public void setPosts(Map<String, Boolean> posts) {
+        this.posts = posts;
     }
 }
-
