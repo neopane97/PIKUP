@@ -44,27 +44,6 @@ public class ChooseCategoryActivity extends AppCompatActivity
         buttonCapture = (Button) findViewById(R.id.buttonCapture);
         buttonUpload = (Button) findViewById(R.id.buttonUpload);
 
-
-//        buttonCapture.setOnClickListener(new View.OnClickListener()
-//        {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(ChooseCategoryActivity.this, CaptureImageActivity.class);
-//                intent.putExtra(KEY_CATEGORY, getCategory());
-//                startActivity(intent);
-//            }
-//        });
-
-//        buttonUpload.setOnClickListener(new View.OnClickListener()
-//        {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(ChooseCategoryActivity.this, UploadImageActivity.class);
-//                intent.putExtra(KEY_CATEGORY, getCategory());
-//                startActivity(intent);
-//             }
-//        });
-
     }
     public void selectCategory (View view) {
     final boolean checked = ((RadioButton) view).isChecked();
@@ -76,7 +55,7 @@ public class ChooseCategoryActivity extends AppCompatActivity
             if (checked)
             {
                 category = "electronics";
-                Toast.makeText(ChooseCategoryActivity.this, "Electronics", Toast.LENGTH_LONG).show();
+                //Toast.makeText(ChooseCategoryActivity.this, "Electronics", Toast.LENGTH_LONG).show();
             }
             break;
         case R.id.furniture_Cat:
@@ -84,7 +63,7 @@ public class ChooseCategoryActivity extends AppCompatActivity
             if (checked)
             {
                 category = "furniture";
-                Toast.makeText(ChooseCategoryActivity.this, "Furniture", Toast.LENGTH_LONG).show();
+                //Toast.makeText(ChooseCategoryActivity.this, "Furniture", Toast.LENGTH_LONG).show();
             }
             break;
         case R.id.appliance_Cat:
@@ -92,7 +71,7 @@ public class ChooseCategoryActivity extends AppCompatActivity
             if (checked)
             {
                 category = "appliances";
-                Toast.makeText(ChooseCategoryActivity.this, "Appliance", Toast.LENGTH_LONG).show();
+                //Toast.makeText(ChooseCategoryActivity.this, "Appliance", Toast.LENGTH_LONG).show();
             }
             break;
         case R.id.misc_Cat:
@@ -100,7 +79,7 @@ public class ChooseCategoryActivity extends AppCompatActivity
             if (checked)
             {
                 category = "miscellaneous";
-                Toast.makeText(ChooseCategoryActivity.this, "Miscellaneous", Toast.LENGTH_LONG).show();
+                //Toast.makeText(ChooseCategoryActivity.this, "Miscellaneous", Toast.LENGTH_LONG).show();
             }
             break;
 

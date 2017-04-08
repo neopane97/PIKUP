@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -44,7 +45,7 @@ public class UserInformationActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private FrameLayout frame;
-    private EditText name, address, city, state, zip, dob;
+    private EditText name, address, city, state, zip, dob, email;
     private ProgressBar progressBar;
     private RecyclerView uiView;
     private GridLayoutManager gll;
@@ -72,6 +73,8 @@ public class UserInformationActivity extends AppCompatActivity {
         zip.setEnabled(false);
         dob = (EditText) findViewById(R.id.ui_edit_dob);
         dob.setEnabled(false);
+        email = (EditText) findViewById(R.id.ui_edit_email);
+        email.setEnabled(false);
 
 // User Posts
         frame = (FrameLayout) findViewById(R.id.ui_frame);
@@ -104,6 +107,7 @@ public class UserInformationActivity extends AppCompatActivity {
                         state.setText(ui.getState());
                         zip.setText(ui.getZipCode());
                         dob.setText(ui.getDateOfBirth());
+                        email.setText(ui.getEmail());
                     }
 
                     @Override
@@ -140,7 +144,8 @@ public class UserInformationActivity extends AppCompatActivity {
                     if (posts.size() != 0) {
                         updateFrame(R.layout.ui_posts);
                         uiView = (RecyclerView) findViewById(R.id.ui_recycc);
-                        gll = new GridLayoutManager(getApplicationContext(), 3);
+                        gll = new GridLayoutManager(UserInformationActivity.this,
+                                posts.size(), LinearLayoutManager.HORIZONTAL, false);
                         uiView.setLayoutManager(gll);
                         uiView.setAdapter(uiAdapter);
                         notifyDataSetChanged();
@@ -180,10 +185,11 @@ public class UserInformationActivity extends AppCompatActivity {
                     .using(new FirebaseImageLoader())
                     .load(imgRef)
                     .into(holder.img);
+            final int k = position;
             holder.img.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(getApplicationContext(), "////ye\\\\", Toast.LENGTH_SHORT)
+                    Toast.makeText(getApplicationContext(), "//" + k + "\\\\", Toast.LENGTH_SHORT)
                             .show();
                 }
             });

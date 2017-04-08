@@ -172,6 +172,10 @@
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
+        "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/pklogo.png",
+        "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/drawable/pklogo.png"
+    },
+    {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/drawable/abc_vector_test.xml"
     },

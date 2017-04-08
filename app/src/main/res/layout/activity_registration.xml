@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="FirstName"
+            android:hint="First Name"
             android:inputType="textPersonName"
             android:textStyle="bold" />
 
@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="LastName"
+            android:hint="Last Name"
             android:inputType="textPersonName"
             android:textStyle="bold" />
 
@@ -98,7 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="ZipCode"
+            android:hint="Zipcode"
             android:inputType="number"
             android:textStyle="bold" />
 
@@ -107,8 +107,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Format: mm/dd/yyyy"
-            android:inputType="textPersonName"
+            android:hint="mm/dd/yyyy"
+            android:inputType="date"
             android:textAlignment="viewStart"
             android:textStyle="bold" />
 
@@ -126,6 +126,7 @@
             android:layout_height="wrap_content"
             android:text="Registered?"
             android:textStyle="bold" />
+
             <ProgressBar
                 style="?android:attr/progressBarStyle"
                 android:layout_width="match_parent"

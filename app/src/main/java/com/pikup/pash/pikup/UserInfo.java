@@ -38,7 +38,7 @@ public class UserInfo {
         for (int i = 0; i < len; i++) {
             char k = fullName.charAt(i);
             if (k == ' ') {
-                firstName = fullName.substring(0, i-1);
+                firstName = fullName.substring(0, i);
                 lastName = fullName.substring(i, len - 1);
                 return;
             }

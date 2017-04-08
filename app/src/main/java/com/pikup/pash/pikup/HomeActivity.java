@@ -32,7 +32,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
         FirebaseUser user = auth.getCurrentUser();
 
-    //    Toast.makeText(getApplicationContext(), "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
 
         postButton = (Button) findViewById(R.id.buttonForgetBack);
         viewButton = (Button) findViewById(R.id.buttonForgetSubmit);

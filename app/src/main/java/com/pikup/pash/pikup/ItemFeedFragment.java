@@ -8,6 +8,7 @@ import android.graphics.Paint;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.annotation.Nullable;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -37,6 +38,8 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 import static com.pikup.pash.pikup.R.id.recycc;
 
@@ -45,15 +48,13 @@ public class ItemFeedFragment extends Fragment {
 	FirebaseAuth auth;
 	FirebaseUser user;
 
-
 	View view;
+	SwipeRefreshLayout refreshLayout;
 	LinearLayoutManager llm;
 	RecyclerAdapter reAdapter;
 	RecyclerView reView;
 
-
 	@Override
-
 	public void onAttach(Context context) {
 		super.onAttach(context);
 		this.context = context;
@@ -80,37 +81,86 @@ public class ItemFeedFragment extends Fragment {
 			return view;
 		setHasOptionsMenu(true);
 		view = inflater.inflate(R.layout.fragment_item_feed, container, false);
+
 		reView = (RecyclerView) view.findViewById(recycc);
 		llm = new LinearLayoutManager(context);
 		reView.setLayoutManager(llm);
 		reAdapter = new RecyclerAdapter();
+
+		refreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.refresher);
+		refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+			@Override
+			public void onRefresh() {
+				reAdapter.initPosts();
+			}
+		});
+
+// Check for category
 		Intent i = getActivity().getIntent();
 		if (i.hasExtra("category"))
 			reAdapter.filterBy(i.getStringExtra("category"));
+
+		else if (i.hasExtra("location")) {
+			reAdapter.filterBy(i.getStringExtra("location"));
+		}
 		else
 			reAdapter.initPosts();
-		reView.setAdapter(reAdapter);
-		Log.d("CREATEVIEW", "onCreateView is done");
-		return view;
+			reView.setAdapter(reAdapter);
+			Log.d("CREATEVIEW", "onCreateView is done");
+			return view;
+
 	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 			case R.id.menu_claim:
-				Intent i = new Intent(Intent.ACTION_SEND);
-				i.setType("message/rfc822");
-				i.putExtra(Intent.EXTRA_EMAIL, new String[]{user.getEmail()});
-				i.putExtra(Intent.EXTRA_SUBJECT, "I would like to come pick up your given (Free) item(s)");
-				i.putExtra(Intent.EXTRA_TEXT, "Please reply to my email to negotiate a time and place for me to pickup your item." +
-						" \n" + "\nI look forward hearing back from you\n" + "\nThank You");
-				try {
-					startActivity(Intent.createChooser(i, "Send mail..."));
-				} catch (android.content.ActivityNotFoundException ex) {
-					Toast.makeText(context, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+				Map<String, String> cPosts = reAdapter.getCheckedPosts();
+				if (cPosts == null) {
+					Toast.makeText(context, "No items checked", Toast.LENGTH_SHORT)
+							.show();
+					return true;
 				}
-//				Post[] cPosts = reAdapter.getCheckedPosts();
+				String[] uids = new String[cPosts.size()];
+				String[] pids = new String[cPosts.size()];
+				int k = 0;
+				for (Map.Entry<String, String> entry : cPosts.entrySet() ){
+					uids[k] = entry.getKey();
+					pids[k] = entry.getValue();
+					k++;
+				}
+				DatabaseReference userPostRef = FirebaseDatabase.getInstance().getReference()
+						.child("User-Posts/");
+				DatabaseReference postsRef = FirebaseDatabase.getInstance().getReference()
+						.child("Posts/");
+				DatabaseReference firstUserRef = FirebaseDatabase.getInstance().getReference()
+						.child("Users/" + uids[0]);
+				final Intent i = new Intent(Intent.ACTION_SEND);
+				i.setType("message/rfc822");
+				firstUserRef.addListenerForSingleValueEvent(new ValueEventListener() {
+					@Override
+					public void onDataChange(DataSnapshot dataSnapshot) {
+						UserInfo usr = dataSnapshot.getValue(UserInfo.class);
+						i.putExtra(Intent.EXTRA_EMAIL, new String[]{usr.getEmail()});
+						i.putExtra(Intent.EXTRA_SUBJECT, "I would like to come pick up your given (Free) item(s)");
+						i.putExtra(Intent.EXTRA_TEXT, "Please reply to my email to negotiate a time and place for me to pickup your item." +
+								" \n" + "\nI look forward hearing back from you\n" + "\nThank You");
+						try {
+							startActivity(Intent.createChooser(i, "Send mail..."));
+						} catch (android.content.ActivityNotFoundException ex) {
+							Toast.makeText(context, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+						}
+					}
 
+					@Override
+					public void onCancelled(DatabaseError databaseError) {
+
+					}
+				});
+				for (int z = 0; z <uids.length; z++) {
+					userPostRef.child(uids[z] + "/" + pids[z]).removeValue();
+					postsRef.child(pids[z]).removeValue();
+				}
 				break;
 			case R.id.menu_fast:
 				if (reAdapter.isFast()) {
@@ -134,6 +184,12 @@ public class ItemFeedFragment extends Fragment {
 	}
 
 	@Override
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+		reAdapter.notifyDataSetChanged();
+	}
+
+	@Override
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 		super.onCreateOptionsMenu(menu, inflater);
 		// Check exists
@@ -151,15 +207,17 @@ public class ItemFeedFragment extends Fragment {
 	class RecyclerAdapter extends RecyclerView.Adapter<Holder> {
 		DatabaseReference dbr;
 		private ArrayList<Post> posts;
-		private ArrayList<Post> checkdPosts;
+		private Map<String, String> postDictionary;
+		private Map<String, String> claimedPosts;
 		private boolean fast;
 		private ChildEventListener chel;
-		//boolean allCheckd = false;
 
 		RecyclerAdapter() {
 			posts = new ArrayList<>();
 			dbr = FirebaseDatabase.getInstance().getReference().child("Posts");
 			fast = false;
+			claimedPosts = new HashMap<>();
+			postDictionary = new HashMap<>();
 		}
 
 		@Override
@@ -173,7 +231,7 @@ public class ItemFeedFragment extends Fragment {
 		public void onBindViewHolder(Holder holder, int position) {
 			holder.img.setImageResource(R.drawable.place);
 			final Post p = posts.get(position);
-			boolean claimd = p.isClaimd();
+			final boolean claimd = p.isClaimd();
 			Log.i("IMAGEPATH", p.getImage_path());
 			StorageReference imgRef = FirebaseStorage
 					.getInstance()
@@ -195,7 +253,8 @@ public class ItemFeedFragment extends Fragment {
 			holder.checkBox.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View v) {
-//					checkdPosts.add(p);
+					String uid = p.getUid();
+					claimedPosts.put(uid, postDictionary.get(uid));
 				}
 			});
 		}
@@ -208,6 +267,7 @@ public class ItemFeedFragment extends Fragment {
 		public void initPosts() {
 			Log.d("INITPOSTS", "called initPosts()");
 			final int k = posts.size();
+			posts.clear();
 
 			dbr.addListenerForSingleValueEvent(new ValueEventListener() {
 				@Override
@@ -215,10 +275,12 @@ public class ItemFeedFragment extends Fragment {
 					for (DataSnapshot ds : dataSnapshot.getChildren()) {
 						Post p = ds.getValue(Post.class);
 						posts.add(p);
+						postDictionary.put(p.getUid(), ds.getKey());
 					}
 					notifyDataSetChanged();
 					llm.scrollToPosition(0);
-
+					if (refreshLayout.isRefreshing())
+						refreshLayout.setRefreshing(false);
 				}
 
 				@Override
@@ -239,8 +301,15 @@ public class ItemFeedFragment extends Fragment {
 					for (DataSnapshot ds : dataSnapshot.getChildren()) {
 						Post p = ds.getValue(Post.class);
 						String pcat = p.getPcat();
-						if (pcat.equals(filter))
+						String location = p.getLocation();
+						if (pcat.equals(filter)) {
 							posts.add(p);
+							postDictionary.put(p.getUid(), ds.getKey());
+						}
+						else if (location.equals(filter)){
+							posts.add(p);
+							postDictionary.put(p.getUid(), ds.getKey());
+						}
 					}
 					notifyDataSetChanged();
 					llm.scrollToPosition(0);
@@ -264,6 +333,7 @@ public class ItemFeedFragment extends Fragment {
 			fast = false;
 			Toast.makeText(context, "Normal Mode", Toast.LENGTH_SHORT)
 					.show();
+			refreshLayout.setEnabled(true);
 		}
 
 		public void goFast() {
@@ -308,18 +378,17 @@ public class ItemFeedFragment extends Fragment {
 			}
 			dbr.addChildEventListener(chel);
 			fast = true;
+			refreshLayout.setEnabled(false);
 			Toast.makeText(context, "Realtime Database", Toast.LENGTH_SHORT)
 					.show();
 		}
 
-//		public Post[] getCheckedPosts() {
-////			int s = checkdPosts.size();
-//			Post[] cPosts = new Post[s];
-//			for (int i = 0; i < s; i++) {
-//				cPosts[i] = checkdPosts.get(i);
-//			}
-//			return cPosts;
-//		}
+		public Map<String, String> getCheckedPosts() {
+			if (claimedPosts == null || claimedPosts.size() == 0)
+				return null;
+			else
+				return claimedPosts;
+		}
 	}
 
 	public static class Holder extends RecyclerView.ViewHolder {

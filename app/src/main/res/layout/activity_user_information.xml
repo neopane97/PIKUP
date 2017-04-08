@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -20,11 +21,13 @@
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/cardview_light_background"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/cardview_light_background">
 
             <!-- Name -->
 
@@ -32,24 +35,39 @@
                 android:id="@+id/ui_tv_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
                 android:text="Name: "
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
+<!-- Email -->
 
+            <TextView
+                android:id="@+id/ui_tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ui_tv_name"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Email: "
+                android:textSize="20sp"
+                android:textStyle="bold" />
             <!-- Address -->
 
             <TextView
                 android:id="@+id/ui_tv_address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/ui_tv_name"
-                android:layout_marginTop="5dp"
-                android:layout_marginStart="10dp"
+                android:layout_below="@id/ui_tv_email"
                 android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
                 android:text="Address: "
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <!-- City -->
 
@@ -58,11 +76,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ui_tv_address"
-                android:layout_marginTop="5dp"
-                android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
                 android:text="City: "
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <!-- State -->
 
@@ -71,11 +90,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ui_tv_city"
-                android:layout_marginTop="5dp"
-                android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
                 android:text="State: "
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <!-- Zip -->
 
@@ -84,11 +104,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ui_tv_state"
-                android:layout_marginTop="5dp"
-                android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
                 android:text="Zip: "
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <!-- Date of Birth -->
 
@@ -97,11 +118,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ui_tv_zip"
-                android:layout_marginTop="5dp"
-                android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
                 android:text="Date of Birth: "
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
 
             <!--        -->
@@ -112,10 +134,10 @@
                 android:id="@+id/marker"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_toEndOf="@id/ui_tv_dob"
-                android:layout_toRightOf="@id/ui_tv_dob"
                 android:layout_marginLeft="10dp"
-                android:layout_marginStart="10dp" />
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/ui_tv_dob"
+                android:layout_toRightOf="@id/ui_tv_dob" />
 
             <!-- Name -->
 
@@ -123,11 +145,11 @@
                 android:id="@+id/ui_edit_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ui_tv_name"
                 android:layout_toEndOf="@id/marker"
                 android:layout_toRightOf="@id/marker"
-                android:layout_alignBaseline="@id/ui_tv_name"
                 android:hint="Loading..."
-                android:textColor="@drawable/edittext_custom"/>
+                android:textColor="@drawable/edittext_custom" />
 
             <!-- Address -->
 
@@ -135,11 +157,11 @@
                 android:id="@+id/ui_edit_address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ui_tv_address"
                 android:layout_toEndOf="@id/marker"
                 android:layout_toRightOf="@id/marker"
-                android:layout_alignBaseline="@id/ui_tv_address"
                 android:hint="Loading..."
-                android:textColor="@drawable/edittext_custom"/>
+                android:textColor="@drawable/edittext_custom" />
 
             <!-- City -->
 
@@ -147,9 +169,9 @@
                 android:id="@+id/ui_edit_city"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ui_tv_city"
                 android:layout_toEndOf="@id/marker"
                 android:layout_toRightOf="@id/marker"
-                android:layout_alignBaseline="@id/ui_tv_city"
                 android:hint="Loading..."
                 android:textColor="@drawable/edittext_custom" />
 
@@ -159,9 +181,9 @@
                 android:id="@+id/ui_edit_state"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ui_tv_state"
                 android:layout_toEndOf="@id/marker"
                 android:layout_toRightOf="@id/marker"
-                android:layout_alignBaseline="@id/ui_tv_state"
                 android:hint="Loading..."
                 android:textColor="@drawable/edittext_custom" />
 
@@ -171,9 +193,9 @@
                 android:id="@+id/ui_edit_zip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ui_tv_zip"
                 android:layout_toEndOf="@id/marker"
                 android:layout_toRightOf="@id/marker"
-                android:layout_alignBaseline="@id/ui_tv_zip"
                 android:hint="Loading..."
                 android:textColor="@drawable/edittext_custom" />
 
@@ -183,11 +205,22 @@
                 android:id="@+id/ui_edit_dob"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ui_tv_dob"
                 android:layout_toEndOf="@id/marker"
                 android:layout_toRightOf="@id/marker"
-                android:layout_alignBaseline="@id/ui_tv_dob"
                 android:hint="Loading..."
-                android:textColor="@drawable/edittext_custom"/>
+                android:textColor="@drawable/edittext_custom" />
+
+
+            <EditText
+                android:id="@+id/ui_edit_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/ui_tv_email"
+                android:layout_toEndOf="@id/marker"
+                android:layout_toRightOf="@id/marker"
+                android:hint="Loading..."
+                android:textColor="@drawable/edittext_custom" />
 
             <!-- Posts -->
 
@@ -196,24 +229,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ui_tv_dob"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
                 android:text="Your Posts"
                 android:textColor="@android:color/black"
-                android:textStyle="bold"
-                android:textSize="18sp"/>
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <FrameLayout
                 android:id="@+id/ui_frame"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ui_tv_posts"
-                android:layout_marginStart="5dp"
+                android:layout_centerHorizontal="true"
                 android:layout_marginEnd="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_centerHorizontal="true"/>
+                android:layout_marginStart="5dp" />
 
             <ProgressBar
                 android:id="@+id/ui_progressbar"
@@ -222,7 +255,7 @@
                 android:layout_below="@id/ui_frame"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:indeterminate="true"/>
+                android:indeterminate="true" />
 
         </RelativeLayout>
 

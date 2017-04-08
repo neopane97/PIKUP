@@ -126,14 +126,21 @@ public class UploadImageActivity extends AppCompatActivity {
     private void uploadThings() {
         image_path = createImageFileName();
         StorageReference filepath = myStorage.child("PikUpPhotos").child(image_path);
-        filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-            @Override
-            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) { /* nothing */}
-        });
+        try {
+            filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                @Override
+                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) { /* nothing */}
+            });
+        } catch (IllegalArgumentException iae) {
+            Toast.makeText(this, "Please include a picture", Toast.LENGTH_SHORT)
+                    .show();
+            iae.printStackTrace();
+            return;
+        }
 
-        getApplicationContext().revokeUriPermission(uri,
-                Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
-                        Intent.FLAG_GRANT_READ_URI_PERMISSION);
+//        getApplicationContext().revokeUriPermission(uri,
+//                        Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
+//                        Intent.FLAG_GRANT_READ_URI_PERMISSION);
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String uid = user.getUid();

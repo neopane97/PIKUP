@@ -150,12 +150,19 @@ public class CaptureImageActivity extends AppCompatActivity {
 
 
     private void uploadThings() {
-        StorageReference filepath = myStorage.child("PikUpPhotos").child(uri.getLastPathSegment());
-        filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-            @Override
-            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) { /* nothing */}
-        });
-        image_path = uri.getLastPathSegment();
+        try {
+            StorageReference filepath = myStorage.child("PikUpPhotos").child(uri.getLastPathSegment());
+            filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                @Override
+                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) { /* nothing */}
+            });
+            image_path = uri.getLastPathSegment();
+        } catch (NullPointerException npe) {
+            Toast.makeText(this, "Please include a picture", Toast.LENGTH_SHORT)
+                    .show();
+            npe.printStackTrace();
+            return;
+        }
         getApplicationContext().revokeUriPermission(uri,
                 Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
                         Intent.FLAG_GRANT_READ_URI_PERMISSION);

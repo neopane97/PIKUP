@@ -7,6 +7,7 @@ public class Post {
     private boolean claimd;
     private String uid;
     private String pcat;
+    //private String email;
 
     public Post() { /* nothing */}
 
