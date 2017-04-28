@@ -41,13 +41,19 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
 
+        //Getting Firebase authentication instance
+
         authentication = FirebaseAuth.getInstance();
+
+        //reference to the users(which is from firebase)
         mDatabase = FirebaseDatabase.getInstance().getReference().child("Users");
 
+        //if the current user is not null then it intent to homeActivity
         if (authentication.getCurrentUser() != null){
             finish();
             startActivity(new Intent(getApplicationContext(),HomeActivity.class));
         }
+
 
         FirstName = (EditText) findViewById(R.id.editFirstName);
         LastName = (EditText) findViewById(R.id.editLastName);
@@ -65,6 +71,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
 
         final FirebaseUser user = authentication.getCurrentUser();
 
+        //If the user is already registered then it takes to the login activity class.
         btnRegistered.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,6 +81,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             }
         });
 
+        //once the user click on submit button then it start the register for the user.
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -82,6 +90,8 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
         });
     }
 
+    //Register method for the user
+    //This part is done inorder to save the user Information while registering
     private void startRegister() {
         final String firstname = FirstName.getText().toString().trim();
         final String lastname = LastName.getText().toString().trim();
@@ -94,6 +104,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
         final String password = PassWord.getText().toString().trim();
         final String repassword = RePassword.getText().toString().trim();
 
+        //if the input is not empty then it will continue validate the user input
         if (!TextUtils.isEmpty(firstname) && !TextUtils.isEmpty(lastname) &&
                 !TextUtils.isEmpty(address) && !TextUtils.isEmpty(state) &&
                 !TextUtils.isEmpty(city) && !TextUtils.isEmpty(zipcode) &&
@@ -102,6 +113,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
 
             progressBar.setVisibility(View.VISIBLE);
             progressBar.isShown();
+            //it registered the user with email and password, However, it also save the user information on database.
             authentication.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
@@ -112,6 +124,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                         String userId = authentication.getCurrentUser().getUid();
                         DatabaseReference currentUser = mDatabase.child(userId);
 
+                        // calling the UserInfo class which associate the following information
                         UserInfo ui = new UserInfo(
                                 firstname,
                                 lastname,
@@ -123,21 +136,13 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                                 email);
 
                         currentUser.setValue(ui);
-//
-//                        currentUser.child("FirstName").setValue(firstname);
-//                        currentUser.child("LastName").setValue(lastname);
-//                        currentUser.child("Address").setValue(address);
-//                        currentUser.child("State").setValue(state);
-//                        currentUser.child("City").setValue(city);
-//                        currentUser.child("ZipCode").setValue(zipcode);
-//                        currentUser.child("DateOfBirth").setValue(dob);
-//                        currentUser.child("Email").setValue(email);
 
                         progressBar.setVisibility(View.GONE);
                         Intent intent = new Intent(RegistrationActivity.this, LoginActivity.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         startActivity(intent);
                     }
+                    //if the creating user failed, then it toast failure message
                     else{
                         Toast.makeText(RegistrationActivity.this, "Authentication Failed",
                                 Toast.LENGTH_SHORT).show();
@@ -145,6 +150,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                 }
             });
         }
+        //checking if the user input manage to meet the following requirements.
         else {
             if (TextUtils.isEmpty(email)) {
                 Toast.makeText(getApplicationContext(), "Enter Email ID", Toast.LENGTH_SHORT).show();

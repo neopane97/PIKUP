@@ -14,8 +14,10 @@ public class UserInfo {
     private String email;
     private Map<String, Boolean> posts;
 
+    //non argument consturction for user info
     public UserInfo() {}
 
+    // User info constructor(instance of an object is created)
     public UserInfo(String firstName, String lastName, String address, String state, String city,
                     String zipCode, String dateOfBirth, String email) {
         this.firstName = firstName;
@@ -29,10 +31,14 @@ public class UserInfo {
         this.posts = new HashMap<String, Boolean>();
     }
 
+    //getter and setter for the above defined strings
+
+    //returning the user firstname and lastname
     public String getFullName() {
         return firstName + " " + lastName;
     }
 
+    //setting the user full name
     public void setFullName(String fullName) {
         int len = fullName.length();
         for (int i = 0; i < len; i++) {

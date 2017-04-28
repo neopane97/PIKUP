@@ -80,6 +80,8 @@ public class CaptureImageActivity extends AppCompatActivity {
         postDescr = (EditText) findViewById(R.id.post_descr);
         postLocation = (EditText) findViewById(R.id.post_location);
 
+        // if the user submit a button without inputting the post name, post description, post location, then it toast a message
+        // requesting user to input the below information.
         buttonSubmitItem = (Button) findViewById(R.id.buttonSubmitItem);
         buttonSubmitItem.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -130,9 +132,12 @@ public class CaptureImageActivity extends AppCompatActivity {
 
     }
 
+    // select the image from the device
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        // check to see if the reqquestCode and resultCode is valid as define above,
+        // if success then it sets the image Uri.
         if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {
             buttonCaptureImage.setImageURI(uri);
             buttonCaptureText.setVisibility(GONE);
@@ -147,6 +152,9 @@ public class CaptureImageActivity extends AppCompatActivity {
         File image = File.createTempFile(file_name, ".png", dir);
         return image;
     }
+
+    //if something is wrong then it display an erro message.
+    // the capture image get uploaded to the PickUpPhotos album on database.
 
 
     private void uploadThings() {

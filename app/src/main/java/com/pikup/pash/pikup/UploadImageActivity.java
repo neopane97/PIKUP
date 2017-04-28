@@ -70,6 +70,8 @@ public class UploadImageActivity extends AppCompatActivity {
         postDescr = (EditText) findViewById(R.id.post_descr);
         postLocation = (EditText) findViewById(R.id.post_location);
 
+        // if the user submit a button without inputting the post name, post description, post location, then it toast a message
+        // requesting user to input the below information.
         buttonSubmitItem = (Button) findViewById(R.id.buttonSubmitItem);
         buttonSubmitItem.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,6 +90,8 @@ public class UploadImageActivity extends AppCompatActivity {
                 }
             }
         });
+
+        // Upload the image from the device
         buttonCaptureImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -99,7 +103,10 @@ public class UploadImageActivity extends AppCompatActivity {
         });
 
     }
-
+    // if the request code and result code match
+    // if the data is not null
+    // then uri is set to the get data.
+    // otherwise it produce the error message
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         super.onActivityResult(requestCode, resultCode, data);
@@ -138,9 +145,8 @@ public class UploadImageActivity extends AppCompatActivity {
             return;
         }
 
-//        getApplicationContext().revokeUriPermission(uri,
-//                        Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
-//                        Intent.FLAG_GRANT_READ_URI_PERMISSION);
+
+        // Uploadng the image on right user section
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String uid = user.getUid();

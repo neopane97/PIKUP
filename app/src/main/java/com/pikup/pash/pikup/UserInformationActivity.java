@@ -97,7 +97,6 @@ public class UserInformationActivity extends AppCompatActivity {
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         Log.i("onDataChange:init", dataSnapshot.toString());
                         ui = dataSnapshot.getValue(UserInfo.class);
-                        //progressBar.setVisibility(View.GONE);
 
                         uiAdapter.setPosts(userId);
 
@@ -131,6 +130,8 @@ public class UserInformationActivity extends AppCompatActivity {
             this.posts = new ArrayList<>();
             dbr = FirebaseDatabase.getInstance().getReference();
         }
+
+        //setting the post of user and adding those on the recycler view.
 
         public void setPosts(String uid) {
             dbr.child("User-Posts/" + uid).addListenerForSingleValueEvent(new ValueEventListener() {
@@ -168,6 +169,7 @@ public class UserInformationActivity extends AppCompatActivity {
             return new InfoHolder(v);
         }
 
+        // Binding the view position for image and the user post
         @Override
         public void onBindViewHolder(InfoHolder holder, int position) {
             Post p = posts.get(position);
@@ -209,12 +211,15 @@ public class UserInformationActivity extends AppCompatActivity {
             img = (ImageView) itemView.findViewById(R.id.ui_item_img);
         }
     }
+
+    //menu options
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.userprofilemenu, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
+    //adding the personalize menu button on top of the page
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.menu_home) {

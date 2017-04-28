@@ -49,10 +49,8 @@ public class ViewActivity extends AppCompatActivity {
         // Toolbar
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        // Fragment
         FragmentManager fm = getFragmentManager();
-        //ItemDetailFragment idtf = (ItemDetailFragment) fm.findFragmentByTag("idtf");
-        //if (idtf == null) {
+
 
         auth = FirebaseAuth.getInstance();
 

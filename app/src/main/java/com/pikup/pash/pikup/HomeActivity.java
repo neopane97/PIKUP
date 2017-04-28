@@ -23,15 +23,19 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        //Getting Firebase authentication instance
         auth = FirebaseAuth.getInstance();
 
+        //if user is null then intent to the Login Activity page
         if (auth.getCurrentUser() == null){
             finish();
             startActivity(new Intent(this, LoginActivity.class));
         }
 
+        //initializing the fireabse user to get the auth of current user
         FirebaseUser user = auth.getCurrentUser();
 
+        // When the user is login, or open the app, is toast a welcome mesage
         Toast.makeText(getApplicationContext(), "Welcome " + user.getEmail(), Toast.LENGTH_SHORT).show();
 
         postButton = (Button) findViewById(R.id.buttonForgetBack);
@@ -39,6 +43,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         logoutButton = (Button) findViewById(R.id.buttonLogout);
         userInfoButton = (Button) findViewById(R.id.locSubmit);
 
+        // UI button will intent to user infromation page
         userInfoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,6 +51,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
+        // Post button will intent to user Choose category activity where user can upload and capture an item
         postButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,6 +59,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
+        // View button will intent to user View activity activity where user can view the uploaded item
         viewButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,8 +67,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
+        //User logout from the app
         logoutButton.setOnClickListener(this);
     }
+    //method for when user logout it toast a message and takes to the main activity
     @Override
     public void onClick(View view){
         if (view == logoutButton){

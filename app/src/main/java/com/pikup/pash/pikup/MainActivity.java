@@ -29,8 +29,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Checks the permission
         checkPermissions();
 
+        //when the user click on login button it intent to login activity
         btnLogin = (Button) findViewById(R.id.buttonForgetSubmit);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, LoginActivity.class));
             }
         });
-
+        //when the user click on register button it intent to Registration activity
         btnRegister = (Button) findViewById(R.id.buttonForgetBack);
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    // Permission checked for storage/camera
     private void checkPermissions() {
         if (ContextCompat.checkSelfPermission(
                 MainActivity.this, Manifest.permission_group.STORAGE) +
