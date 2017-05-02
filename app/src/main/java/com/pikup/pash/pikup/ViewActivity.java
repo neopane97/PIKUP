@@ -42,6 +42,11 @@ public class ViewActivity extends AppCompatActivity {
     private FirebaseAuth auth;
     private Toolbar toolbar;
 
+    // The activity used to hold the item feed fragment
+    // Originally used fragments so we could also
+    // show item details in the same activity,
+    // but since we aren't doing that we could change it
+    // to just this activity later
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +61,8 @@ public class ViewActivity extends AppCompatActivity {
 
         final FirebaseUser user = auth.getCurrentUser();
 
+        // Check if fragment exists,
+        // if not make it for the first time
         ItemFeedFragment ilf = (ItemFeedFragment) fm.findFragmentByTag("ilf");
         if (ilf == null) {
             ilf = new ItemFeedFragment();

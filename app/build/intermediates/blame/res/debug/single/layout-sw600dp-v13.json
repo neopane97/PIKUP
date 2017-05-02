@@ -2,5 +2,9 @@
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/ssants/.android/build-cache/fb44779b7857b67d0a2b0c6e015ce8f6a0509f23/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }
 ]

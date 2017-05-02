@@ -27,6 +27,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        auth = FirebaseAuth.getInstance();
+        // if user is logged in, skip the welcome screen
+        if (auth.getCurrentUser() != null) {
+            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+            finish();
+        }
         setContentView(R.layout.activity_main);
 
         //Checks the permission
@@ -52,14 +58,12 @@ public class MainActivity extends AppCompatActivity {
 
     // Permission checked for storage/camera
     private void checkPermissions() {
-        if (ContextCompat.checkSelfPermission(
-                MainActivity.this, Manifest.permission_group.STORAGE) +
-            ContextCompat.checkSelfPermission(
-                MainActivity.this, Manifest.permission.CAMERA)
+        if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission_group.STORAGE) +
+            ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CAMERA)
             != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(MainActivity.this, new String[]{
-                            Manifest.permission_group.STORAGE, Manifest.permission.CAMERA},
-                    PERMISSIONS_CODE);
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE,
+                    Manifest.permission.CAMERA }, PERMISSIONS_CODE);
         }
     }
 

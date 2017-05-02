@@ -1,320 +1,318 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:2:1-46:12
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:2:1-46:12
 	package
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:3:5-35
-		INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/pash/.android/build-cache/4764f68c084c56b1b6adb908afb48dac75fde6a7/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:20:5-66
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/ssants/.android/build-cache/c6c46df12333e1d0be15f45a8c64cf34d270d0ef/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:5:5-80
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:5:22-77
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:5:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:6:5-81
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:6:22-78
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.CAMERA
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:7:5-65
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:7:22-62
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:7:22-62
 application
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:9:5-45:19
-MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/pash/.android/build-cache/2818d1a7e3b668acb1566a9776ca77be94776062/output/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/AndroidManifest.xml:18:5-20:19
-MERGED from [com.android.support:design:25.1.1] /Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:transition:25.1.1] /Users/pash/.android/build-cache/3b60ea4f3b3109b248ed3e58853a838f85015c92/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:25.2.0] /Users/pash/.android/build-cache/09548970c209ae9f02ace2b1bb27f50109b6a676/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/pash/.android/build-cache/1d58c8f8f420cbc4b5232e71c2aa3bd3f1cd6d70/output/AndroidManifest.xml:9:5-20
-MERGED from [com.firebaseui:firebase-ui:0.2.0] /Users/pash/.android/build-cache/a420d8ae580338be1a02891cdba33f4ad6aab98a/output/AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/pash/.android/build-cache/6e2a9ee7b29d8a85435f586555e16e94c7c52ca3/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/pash/.android/build-cache/3291eb660988fc03fa11a58e53d6021b8bb491b4/output/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:palette-v7:25.1.1] /Users/pash/.android/build-cache/b0202668162ef0adcf9b80af35b63df0980ba9b8/output/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-core:10.2.0] /Users/pash/.android/build-cache/4fe238eb6e70d0b5996099e09ca07e167c55128b/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/pash/.android/build-cache/4764f68c084c56b1b6adb908afb48dac75fde6a7/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/pash/.android/build-cache/a166ca0eca29d6c558388e41f932bbe0bfc26b86/output/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/pash/.android/build-cache/333f9d5c8f9c0f8a9821d824bddf28d2e99925b6/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/pash/.android/build-cache/cd145b6800711027885cc29a536fafda42ba82fd/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.2.0] /Users/pash/.android/build-cache/c5325037f6147ee3aa7dc06f397289cf3b3d700c/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/pash/.android/build-cache/50eeaa47085c166224804be66fb120277e5ad042/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/pash/.android/build-cache/6411262e5c6cd4d3c3c4e69d1aaea2ff3233f053/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/pash/.android/build-cache/0eacac04a6e03e6da98989f26ffaf4f58a9e8c84/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/pash/.android/build-cache/99e561f445221d3600336dcb93e9564aeff36ca9/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /Users/pash/.android/build-cache/776488bf4f9670cf9dfb34f89b5af87a7ab3b52c/output/AndroidManifest.xml:25:5-20
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:9:5-45:19
+MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/ssants/.android/build-cache/90bea6e363c6090696a0fb7979e7ef1312f82f92/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.support:design:25.1.1] /Users/ssants/.android/build-cache/fb44779b7857b67d0a2b0c6e015ce8f6a0509f23/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.1.1] /Users/ssants/.android/build-cache/992e9dc2ddac2a8cff77cf71bc89322cd2c16a1d/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:25.2.0] /Users/ssants/.android/build-cache/36ca870bd85932d2685728baf9428bfd978cd3de/output/AndroidManifest.xml:22:5-20
+MERGED from [com.firebaseui:firebase-ui:0.2.0] /Users/ssants/.android/build-cache/325f88f851698fbf14746d2ef8b2c6a9528e98d6/output/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/ssants/.android/build-cache/cba6f0e3d72ab1fa7c1ffb3402a45d677f41512a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/ssants/.android/build-cache/277da5d6c0d93f35461f1795f09174d6e9db48b3/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/ssants/.android/build-cache/42146769d559ddb6321f6f7802995b0e73f27077/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:palette-v7:25.1.1] /Users/ssants/.android/build-cache/d61021640663767edd15b6bfea76be736b6bb934/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-core:10.2.0] /Users/ssants/.android/build-cache/8b894567a2d30c9a40d43de9964043f38b563cfd/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/ssants/.android/build-cache/c6c46df12333e1d0be15f45a8c64cf34d270d0ef/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/ssants/.android/build-cache/cf26b938b1d13dade81ea5cb9c47cc7b4a9bc7af/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/ssants/.android/build-cache/f59a03cb7a81308fb7b9aa3f2ad18e3a4b327b00/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/ssants/.android/build-cache/e967882ac712007b29cdddf35923b83a864dd8a5/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] /Users/ssants/.android/build-cache/2245ff8ea5f876ec88660e746948be5cc2e0d618/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/ssants/.android/build-cache/67c1d38f2bf71e60092990e15dd602eb957ffe95/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/ssants/.android/build-cache/34a84deee4f65909ecdc4544d7810bd419887bfe/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/ssants/.android/build-cache/d1a3e0c9e2000c12dafad53237a9ab4f28ff3ce6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/ssants/.android/build-cache/627256061c44ef14bdaeb39533c51affef3cfe7b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/ssants/.android/build-cache/89a89a61212bc94c026939d21726cdcb49ac818b/output/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:13:9-35
 	android:allowBackup
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:11:9-43
 	android:theme
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.pikup.pash.pikup.MainActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:15:9-20:20
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:15:9-20:20
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:16:13-19:29
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:16:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:18:27-74
 activity#com.pikup.pash.pikup.LoginActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:21:9-51
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:21:9-51
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:21:19-48
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:21:19-48
 activity#com.pikup.pash.pikup.RegistrationActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:22:9-58
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:22:9-58
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:22:19-55
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:22:19-55
 activity#com.pikup.pash.pikup.ForgetActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:23:9-52
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:23:9-52
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:23:19-49
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:23:19-49
 activity#com.pikup.pash.pikup.HomeActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:25:9-50
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:25:19-47
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:25:19-47
 activity#com.pikup.pash.pikup.CaptureImageActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:26:9-58
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:26:9-58
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:26:19-55
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:26:19-55
 activity#com.pikup.pash.pikup.ViewActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:27:9-50
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:27:9-50
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:27:19-47
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:27:19-47
 activity#com.pikup.pash.pikup.ItemDetailActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:28:9-56
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:28:9-56
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:28:19-53
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:28:19-53
 provider#android.support.v4.content.FileProvider
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:29:9-37:20
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:29:9-37:20
 	android:authorities
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:31:13-67
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:31:13-67
 	android:grantUriPermissions
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:33:13-47
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:33:13-47
 	android:exported
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:32:13-37
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:30:13-67
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:30:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:34:13-36:54
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:34:13-36:54
 	android:resource
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:36:17-51
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:36:17-51
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:35:17-67
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:35:17-67
 activity#com.pikup.pash.pikup.UserInformationActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:38:9-61
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:38:9-61
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:38:19-58
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:38:19-58
 activity#com.pikup.pash.pikup.UploadImageActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:39:9-57
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:39:9-57
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:39:19-54
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:39:19-54
 activity#com.pikup.pash.pikup.ChooseCategoryActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:40:9-60
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:40:9-60
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:40:19-57
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:40:19-57
 activity#com.pikup.pash.pikup.DeleteAccountActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:41:9-59
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:41:9-59
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:41:19-56
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:41:19-56
 activity#com.pikup.pash.pikup.DeleteAggrement
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:42:9-53
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:42:9-53
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:42:19-50
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:42:19-50
 activity#com.pikup.pash.pikup.FilterCategoryActivity
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:43:9-60
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:43:9-60
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:43:19-57
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:43:19-57
 activity#com.pikup.pash.pikup.FilterByLocation
-ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:44:9-63
+ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:44:9-63
 	android:name
-		ADDED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml:44:19-51
+		ADDED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml:44:19-51
 uses-sdk
-INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/pash/.android/build-cache/2818d1a7e3b668acb1566a9776ca77be94776062/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-database:10.2.0] /Users/pash/.android/build-cache/dd2e1f787cfc39495563e22822d42808197c8af0/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database-connection:10.2.0] /Users/pash/.android/build-cache/1e71c67308b55f5eb59273a6b3c03c98b68c9091/output/AndroidManifest.xml:3:5-43
-MERGED from [com.android.support:design:25.1.1] /Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.1.1] /Users/pash/.android/build-cache/3b60ea4f3b3109b248ed3e58853a838f85015c92/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:25.2.0] /Users/pash/.android/build-cache/09548970c209ae9f02ace2b1bb27f50109b6a676/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/pash/.android/build-cache/697500c2ca101d691fd37064f1a23e815e4e9ab1/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/pash/.android/build-cache/1d58c8f8f420cbc4b5232e71c2aa3bd3f1cd6d70/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.firebaseui:firebase-ui:0.2.0] /Users/pash/.android/build-cache/a420d8ae580338be1a02891cdba33f4ad6aab98a/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.firebaseui:firebase-ui-storage:1.2.0] /Users/pash/.android/build-cache/1c52fc303c1e209ac4ea4607a67886b1dfb5cb44/output/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/pash/.android/build-cache/6e2a9ee7b29d8a85435f586555e16e94c7c52ca3/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/pash/.android/build-cache/3291eb660988fc03fa11a58e53d6021b8bb491b4/output/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:palette-v7:25.1.1] /Users/pash/.android/build-cache/b0202668162ef0adcf9b80af35b63df0980ba9b8/output/AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-storage:10.2.0] /Users/pash/.android/build-cache/3c31142adf6a6af32c9b736c117a7b04b5a571f4/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-storage-common:10.2.0] /Users/pash/.android/build-cache/f6fdea68bb4bc7f99c69dd9cc41fbf8aeefe9558/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-core:10.2.0] /Users/pash/.android/build-cache/4fe238eb6e70d0b5996099e09ca07e167c55128b/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/pash/.android/build-cache/4764f68c084c56b1b6adb908afb48dac75fde6a7/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/pash/.android/build-cache/a166ca0eca29d6c558388e41f932bbe0bfc26b86/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/pash/.android/build-cache/333f9d5c8f9c0f8a9821d824bddf28d2e99925b6/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/pash/.android/build-cache/cd145b6800711027885cc29a536fafda42ba82fd/output/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.2.0] /Users/pash/.android/build-cache/c5325037f6147ee3aa7dc06f397289cf3b3d700c/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/pash/.android/build-cache/50eeaa47085c166224804be66fb120277e5ad042/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/pash/.android/build-cache/6411262e5c6cd4d3c3c4e69d1aaea2ff3233f053/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/pash/.android/build-cache/0eacac04a6e03e6da98989f26ffaf4f58a9e8c84/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/pash/.android/build-cache/99e561f445221d3600336dcb93e9564aeff36ca9/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] /Users/pash/.android/build-cache/776488bf4f9670cf9dfb34f89b5af87a7ab3b52c/output/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/ssants/.android/build-cache/90bea6e363c6090696a0fb7979e7ef1312f82f92/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.0] /Users/ssants/.android/build-cache/440eb7e888d7b00a6bcb3b9b1669acc0625df609/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.0] /Users/ssants/.android/build-cache/3aa999abe6709eb7e336a0e8ccc59c8732826961/output/AndroidManifest.xml:3:5-43
+MERGED from [com.android.support:design:25.1.1] /Users/ssants/.android/build-cache/fb44779b7857b67d0a2b0c6e015ce8f6a0509f23/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.1.1] /Users/ssants/.android/build-cache/992e9dc2ddac2a8cff77cf71bc89322cd2c16a1d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.2.0] /Users/ssants/.android/build-cache/36ca870bd85932d2685728baf9428bfd978cd3de/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/ssants/.android/build-cache/8e3827d79d0a6569a07fce48dc04747499b667bc/output/AndroidManifest.xml:20:5-43
+MERGED from [com.firebaseui:firebase-ui:0.2.0] /Users/ssants/.android/build-cache/325f88f851698fbf14746d2ef8b2c6a9528e98d6/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-storage:1.2.0] /Users/ssants/.android/build-cache/641c108c407e15f9d4e1711e592b3ac79a8a5517/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/ssants/.android/build-cache/cba6f0e3d72ab1fa7c1ffb3402a45d677f41512a/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/ssants/.android/build-cache/277da5d6c0d93f35461f1795f09174d6e9db48b3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/ssants/.android/build-cache/42146769d559ddb6321f6f7802995b0e73f27077/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:palette-v7:25.1.1] /Users/ssants/.android/build-cache/d61021640663767edd15b6bfea76be736b6bb934/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.0] /Users/ssants/.android/build-cache/bbdc651cb46e5ff8963bc7c752e79d58ca4fd2e7/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.0] /Users/ssants/.android/build-cache/6728a5cc5007c290c6a183a50cec7d2a261dc3a0/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.0] /Users/ssants/.android/build-cache/8b894567a2d30c9a40d43de9964043f38b563cfd/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/ssants/.android/build-cache/c6c46df12333e1d0be15f45a8c64cf34d270d0ef/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/ssants/.android/build-cache/cf26b938b1d13dade81ea5cb9c47cc7b4a9bc7af/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/ssants/.android/build-cache/f59a03cb7a81308fb7b9aa3f2ad18e3a4b327b00/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/ssants/.android/build-cache/e967882ac712007b29cdddf35923b83a864dd8a5/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /Users/ssants/.android/build-cache/2245ff8ea5f876ec88660e746948be5cc2e0d618/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/ssants/.android/build-cache/67c1d38f2bf71e60092990e15dd602eb957ffe95/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/ssants/.android/build-cache/34a84deee4f65909ecdc4544d7810bd419887bfe/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/ssants/.android/build-cache/d1a3e0c9e2000c12dafad53237a9ab4f28ff3ce6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/ssants/.android/build-cache/627256061c44ef14bdaeb39533c51affef3cfe7b/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /Users/ssants/.android/build-cache/89a89a61212bc94c026939d21726cdcb49ac818b/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.1.1] /Users/pash/.android/build-cache/d73c72f328f7739fb1ab3116157bbe8ab4ab00c5/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.1.1] /Users/ssants/.android/build-cache/fb44779b7857b67d0a2b0c6e015ce8f6a0509f23/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/pash/Desktop/PIKUP/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ssants/AS/PIKUP/app/src/main/AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/pash/.android/build-cache/807d77c454b3ecc404d2a8d42c8dbcf180688fad/output/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/ssants/.android/build-cache/60db28dd580f94b5406e4b19959eab835d4eb216/output/AndroidManifest.xml:19:19-85
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/pash/.android/build-cache/4764f68c084c56b1b6adb908afb48dac75fde6a7/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:19:5-78
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/ssants/.android/build-cache/c6c46df12333e1d0be15f45a8c64cf34d270d0ef/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:21:22-76
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:21:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/pash/.android/build-cache/4764f68c084c56b1b6adb908afb48dac75fde6a7/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/ssants/.android/build-cache/c6c46df12333e1d0be15f45a8c64cf34d270d0ef/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/pash/.android/build-cache/4764f68c084c56b1b6adb908afb48dac75fde6a7/output/AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/ssants/.android/build-cache/c6c46df12333e1d0be15f45a8c64cf34d270d0ef/output/AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/pash/.android/build-cache/4764f68c084c56b1b6adb908afb48dac75fde6a7/output/AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /Users/ssants/.android/build-cache/c6c46df12333e1d0be15f45a8c64cf34d270d0ef/output/AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/pash/.android/build-cache/4f155f4ca7144ea5d7b210d71f4dc6196c1df9ee/output/AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /Users/ssants/.android/build-cache/f101816fe402e1ce4c0b6386910e1765a2273ed8/output/AndroidManifest.xml:32:16-87
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:30:9-36:20
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:30:9-36:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:31:13-35:29
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:31:13-35:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:32:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:33:17-85
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:33:17-85
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:33:25-83
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:33:25-83
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:34:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:34:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:40:9-119
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:40:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:40:93-117
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:40:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:40:19-92
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:40:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:44:9-48:19
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:44:9-48:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:44:83-106
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:44:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:44:18-82
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:44:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:45:13-47:29
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:45:13-47:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:45:28-51
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:45:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:46:17-79
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:46:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/pash/.android/build-cache/79dfaee38cabd5f5a8698cd5a4a198c880c9bbd9/output/AndroidManifest.xml:46:25-77
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /Users/ssants/.android/build-cache/ce183731322cbefe9e906e0c396193fd94958084/output/AndroidManifest.xml:46:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/pash/.android/build-cache/a166ca0eca29d6c558388e41f932bbe0bfc26b86/output/AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/ssants/.android/build-cache/cf26b938b1d13dade81ea5cb9c47cc7b4a9bc7af/output/AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/pash/.android/build-cache/a166ca0eca29d6c558388e41f932bbe0bfc26b86/output/AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/ssants/.android/build-cache/cf26b938b1d13dade81ea5cb9c47cc7b4a9bc7af/output/AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/pash/.android/build-cache/a166ca0eca29d6c558388e41f932bbe0bfc26b86/output/AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/ssants/.android/build-cache/cf26b938b1d13dade81ea5cb9c47cc7b4a9bc7af/output/AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/pash/.android/build-cache/a166ca0eca29d6c558388e41f932bbe0bfc26b86/output/AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/ssants/.android/build-cache/cf26b938b1d13dade81ea5cb9c47cc7b4a9bc7af/output/AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/pash/.android/build-cache/a166ca0eca29d6c558388e41f932bbe0bfc26b86/output/AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/ssants/.android/build-cache/cf26b938b1d13dade81ea5cb9c47cc7b4a9bc7af/output/AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/pash/.android/build-cache/cd145b6800711027885cc29a536fafda42ba82fd/output/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/ssants/.android/build-cache/e967882ac712007b29cdddf35923b83a864dd8a5/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/pash/.android/build-cache/cd145b6800711027885cc29a536fafda42ba82fd/output/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/ssants/.android/build-cache/e967882ac712007b29cdddf35923b83a864dd8a5/output/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/pash/.android/build-cache/cd145b6800711027885cc29a536fafda42ba82fd/output/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/ssants/.android/build-cache/e967882ac712007b29cdddf35923b83a864dd8a5/output/AndroidManifest.xml:20:20-65

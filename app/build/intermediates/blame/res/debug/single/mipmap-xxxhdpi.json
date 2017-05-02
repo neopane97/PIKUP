@@ -2,5 +2,9 @@
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
         "source": "/Users/pash/Desktop/PIKUP/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/ssants/AS/PIKUP/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]

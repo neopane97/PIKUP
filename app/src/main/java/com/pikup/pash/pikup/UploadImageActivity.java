@@ -55,6 +55,7 @@ public class UploadImageActivity extends AppCompatActivity {
             itemCategory = intent.getStringExtra(KEY_CATEGORY);
         }
 
+        // Init things
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -70,8 +71,9 @@ public class UploadImageActivity extends AppCompatActivity {
         postDescr = (EditText) findViewById(R.id.post_descr);
         postLocation = (EditText) findViewById(R.id.post_location);
 
-        // if the user submit a button without inputting the post name, post description, post location, then it toast a message
-        // requesting user to input the below information.
+        // if the user submit a button without inputting the post name, post description,
+        // post location, then it toast a message requesting user to input
+        // the below information.
         buttonSubmitItem = (Button) findViewById(R.id.buttonSubmitItem);
         buttonSubmitItem.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -125,11 +127,14 @@ public class UploadImageActivity extends AppCompatActivity {
         }
     }
 
+    // No need to create filepath to save new image to, since it already exists
+    // We do need a unique name to save to Firebase storage though
+    // So use time to make unique filename
     private String createImageFileName() {
         return System.currentTimeMillis() / 100 + "";
     }
 
-
+    // Method to upload post
     private void uploadThings() {
         image_path = createImageFileName();
         StorageReference filepath = myStorage.child("PikUpPhotos").child(image_path);
@@ -145,19 +150,19 @@ public class UploadImageActivity extends AppCompatActivity {
             return;
         }
 
-
-        // Uploadng the image on right user section
-
+        // Database references
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String uid = user.getUid();
         String pid = myDB.child("Posts").push().getKey();
-        //noinspection ConstantConditions
+        // Make post using model class
         Post p = new Post(
                 postName.getText().toString(),
                 postLocation.getText().toString(),
                 image_path,
                 uid,
                 itemCategory);
+        // Upload to general posts branch
+        // and personal user posts branch
         myDB.child("/Posts/" + pid).setValue(p);
         myDB.child("/User-Posts/" + uid + "/" + pid).setValue(p);
 

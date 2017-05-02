@@ -60,14 +60,13 @@ public class CaptureImageActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-/**/
         Intent intent = getIntent();
         if (intent.hasExtra(KEY_CATEGORY)) {
             itemCategory = intent.getStringExtra(KEY_CATEGORY);
 
         }
 
-/**/
+        // Init things
         myDB = FirebaseDatabase.getInstance().getReference();
         myStorage = FirebaseStorage.getInstance().getReference();
 
@@ -80,7 +79,8 @@ public class CaptureImageActivity extends AppCompatActivity {
         postDescr = (EditText) findViewById(R.id.post_descr);
         postLocation = (EditText) findViewById(R.id.post_location);
 
-        // if the user submit a button without inputting the post name, post description, post location, then it toast a message
+        // if the user submit a button without inputting the post name,
+        // post description, post location, then toast a message
         // requesting user to input the below information.
         buttonSubmitItem = (Button) findViewById(R.id.buttonSubmitItem);
         buttonSubmitItem.setOnClickListener(new View.OnClickListener() {
@@ -100,6 +100,7 @@ public class CaptureImageActivity extends AppCompatActivity {
                 }
             }
         });
+        // Start capture image intent
         buttonCaptureImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -121,6 +122,7 @@ public class CaptureImageActivity extends AppCompatActivity {
                             .queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
                     for (ResolveInfo ri : resolveInfos) {
                         String packageName = ri.activityInfo.packageName;
+                        // Grant permissions to work on older Android devices
                         getApplicationContext().grantUriPermission(packageName, uri,
                                 Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
                                         Intent.FLAG_GRANT_READ_URI_PERMISSION);
@@ -132,7 +134,7 @@ public class CaptureImageActivity extends AppCompatActivity {
 
     }
 
-    // select the image from the device
+    // Camera intent checks here when done
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -145,7 +147,8 @@ public class CaptureImageActivity extends AppCompatActivity {
         }
     }
 
-
+    // To capture an image, we need to make a file to save it to
+    // Use time to make sure file name is unique
     private File createImageFile() throws IOException {
         String file_name = System.currentTimeMillis() / 1000 + "";
         File dir = getExternalFilesDir(null);
@@ -153,12 +156,10 @@ public class CaptureImageActivity extends AppCompatActivity {
         return image;
     }
 
-    //if something is wrong then it display an erro message.
-    // the capture image get uploaded to the PickUpPhotos album on database.
-
-
+    // Method to upload new post
     private void uploadThings() {
         try {
+            // Create storage reference with image filename
             StorageReference filepath = myStorage.child("PikUpPhotos").child(uri.getLastPathSegment());
             filepath.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
@@ -171,20 +172,24 @@ public class CaptureImageActivity extends AppCompatActivity {
             npe.printStackTrace();
             return;
         }
+        // Revoke uri permissions when done with it
         getApplicationContext().revokeUriPermission(uri,
                 Intent.FLAG_GRANT_WRITE_URI_PERMISSION |
                         Intent.FLAG_GRANT_READ_URI_PERMISSION);
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String uid = user.getUid();
+        // Make key to new post
         String pid = myDB.child("Posts").push().getKey();
-        //noinspection ConstantConditions
+        // Create post using model class
         Post p = new Post(
                 postName.getText().toString(),
                 postLocation.getText().toString(),
                 image_path,
                 uid,
                 itemCategory);
+        // Upload to public posts branch and
+        // personal user posts branch
         myDB.child("/Posts/" + pid).setValue(p);
         myDB.child("/User-Posts/" + uid + "/" + pid).setValue(p);
 
@@ -195,7 +200,7 @@ public class CaptureImageActivity extends AppCompatActivity {
 
 
     public String getItemCategory()
-    {return itemCategory;}
+    { return itemCategory; }
 
     @Override
     protected void onResume() {

@@ -33,10 +33,9 @@ public class LoginActivity extends AppCompatActivity {
         //Getting firebase auth instance
         auth = FirebaseAuth.getInstance();
 
-        //if the current user is not null then it intent to homeActivity
+        //if there is a user logged in start the Home Activity
         if(auth.getCurrentUser() != null){
             finish();
-            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
         }
 
         setContentView(R.layout.activity_login);

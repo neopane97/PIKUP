@@ -60,7 +60,7 @@ public class UserInformationActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-// User Info
+// User Info Fields
         name = (EditText) findViewById(R.id.ui_edit_name);
         name.setEnabled(false);
         address = (EditText) findViewById(R.id.ui_edit_address);
@@ -77,6 +77,12 @@ public class UserInformationActivity extends AppCompatActivity {
         email.setEnabled(false);
 
 // User Posts
+        /* The frame layout is where posts are shown
+           It has 3 states:
+            - Loading, while searching for posts (ui_loading)
+            - None, no user posts found (ui_nop)
+            - Show posts, show user posts (ui_posts)
+         */
         frame = (FrameLayout) findViewById(R.id.ui_frame);
         updateFrame(R.layout.ui_loading);
 
@@ -91,6 +97,8 @@ public class UserInformationActivity extends AppCompatActivity {
         userId = user.getUid();
 
         ref = FirebaseDatabase.getInstance().getReference();
+
+        // Get the user's information
         ref.child("Users/" + userId)
                 .addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
@@ -116,12 +124,14 @@ public class UserInformationActivity extends AppCompatActivity {
                 });
     }
 
+    // Method used to update frame layout
     public void updateFrame(int layoutResId) {
         frame.removeAllViews();
         LayoutInflater.from(UserInformationActivity.this)
                 .inflate(layoutResId, frame);
     }
 
+    // The Adapter used to fill in user posts
     class UserInfoAdapter extends RecyclerView.Adapter<InfoHolder> {
         private DatabaseReference dbr;
         private ArrayList<Post> posts;
@@ -131,8 +141,7 @@ public class UserInformationActivity extends AppCompatActivity {
             dbr = FirebaseDatabase.getInstance().getReference();
         }
 
-        //setting the post of user and adding those on the recycler view.
-
+        //setting the posts of user and adding those on the recycler view.
         public void setPosts(String uid) {
             dbr.child("User-Posts/" + uid).addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
@@ -203,6 +212,7 @@ public class UserInformationActivity extends AppCompatActivity {
         }
     }
 
+    // ViewHoldere for posts, just an ImageView
     static class InfoHolder extends RecyclerView.ViewHolder {
         ImageView img;
 

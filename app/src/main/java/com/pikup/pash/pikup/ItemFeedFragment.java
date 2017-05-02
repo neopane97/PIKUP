@@ -54,6 +54,7 @@ public class ItemFeedFragment extends Fragment {
 	RecyclerAdapter reAdapter;
 	RecyclerView reView;
 
+	// OnAttach methods to get context
 	@Override
 	public void onAttach(Context context) {
 		super.onAttach(context);
@@ -77,6 +78,7 @@ public class ItemFeedFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 							 Bundle savedInstanceState) {
+        // check if view is created already
 		if (view != null)
 			return view;
 		setHasOptionsMenu(true);
@@ -95,14 +97,15 @@ public class ItemFeedFragment extends Fragment {
 			}
 		});
 
-// Check for category
+        // Check for category/location
+        // If category exists, only show items in that category
 		Intent i = getActivity().getIntent();
 		if (i.hasExtra("category"))
 			reAdapter.filterBy(i.getStringExtra("category"));
-
+        // or if location exists, filter by that
 		else if (i.hasExtra("location")) {
 			reAdapter.filterBy(i.getStringExtra("location"));
-		}
+		} // else load normal posts
 		else
 			reAdapter.initPosts();
 			reView.setAdapter(reAdapter);
@@ -115,12 +118,16 @@ public class ItemFeedFragment extends Fragment {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 			case R.id.menu_claim:
+			    // Button for claiming items
+                // Get checked posts from adapter
 				Map<String, String> cPosts = reAdapter.getCheckedPosts();
+                // Check if items picked
 				if (cPosts == null) {
 					Toast.makeText(context, "No items checked", Toast.LENGTH_SHORT)
 							.show();
 					return true;
 				}
+				// Lists of post ids and user ids of those who are selling them
 				String[] uids = new String[cPosts.size()];
 				String[] pids = new String[cPosts.size()];
 				int k = 0;
@@ -129,14 +136,17 @@ public class ItemFeedFragment extends Fragment {
 					pids[k] = entry.getValue();
 					k++;
 				}
+				// Database references
 				DatabaseReference userPostRef = FirebaseDatabase.getInstance().getReference()
 						.child("User-Posts/");
 				DatabaseReference postsRef = FirebaseDatabase.getInstance().getReference()
 						.child("Posts/");
 				DatabaseReference firstUserRef = FirebaseDatabase.getInstance().getReference()
 						.child("Users/" + uids[0]);
+                // Intent to send emails
 				final Intent i = new Intent(Intent.ACTION_SEND);
 				i.setType("message/rfc822");
+                // Get email of user, and populate email fields
 				firstUserRef.addListenerForSingleValueEvent(new ValueEventListener() {
 					@Override
 					public void onDataChange(DataSnapshot dataSnapshot) {
@@ -157,26 +167,31 @@ public class ItemFeedFragment extends Fragment {
 
 					}
 				});
+                // Afterwards, remove posts from database
 				for (int z = 0; z <uids.length; z++) {
 					userPostRef.child(uids[z] + "/" + pids[z]).removeValue();
 					postsRef.child(pids[z]).removeValue();
 				}
 				break;
 			case R.id.menu_fast:
+			    // Button to change between realtime and manual updates
 				if (reAdapter.isFast()) {
 					reAdapter.goNormal();
 				} else
 					reAdapter.goFast();
 				break;
 			case R.id.menu_filter:
+			    // Button to filter by category
 				Intent intent = new Intent(context, FilterCategoryActivity.class);
 				startActivity(intent);
 				break;
 			case R.id.menu_home:
+			    // Button to go home
 				Intent intent1 = new Intent(context, HomeActivity.class);
 				startActivity(intent1);
 			break;
 			case R.id.menu_loc:
+			    // Button to filter by location
 				Intent intent2 = new Intent(context, FilterByLocation.class);
 				startActivity(intent2);
 		}
@@ -204,6 +219,7 @@ public class ItemFeedFragment extends Fragment {
 		super.onDestroyView();
 	}
 
+	// RecyclerView Adapter for showing posts
 	class RecyclerAdapter extends RecyclerView.Adapter<Holder> {
 		DatabaseReference dbr;
 		private ArrayList<Post> posts;
@@ -212,6 +228,7 @@ public class ItemFeedFragment extends Fragment {
 		private boolean fast;
 		private ChildEventListener chel;
 
+        // Initialize things
 		RecyclerAdapter() {
 			posts = new ArrayList<>();
 			dbr = FirebaseDatabase.getInstance().getReference().child("Posts");
@@ -227,6 +244,7 @@ public class ItemFeedFragment extends Fragment {
 			return new Holder(v);
 		}
 
+		// Bind post info to viewholder
 		@Override
 		public void onBindViewHolder(Holder holder, int position) {
 			holder.img.setImageResource(R.drawable.place);
@@ -244,6 +262,8 @@ public class ItemFeedFragment extends Fragment {
 					.into(holder.img);
 			holder.title.setText(p.getTitle());
 			holder.checkBox.setChecked(false);
+            // Used to make item unavaliable if claimed,
+            // but since we just delete them we don't need this
 			if (claimd) {
 				holder.title.setPaintFlags(
 						holder.title.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
@@ -264,6 +284,7 @@ public class ItemFeedFragment extends Fragment {
 			return posts.size();
 		}
 
+		// Method used to refresh posts
 		public void initPosts() {
 			Log.d("INITPOSTS", "called initPosts()");
 			final int k = posts.size();
@@ -291,6 +312,7 @@ public class ItemFeedFragment extends Fragment {
 			Log.d("INITPOSTS", "called notifyDataSetChanged()");
 		}
 
+		// Used to filter posts by `filter`
 		public void filterBy(final String filter) {
 			Log.d("INITPOSTS", "called initPosts()");
 			final int k = posts.size();
@@ -324,10 +346,12 @@ public class ItemFeedFragment extends Fragment {
 			Log.d("INITPOSTS", "called notifyDataSetChanged()");
 		}
 
+		// Check if realtime or manual upates
 		public boolean isFast() {
 			return fast;
 		}
 
+        // Method to switch to manual update (use SwipeToRefresh)
 		public void goNormal() {
 			dbr.removeEventListener(chel);
 			fast = false;
@@ -336,6 +360,7 @@ public class ItemFeedFragment extends Fragment {
 			refreshLayout.setEnabled(true);
 		}
 
+		// Method to switch to realtime updates
 		public void goFast() {
 			if (chel == null) {
 				chel = new ChildEventListener() {
@@ -383,6 +408,7 @@ public class ItemFeedFragment extends Fragment {
 					.show();
 		}
 
+		// Returns checks posts
 		public Map<String, String> getCheckedPosts() {
 			if (claimedPosts == null || claimedPosts.size() == 0)
 				return null;
@@ -391,6 +417,7 @@ public class ItemFeedFragment extends Fragment {
 		}
 	}
 
+	// ViewHolder for items
 	public static class Holder extends RecyclerView.ViewHolder {
 		ImageView img;
 		TextView title;

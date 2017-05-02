@@ -20,6 +20,11 @@ public class ChooseCategoryActivity extends AppCompatActivity
     private Toolbar toolbar;
     public static final String KEY_CATEGORY="category";
 
+    // Activity to choose item category
+    // Pick one of the categories,
+    // then choose to upload or capture an image
+    // Simple.
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.homemenu, menu);

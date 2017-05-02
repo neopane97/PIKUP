@@ -2,5 +2,9 @@
     {
         "merged": "/Users/pash/Desktop/PIKUP/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
         "source": "/Users/pash/.android/build-cache/8d3b91bf7eb144d8e378b8452f7db7c609de6a28/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/ssants/AS/PIKUP/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/ssants/.android/build-cache/cba6f0e3d72ab1fa7c1ffb3402a45d677f41512a/output/res/layout-v16/notification_template_custom_big.xml"
     }
 ]
