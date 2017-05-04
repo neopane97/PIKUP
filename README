@@ -1,1 +1,54 @@
+In order to build/run our app (PIKUP) you will need to install the following software distributions and accounts:
 
+Java SDK 1.6+
+ Android Studio 2.3
+  Firebase (see section below on Firebase)
+   Android device or Android Emulator (can be installed through Android Studio) Github account.
+    www.github.com
+
+If you don’t have a Github account already, you will need one to access our project.
+ Creating one is easy and free.
+ You will also need Java 1.6 and Android Studio 2.3.
+
+Once you have created a Github account, the link to our project is https://github.com/neopane97/PIKUP.
+ Make sure you choose to Download or clone project and then choose to Download zip folder.
+  When the download has completed, open the containing folder and select the file.
+   Right click the file and choose to extract all.
+    Make sure to note the file path in the dialog before you extract.
+     Once the files have extracted you will need to open Android Studio.
+
+After downloading and installing Android Studio 2.3, when you open Android Studio there will be a welcome dialog.
+  You should choose import project from the list of selections.  From the file hierarchy that shows, navigate to the pikup-master folder and select it and choose OK.
+
+When Android Studio opens, the project will build and sync.
+  Once that is completed you will need to make sure that Firebase is installed.
+
+Firebase is a service provider that provides a real-time database.
+  Pikup makes use of this database to store user photos and account information.
+
+To install Firebase to your Android Studio API follow the following steps:
+Open Android Studio.
+Choose Tools from the bar at the top of the screen.
+Choose Firebase.
+Choose the option to install Firebase Real Time Database.
+
+Once Firebase installation has completed, you will be able to run the project.
+If you connect an Android device to your computer via USB, you can run it from there, or you can create a virtual device using Android Studio’s AVD manager.
+ Steps to create a virtual device are listed at the end of the README.
+   Once you have connected either a physical device or a virtual device you can proceed to run the app.
+    From the main toolbar, choose run, run app, and it will build and run the app.
+      Choose the device to run the app from the dialog box that shows and run the application.
+
+Creating a virtual device in Android Studio 2.3.
+
+With Android Studio open:
+
+Choose Tools from the toolbar at the top.
+ Choose Android from the drop down list.
+  Choose AVD manager from the second drop down list.
+   From the Android Virtual Device Manager window that pops up, choose to create a virtual device.
+    *Choose an appropriate phone profile (we chose Nexus 4) and then choose next.
+     *Select an appropriate system image (we chose Android 7.0) and then choose next.
+      Leave the defaults on the last page and choose finish.
+
+*Any configuration will work, we have coded the app to run of all of them.
